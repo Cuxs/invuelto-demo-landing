@@ -1,0 +1,142 @@
+.jumbotron__blue-bg{
+  margin: -20px 0px 0px -11px;
+  position: absolute;
+  width: 500px;
+  top:0;
+  z-index: -1;
+}
+.jumbotron__pig{
+  position: absolute;
+  left: 130px;
+  top: 140px;
+}
+.jumbotron__coin-1{
+  position: absolute;
+  left: 20px;
+  top: 350px;
+  width: 90px;
+  animation-name: bobble1;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.jumbotron__coin-2{
+  transform: rotate(40deg);
+  position: absolute;
+  width: 70px;
+  top: 120px;
+  left: 400px;
+  animation-name: bobble2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.jumbotron__phone{
+  position: absolute;
+  width: 200px;
+  top: 200px;
+  left: 350px;
+}
+.jumbotron__spot-title{
+  position: absolute;
+  color: $color3;
+  top: 450px;
+  left: 105px;
+  font-size: 30px;
+}
+.jumbotron__title{
+  position: absolute;
+  right: 280px;
+  top: 250px;
+}
+
+@keyframes bobble1 {
+  0% {
+      transform: translate3d(0px, 0px, 0px);
+         animation-timing-function: linear;
+  }
+  10% {
+      transform: translate3d(0px, 10px, 0px);
+         animation-timing-function: linear;
+  }
+  20% {
+      transform: translate3d(0px, 20px, 0px);
+         animation-timing-function: linear;
+  }
+  30% {
+      transform: translate3d(0px, 30px, 0px);
+         animation-timing-function: linear;
+  }
+  40% {
+      transform: translate3d(0px, 40px, 0px);
+         animation-timing-function: linear;
+  }
+  50% {
+      transform: translate3d(0px, 50px, 0px);
+         animation-timing-function: linear;
+  }
+  60% {
+      transform: translate3d(0px, 40px, 0px);
+         animation-timing-function: linear;
+  }
+  70% {
+      transform: translate3d(0px, 30px, 0px);
+         animation-timing-function: linear;
+  }
+  80% {
+      transform: translate3d(0px, 20px, 0px);
+         animation-timing-function: linear;
+  }
+  90% {
+      transform: translate3d(0px, 10px, 0px);
+         animation-timing-function: linear;
+  }
+  100% {
+      transform: translate3d(0px, 0px, 0px);
+         animation-timing-function: linear;
+  }
+}
+@keyframes bobble2 {
+  0% {
+      transform: translate3d(0px, 0px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  10% {
+      transform: translate3d(10px, 10px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  20% {
+      transform: translate3d(15px, 20px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  30% {
+      transform: translate3d(20px, 30px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  40% {
+      transform: translate3d(25px, 40px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  50% {
+      transform: translate3d(30px, 50px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  60% {
+      transform: translate3d(25px, 40px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  70% {
+      transform: translate3d(20px, 30px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  80% {
+      transform: translate3d(15px, 20px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  90% {
+      transform: translate3d(10px, 10px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+  100% {
+      transform: translate3d(0px, 0px, 0px) rotate(40deg);;
+         animation-timing-function: linear;
+  }
+}

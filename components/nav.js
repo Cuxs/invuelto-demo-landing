@@ -1,58 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
-
-const links = [
-  { href: 'https://github.com/segmentio/create-next-app', label: 'Github' }
-].map(link => {
-  link.key = `nav-link-${link.href}-${link.label}`
-  return link
-})
+import SecondaryButton from './SecondaryButton';
 
 const Nav = () => (
   <nav>
-    <ul>
-      <li>
-        <Link prefetch href="/">
-          <a>Home</a>
-        </Link>
-      </li>
-      <ul>
-        {links.map(({ key, href, label }) => (
-          <li key={key}>
-            <Link href={href}>
-              <a>{label}</a>
-            </Link>
-          </li>
-        ))}
-      </ul>
+    <ul className="d-flex w-100 align-items-center">
+      <span className='nav__title'>
+      <li>INVUELTO</li>
+      </span>
+      <span className="nav__body">
+        <li>Cómo funciona</li>
+        <li>Precios</li>
+        <li>FAQ</li>
+        <li>Tips de ahorro</li>
+      <SecondaryButton>Ingresá</SecondaryButton>
+      <SecondaryButton className="ml-2">Demo</SecondaryButton>
+      </span>
     </ul>
-
-    <style jsx>{`
-      :global(body) {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir,
-          Helvetica, sans-serif;
-      }
-      nav {
-        text-align: center;
-      }
-      ul {
-        display: flex;
-        justify-content: space-between;
-      }
-      nav > ul {
-        padding: 4px 16px;
-      }
-      li {
-        display: flex;
-        padding: 6px 8px;
-      }
-      a {
-        color: #067df7;
-        text-decoration: none;
-        font-size: 13px;
-      }
-    `}</style>
   </nav>
 )
 
