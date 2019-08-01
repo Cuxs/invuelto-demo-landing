@@ -9,12 +9,18 @@ import '../sass/main.scss';
 import Jumbotron from '../components/Jumbotron';
 import IntroComponent from '../components/IntroComponent';
 import HowToComponent from '../components/HowToComponent';
+import Area1Component from '../components/Area1Component';
+import Area2Component from '../components/Area2Component';
+import Area3Component from '../components/Area3Component';
 const Home = () => (
   <Fragment>
     <Nav></Nav>
-    <Jumbotron></Jumbotron>
+    <Jumbotron/>
     <IntroComponent/>
     <HowToComponent/>
+    <Area1Component/>
+    <Area2Component/>
+    <Area3Component/>
    </Fragment>
 )
 
