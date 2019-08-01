@@ -1,0 +1,43 @@
+.howto__container{
+  width: 100%;
+  margin: -80px 0px 0px 0px;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+
+}
+.howto__circle1{
+  position: absolute;
+  z-index: -1;
+  margin: 49px 0px 0px -160px;;
+}
+
+.howto__elements-container{
+  height: 900px;
+  background-image: url('/static/images/banner-aqua.png');
+  background-repeat: no-repeat;
+  background-size: 110% 105%;
+  background-position: -70px 0%;
+  text-align: center;
+  padding: 260px 0px 0px 0px
+}
+.howto__step-container{
+  display: flex;
+  justify-content: space-around
+}
+.howto__step1{
+  width: 20%;
+}
+.howto__step2{
+  margin-top: 50px;
+  width: 20%;
+}
+.howto__step3{
+  width: 20%;
+}
+.howto__circle2{
+  position: absolute;
+  right: 50px;
+  z-index: -1;
+  margin: -340px 0px 0px 0px;
+}
