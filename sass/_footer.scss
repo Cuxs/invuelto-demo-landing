@@ -1,0 +1,15 @@
+.footer__container{
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.footer__elements-container{
+  height: 700px;
+  background-image: url('/static/images/footer.png');
+  background-repeat: no-repeat;
+  background-size: 110% 130%;
+  background-position: -70px 0%;
+  text-align: center;
+  padding: 420px 0px 0px 0px;
+  z-index: -1;
+}

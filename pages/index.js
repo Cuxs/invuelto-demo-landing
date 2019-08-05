@@ -10,6 +10,7 @@ import Area2Component from '../components/Area2Component';
 import Area3Component from '../components/Area3Component';
 import SecurityComponent from '../components/SecurityComponent';
 import PricingComponent from '../components/PricingComponent';
+import FooterComponent from '../components/FooterComponent';
 const Home = () => (
   <Fragment>
     <Head title="Invuelto, tu alcancía digital" description="Cuidamos tu plata de la inflación y te ayudamos a ahorrar." url="www.invuelto.com" />
@@ -22,6 +23,7 @@ const Home = () => (
     <Area3Component/>
     <SecurityComponent/>
     <PricingComponent/>
+    <FooterComponent/>
    </Fragment>
 )
 
