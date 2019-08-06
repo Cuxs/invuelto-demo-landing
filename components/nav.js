@@ -1,23 +1,26 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Link from 'next/link'
+import Toolbar from './Toolbar';
+import SideDrawer from './Toolbar/SideDrawer';
+import Backdrop from './Toolbar/Backdrop';
 import SecondaryButton from './SecondaryButton';
 
-const Nav = () => (
-  <nav>
-    <ul className="d-flex w-100 align-items-center">
-      <span className='nav__title'>
-      <li>INVUELTO</li>
-      </span>
-      <span className="nav__body">
-        <li>Cómo funciona</li>
-        <li>Precios</li>
-        <li>FAQ</li>
-        <li>Tips de ahorro</li>
-      <SecondaryButton>Ingresá</SecondaryButton>
-      <SecondaryButton className="ml-2">Demo</SecondaryButton>
-      </span>
-    </ul>
-  </nav>
-)
+const Nav = () => {
+  const [sideDrawerOpen, toggleSideDrawer] = useState(true);
+  let backdrop;
+
+  if (sideDrawerOpen) {
+    backdrop = <Backdrop click={() => toggleSideDrawer(!sideDrawerOpen)} />
+  }
+  return (
+    <nav>
+      <div>
+        <Toolbar drawerClickHandler={() => toggleSideDrawer(!sideDrawerOpen)} />
+        <SideDrawer show={sideDrawerOpen} click={()=>toggleSideDrawer(!sideDrawerOpen)} />
+        {backdrop}
+      </div>
+    </nav>
+  )
+}
 
 export default Nav
