@@ -139,7 +139,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
   nav{
     background-color: transparent;
   }
@@ -151,7 +151,7 @@
   }
 }
 
-@media (min-width: 769px) {
+@media (min-width: 930px) {
   .toolbar__toggle-button {
     display: none;
   }
@@ -160,7 +160,7 @@
     margin-left: 0;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 930px) {
     .side-drawer {
         display: none;
     }
