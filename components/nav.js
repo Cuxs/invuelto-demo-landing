@@ -6,7 +6,7 @@ import Backdrop from './Toolbar/Backdrop';
 import SecondaryButton from './SecondaryButton';
 
 const Nav = () => {
-  const [sideDrawerOpen, toggleSideDrawer] = useState(true);
+  const [sideDrawerOpen, toggleSideDrawer] = useState(false);
   let backdrop;
 
   if (sideDrawerOpen) {

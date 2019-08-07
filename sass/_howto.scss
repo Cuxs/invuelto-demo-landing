@@ -14,7 +14,6 @@
   height: 900px;
   background-image: url('/static/images/banner-aqua.png');
   background-repeat: no-repeat;
-  background-size: 110% 105%;
   background-position: -70px 0%;
   text-align: center;
   padding: 260px 0px 0px 0px
@@ -38,4 +37,10 @@
   right: 50px;
   z-index: -1;
   margin: -340px 0px 0px 0px;
+}
+@media screen and (max-width: 769px) {
+.howto__areas-container{
+  display: block;
+}
+
 }

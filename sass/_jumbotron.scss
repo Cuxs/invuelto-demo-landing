@@ -57,13 +57,44 @@
   font-size: 30px;
 }
 .jumbotron__title{
+  width: 100%;
+  display: block;
   position: absolute;
   right: 280px;
   top: 250px;
 }
-@media screen and (max-width: 768px){
 
+@media screen and (max-width: 769px){
+  .jumbotron__elements-container{
+    background-origin: content-box;
+    background-size: 600px 900px;
+    background-position-x: -190px;
+  }
+  .jumbotron__spot-title{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+  }
+  .jumbotron__title{
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  .jumbotron__coin-2{
+    display: none;
+  }
+  .jumbotron__pig{
+    left: 70px;
+    top: 190px;
+    width: 180px;
+  }
+  .jumbotron__phone{
+    width: 120px;
+    top: 200px;
+    left: 150px;
+  }
 }
+
 
 @keyframes bobble1 {
   0% {
