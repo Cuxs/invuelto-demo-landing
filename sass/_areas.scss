@@ -1,5 +1,7 @@
 .area1__container {
   text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 .area1__step-container {
   display: flex;
@@ -29,6 +31,9 @@
     margin-bottom: 30px;
   }
 }
+.area1__spots{
+  display: none;
+}
 .area2__container {
   margin-top: 100px;
   text-align: center;
@@ -47,6 +52,11 @@
   .area1__step1 {
     display: block;
     width: 100%;
+  }
+  .area1__spots{
+    display: block;
+    left: 320px;
+    position: absolute;
   }
   .area1__step2 {
     display: block;

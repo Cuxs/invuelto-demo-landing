@@ -20,6 +20,7 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <p>y la forma de</p>
       <p>ingresar dinero.</p>
     </div>
+      <img className="area1__spots" src="../static/images/multiple-spots.png"></img>
     <div className="area1__step3">
       <img src="../static/images/potenciamos.png"></img>
       <h3>3.<b>Potenciamos</b></h3>

@@ -14,7 +14,6 @@
 .jumbotron__blue-bg {
   margin: -20px 0px 0px -11px;
   position: absolute;
-  width: 500px;
   top: 0;
   z-index: -1;
 }
@@ -111,6 +110,7 @@
   }
   .jumbotron__circle {
     overflow: hidden;
+    z-index: -20;
     img {
       width: 300px;
     }

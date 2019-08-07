@@ -63,10 +63,16 @@
   }
 }
 @media screen and (max-width: 769px) {
-  .button-secondary, .button-primary, .button-special {
+  .button-secondary, .button-primary {
     min-width: 120px;
     max-height: 50px;
     padding: 15px 25px 15px 25px;
+    border-radius: 15px;
+  }
+  .button-special{
+    min-width: 120px;
+    max-height: 50px;
+    padding: 10px 25px 15px 25px;
     border-radius: 15px;
   }
 }
