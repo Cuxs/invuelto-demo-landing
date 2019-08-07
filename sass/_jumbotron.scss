@@ -57,14 +57,32 @@
   font-size: 30px;
 }
 .jumbotron__title{
-  width: 100%;
   display: block;
   position: absolute;
-  right: 280px;
+  right: 20%;
   top: 250px;
 }
+.jumbotron__circle{
+  position: absolute;
+  top:400px;
+  right: 0px;
+  width: 130px;
+  z-index: -1;
+}
 
+@media screen and (max-width: 1200px){
+  .jumbotron__title{
+    right: 5%;
+  }
+}
 @media screen and (max-width: 769px){
+  .jumbotron__container{
+    margin-bottom: 280px;
+  }
+  .jumbotron__title{
+    top: 600px;
+    text-align: center;
+  }
   .jumbotron__elements-container{
     background-origin: content-box;
     background-size: 600px 900px;
@@ -75,10 +93,8 @@
     top: 120px;
     left: 20px;
   }
-  .jumbotron__title{
-    width: 100%;
-    display: block;
-    position: relative;
+  .jumbotron__coin-1{
+    width: 60px;
   }
   .jumbotron__coin-2{
     display: none;
@@ -90,8 +106,41 @@
   }
   .jumbotron__phone{
     width: 120px;
-    top: 200px;
-    left: 150px;
+    top: 290px;
+    left: 260px;
+  }
+  .jumbotron__circle{
+    overflow: hidden;
+    img{
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 320px){
+  .jumbotron__elements-container{
+    background-origin: content-box;
+    background-size: 450px 700px;
+    background-position-x: -145px;
+    background-position-y: -160px;
+  }
+  .jumbotron__pig{
+    left: 40px;
+    top: 190px;
+    width: 120px;
+  }
+  .jumbotron__phone{
+    width: 90px;
+    top: 270px;
+    left: 160px;
+  }
+  .jumbotron__spot-title{
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    font-size: 20px;
+  }
+  .jumbotron__coin-1{
+    display: none;
   }
 }
 

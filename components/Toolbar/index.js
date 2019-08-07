@@ -17,8 +17,10 @@ export default props => (
           <li>Tips de ahorro</li>
         </ul>
         <SecondaryButton className="d-none d-md-block">Ingresá</SecondaryButton>
-        <SecondaryButton className="ml-2">Demo</SecondaryButton>
+        <SecondaryButton className="d-none d-md-block ml-2">Demo</SecondaryButton>
       </div>
+      <SecondaryButton className="mr-2 d-md-none d-block">Ingresá</SecondaryButton>
+
     </div>
   </header>
 );

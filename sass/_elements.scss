@@ -1,5 +1,5 @@
-.button-primary{
-  font-family: 'Mazzard H';
+.button-primary {
+  font-family: "Mazzard H";
   text-transform: uppercase;
   font-weight: 100;
   max-height: 55px;
@@ -10,25 +10,25 @@
   letter-spacing: 0.5px;
   padding: 17px 25px 15px 25px;
   box-shadow: 8px 4px 0px 3px $color3, 20px 14px 5px $grey4;
-  &:disabled{
+  &:disabled {
     color: white;
     box-shadow: 8px 4px 0px 3px $color5, 20px 14px 5px $grey4;
   }
-  &:focus{
+  &:focus {
     background-color: $color3;
-    color:$primaryColor;
+    color: $primaryColor;
     box-shadow: 8px 4px 0px 3px $primaryColor, 20px 14px 5px $grey4;
   }
-  &:hover{
+  &:hover {
     background-color: $color3;
-    color:$primaryColor;
+    color: $primaryColor;
     box-shadow: 8px 4px 0px 3px $primaryColor, 20px 14px 5px $grey4;
     transition: background-color 0.3s ease-in;
     transition: 0.3s ease-in;
   }
 }
-.button-special{
-  font-family: 'Mazzard H';
+.button-special {
+  font-family: "Mazzard H";
   font-weight: 100;
   font-size: 15px;
   color: white;
@@ -39,14 +39,14 @@
   border-radius: 24px;
   padding: 3px 25px 0px 25px;
   height: 40px;
-  box-shadow: 3px 1px 8px 0px  $grey1;
-  &:hover{
+  box-shadow: 3px 1px 8px 0px $grey1;
+  &:hover {
     color: $color3;
   }
 }
-.button-secondary{
+.button-secondary {
   max-height: 55px;
-  font-family: 'Mazzard H';
+  font-family: "Mazzard H";
   text-transform: uppercase;
   font-weight: 100;
   font-size: 15px;
@@ -58,7 +58,15 @@
   border-radius: 24px;
   padding: 17px 25px 15px 25px;
   box-shadow: 0px 5px 10px 5px $grey4;
-  &:hover{
+  &:hover {
     color: $color3;
+  }
+}
+@media screen and (max-width: 769px) {
+  .button-secondary, .button-primary, .button-special {
+    min-width: 120px;
+    max-height: 50px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 15px;
   }
 }

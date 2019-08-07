@@ -16,9 +16,9 @@ export default () => {
       <p>y te ayudamos a <b>ahorrar</b>.</p>
       <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" />
     </div>
-    <svg height="500" width="500" className="semicircle__right">
-      <circle cx="500" cy="200" r="150" stroke="rgb(205,231,233)" strokeWidth="30" fill="white" />
-    </svg>
+    <div className="jumbotron__circle">
+    <img src="../static/images/circle-jumbo.png" />
+    </div>
 
   </div>)
 }

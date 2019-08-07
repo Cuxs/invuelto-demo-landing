@@ -1,10 +1,3 @@
-nav{
-  background-color: $color3transparent;
-  color:$primaryColor;
-  position: fixed;
-  top: 0px;
-  width: 100%;
-}
 .toolbar {
   display: flex;
   align-items: center;
@@ -86,7 +79,7 @@ nav{
   position: fixed;
   top: 0;
   left: 0;
-  width: 40%;
+  width: 50%;
   z-index: 200;
   transform: translateX(-100%);
   transition: transform 0.3s ease-out;
@@ -144,7 +137,6 @@ nav{
 .side-drawer a:active {
   color: red;
 }
-
 
 
 @media (max-width: 768px) {
