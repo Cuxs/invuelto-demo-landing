@@ -38,5 +38,5 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <p>y sin costo.</p>
     </div>
   </div>
-  <PrimaryButton className="mt-5" bold='Quiero' noBold="ahorrar" />
+  <PrimaryButton className="mt-5 d-none d-md-block" bold='Quiero' noBold="ahorrar" />
 </div>

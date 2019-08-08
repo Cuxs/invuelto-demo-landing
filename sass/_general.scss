@@ -119,6 +119,11 @@ b{
   color: $grey3 !important;
 }
 
+@media screen and (max-width: 770px){
+  b,p{
+    line-height: 100%;
+  }
+}
 @media screen and (max-width: 320px){
   h1{
     font-size: 20px;

@@ -97,7 +97,7 @@
 .side-drawer__circle2{
   position: absolute;
   width: 190px;
-  right: -55px;
+  right: 0px;
   top: 300px;
   z-index: -1;
 
@@ -112,9 +112,15 @@
 }
 .side-drawer__close-button{
   float: right;
-    font-size: 40px;
-    color: $primaryColor;
-    padding: 35px 40px;
+  font-size: 40px;
+  color: $primaryColor;
+  padding: 35px 40px 0;
+  background: none;
+  border: none;
+  &:focus{
+    border:none;
+    outline: none;
+  }
 }
 .side-drawer li {
   cursor: pointer;
@@ -124,7 +130,7 @@
   }
 }
 .side-drawer__login{
-  margin-top: 70%;
+  margin-top: 5vh;
 }
 
 .side-drawer a {
@@ -164,4 +170,9 @@
     .side-drawer {
         display: none;
     }
+}
+@media screen and (max-width: 770px) {
+  .side-drawer {
+    width: 80%;
+  }
 }
