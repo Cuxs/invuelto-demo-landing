@@ -19,7 +19,7 @@ export default props => {
       <SecondaryButton className="side-drawer__login">Ingresá</SecondaryButton>
       </div>
 
-      <img className="side-drawer__circle2" src="../../static/images/circle-blue-thin.png"></img>
+      <img className="side-drawer__circle2" src="../../static/images/half-circle-blue-thin.png"></img>
     </nav>
   );
 };

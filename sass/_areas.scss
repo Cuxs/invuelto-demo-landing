@@ -46,28 +46,18 @@
   width: 240px;
 }
 @media screen and (max-width: 769px) {
-.area1__step-container {
-  display: block;
-}
-  .area1__step1 {
+  .area1__step-container {
+    display: block;
+  }
+  .area1__step1, .area1__step2, .area1__step3, .area1__step4 {
     display: block;
     width: 100%;
+    margin-bottom: 60px;
   }
   .area1__spots{
     display: block;
-    left: 320px;
+    left: 60%;
     position: absolute;
   }
-  .area1__step2 {
-    display: block;
-    width: 100%;
-  }
-  .area1__step3 {
-    display: block;
-    width: 100%;
-  }
-  .area1__step4 {
-    display: block;
-    width: 100%;
-  }
+
 }
