@@ -53,21 +53,10 @@
   }
   .item-normal,
   .item-important {
-    // padding: 10px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     // margin-top: 0;
     // margin-left: 20px;
-  }
-
-  .pricing__items-container {
-    // margin-bottom: 200px;
-  }
-  .item-normal__price {
-    // margin-bottom: 30px;
-  }
-  .item-important__price {
-    // margin: 20px 0px 40px 0px;
-  }
-  .pricing__carousel {
+  }  .pricing__carousel {
     display: flex;
   }
   .slide {
@@ -80,5 +69,17 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+  .pricing__items-container {
+    margin-bottom: 200px;
+  }
+  .item-normal__price {
+    margin-bottom: 30px;
+  }
+  .item-important__price {
+    margin: 20px 0px 40px 0px;
+  }
+  .carousel .slider-wrapper{
+    height: 300px !important;
   }
 }
