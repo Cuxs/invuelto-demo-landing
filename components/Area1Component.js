@@ -23,7 +23,7 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <img className="area1__spots" src="../static/images/multiple-spots.png"></img>
     <div className="area1__step3">
       <img src="../static/images/potenciamos.png"></img>
-      <h3>3.<b>Potenciamos</b></h3>
+      <h3>3. <b>Potenciamos</b></h3>
       <h3 className="mb-4">tus ahorros</h3>
       <p>Tus ahorros generan</p>
       <p>ganancias todos los días,</p>
@@ -38,5 +38,5 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <p>y sin costo.</p>
     </div>
   </div>
-  <PrimaryButton className="mt-5 d-none d-md-block" bold='Quiero' noBold="ahorrar" />
+  <PrimaryButton className="mt-5 mb-5" bold='Quiero' noBold="ahorrar" />
 </div>
