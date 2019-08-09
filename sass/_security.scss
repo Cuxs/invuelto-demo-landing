@@ -1,23 +1,38 @@
 .security__container{
   width: 100%;
-  margin: -20px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   overflow: hidden;
   position: relative;
-
 }
 .security__circle1{
   position: absolute;
   z-index: 10;
   margin: 400px 0px 0px -210px
 }
+.security__subcontainer{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.security__pig{
+  width: 200px;
+}
+.security__images-container{
+  align-items: center;
+  justify-content: center;
+  img{
+    min-width: 200px;
+    max-width: 500px;
+    height: 100%;
+  }
+}
 
 .security__elements-container{
-  height: 900px;
+  height: 960px;
   background-image: url('/static/images/banner-blue.png');
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  padding: 260px 0px 0px 0px;
+  padding: 140px 0px 0px 0px;
   z-index: -1;
 }
 
@@ -26,4 +41,21 @@
   position: absolute;
   z-index: 10;
   top: 30px;
+}
+@media screen and (max-width: 769px) {
+.security__elements-container{
+  height: 1500px;
+}
+.security__images-container{
+  img{
+    width: 150px;
+    height: 100%;
+    margin-top: 20px;
+  }
+}
+.security__subcontainer{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
 }

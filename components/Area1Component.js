@@ -2,7 +2,7 @@ import PrimaryButton from "./PrimaryButton";
 
 export default () => <div className="area1__container" id="tus-intereses-primero">
   <h2 className="mb-5"><b>Tus intereses primero</b></h2>
-  imagennnnn
+  <img className="area1__image" src='../static/images/pig-musculoso.png'></img>
   <h3 className="mb-5"><b>Potenciamos</b> tus ahorros</h3>
   <div className="area1__step-container">
     <div className="area1__step1">
@@ -38,5 +38,5 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <p>y sin costo.</p>
     </div>
   </div>
-  <PrimaryButton className="mt-5 mb-5" bold='Quiero' noBold="ahorrar" />
+  <PrimaryButton className="mt-5 mb-5" bold='Quiero' noBold="ahorrar" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
 </div>

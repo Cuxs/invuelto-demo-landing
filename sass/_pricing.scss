@@ -7,7 +7,6 @@
   align-items: center;
 }
 .item-normal {
-  padding: 100px 0px 0px 0px;
   background-color: $color6;
   border-radius: 30px;
   min-width: 230px;
@@ -19,7 +18,7 @@
 .item-normal__price {
   color: $primaryColor;
   font-size: 120px;
-  margin-bottom: 70px;
+  margin-bottom: 0px;
 }
 .item-normal__description {
   color: $primaryColor;
@@ -27,7 +26,6 @@
   line-height: 5px;
 }
 .item-important {
-  padding: 110px 0px 0px 0px;
   background-color: $primaryColor;
   border-radius: 30px;
   min-width: 260px;
@@ -39,7 +37,8 @@
 .item-important__price {
   color: $color3;
   font-size: 140px;
-  margin-bottom: 80px;
+  margin-bottom: 0px;
+
 }
 .item-important__description {
   color: $color3;

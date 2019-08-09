@@ -6,5 +6,5 @@ export default () => <div className="text-center container">
   <h2 style={{fontSize:'30px'}} className="mb-5">se te va la plata?</h2>
   <p>Queremos darte una mano para que consigas ahorrar.</p>
   <p className="mb-5"><b>¡Dale una sorpresa a tu yo del futuro!</b></p>
-  <PrimaryButton bold="activá" noBold="tu alcancía" />
+  <PrimaryButton bold="activá" noBold="tu alcancía"  onClick={()=>window.location.assign('https://app.invuelto.com/register')}/>
 </div>
