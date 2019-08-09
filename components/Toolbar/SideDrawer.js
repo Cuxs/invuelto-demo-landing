@@ -7,7 +7,7 @@ export default props => {
   }
   return (
     <nav className={drawerClasses}>
-      <img className="side-drawer__circle1" src="../../static/images/circle-aqua.png"></img>
+      <img alt="decorado" className="side-drawer__circle1" src="../../static/images/circle-aqua.png"></img>
       <button className="side-drawer__close-button" onClick={props.click}>&#8592;</button>
       <div className="text-center">
       <ul>
@@ -19,7 +19,7 @@ export default props => {
       <SecondaryButton className="side-drawer__login" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
       </div>
 
-      <img className="side-drawer__circle2" src="../../static/images/half-circle-blue-thin.png"></img>
+      <img alt="decorado" className="side-drawer__circle2" src="../../static/images/half-circle-blue-thin.png"></img>
     </nav>
   );
 };
