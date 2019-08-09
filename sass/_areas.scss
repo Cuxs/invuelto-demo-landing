@@ -3,6 +3,9 @@
   overflow: hidden;
   position: relative;
 }
+.area1__image, .area2__image{
+  width: 200px;
+}
 .area1__step-container {
   display: flex;
   justify-content: space-around;
