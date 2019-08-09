@@ -59,7 +59,9 @@
   padding: 17px 25px 15px 25px;
   box-shadow: 0px 5px 10px 5px $grey4;
   &:hover {
-    color: $color3;
+    color: $primaryColor;
+    background-color: $color3;
+
   }
 }
 @media screen and (max-width: 769px) {

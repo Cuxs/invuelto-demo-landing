@@ -11,10 +11,10 @@ export default props => (
       <div className="spacer" />
       <div className="toolbar__items">
         <ul>
-          <a href="#tus-intereses-primero"><li>Cómo funciona</li></a>
-          <a href="#precios"><li>Precios</li></a>
-          <a href="#"><li>FAQ</li></a>
-          <a href="#academia-del-ahorro"><li>Tips de ahorro</li></a>
+          <li><a href="#tus-intereses-primero">Cómo funciona</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#academia-del-ahorro">Tips de ahorro</a></li>
         </ul>
         <SecondaryButton className="d-none d-md-block" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
         <SecondaryButton className="d-none d-md-block ml-2" onClick={()=>window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>
