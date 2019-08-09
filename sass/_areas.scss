@@ -37,9 +37,22 @@
 .area1__spots{
   display: none;
 }
+.area2__spots{  
+  display: block;
+  left: 80%;
+  top: 40%;
+  position: absolute;
+}
+.area2__circle{
+  display: block;
+  right: 90%;
+  top: 0%;
+  position: absolute;
+}
 .area2__container {
   margin-top: 100px;
   text-align: center;
+  position: relative;
 }
 .area3__container {
   margin-top: 100px;
@@ -61,6 +74,9 @@
     display: block;
     left: 60%;
     position: absolute;
+  }
+  .area2__spots, .area2__circle{  
+    display: none
   }
 
 }
