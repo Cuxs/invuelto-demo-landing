@@ -7,10 +7,10 @@ export default () => <div className="footer__container">
     <div>
       <h2 className="mb-4">Seguinos en nuestras redes</h2>
       <div className='footer__social'>
-        <img src='../static/images/fb.png'></img>
-        <img src='../static/images/in.png'></img>
-        <img src='../static/images/insta.png'></img>
-        <img src='../static/images/twitter.png'></img>
+        <a target="__blank" rel="noopener noreferrer" href="https://facebook.com/invuelto"><img src='../static/images/fb.png'></img></a>
+        <a target="__blank" rel="noopener noreferrer" href="https://linkedin.com/in/invuelto"><img src='../static/images/in.png'></img></a>
+        <a target="__blank" rel="noopener noreferrer" href="https://instagram.com/invuelto"><img src='../static/images/insta.png'></img></a>
+        <a target="__blank" rel="noopener noreferrer" href="https://twitter.com/invuelto"><img src='../static/images/twitter.png'></img></a>
       </div>
     </div>
   </div>
