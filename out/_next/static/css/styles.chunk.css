@@ -7515,9 +7515,22 @@ b {
 .area1__spots {
   display: none; }
 
+.area2__spots {
+  display: block;
+  left: 80%;
+  top: 40%;
+  position: absolute; }
+
+.area2__circle {
+  display: block;
+  right: 90%;
+  top: 0%;
+  position: absolute; }
+
 .area2__container {
   margin-top: 100px;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
 
 .area3__container {
   margin-top: 100px;
@@ -7536,7 +7549,9 @@ b {
   .area1__spots {
     display: block;
     left: 60%;
-    position: absolute; } }
+    position: absolute; }
+  .area2__spots, .area2__circle {
+    display: none; } }
 
 .security__container {
   width: 100%;
@@ -7848,6 +7863,29 @@ b {
 @media screen and (max-width: 770px) {
   .side-drawer {
     width: 80%; } }
+
+.preview__image {
+  width: 250px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 10px solid #3550ab;
+  border-radius: 100%;
+  margin-bottom: 40px; }
+  .preview__image:hover {
+    opacity: 0.5;
+    transition: opacity  0.5s ease-in; }
+
+.preview__title {
+  font-size: 18px;
+  width: 80%;
+  text-align: center; }
+
+.preview__description {
+  margin: 20px 0px 20px 0px;
+  font-size: 14px;
+  width: 90%; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
