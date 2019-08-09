@@ -5,7 +5,7 @@ global.fetch = require('node-fetch');
 export default class MyDocument extends Document {
   render() {
     return (
-      <html>
+      <html lang="es">
         <Head>
           <link
             rel="stylesheet"
