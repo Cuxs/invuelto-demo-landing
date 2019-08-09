@@ -7850,4 +7850,6 @@ b {
     width: 80%; } }
 
 
-/*# sourceMappingURL=styles.chunk.css.map*/
+.terms__container {
+  margin-top: 100px; }
+
