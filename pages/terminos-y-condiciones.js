@@ -8,7 +8,8 @@ import '../sass/_terms.scss';
 
 export default () =>
   <Fragment>
-    <Head title="Invuelto, tu alcancía digital" description="Cuidamos tu plata de la inflación y te ayudamos a ahorrar." url="www.invuelto.com" />
+    <Head title="Preguntas frecuentes" description="Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
+tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
     <Nav></Nav>
     <div className="terms__container container">
     <ReactMarkdown source={terms()} />

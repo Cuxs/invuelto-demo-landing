@@ -7,10 +7,10 @@ export default () => {
         <div className="jumbotron__elements-container col-md-8 col-lg-7">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
 
-          <img className="jumbotron__pig" src="../static/images/pig-happy.png" />
-          <img className="jumbotron__coin-1" src="../static/images/coin.png" />
-          <img className="jumbotron__coin-2" src="../static/images/coin.png" />
-          <img className="jumbotron__phone" src="../static/images/phone.png" />
+          <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-happy.png" />
+          <img alt="moneda" className="jumbotron__coin-1" src="../static/images/coin.png" />
+          <img alt="moneda" className="jumbotron__coin-2" src="../static/images/coin.png" />
+          <img alt="celular" className="jumbotron__phone" src="../static/images/phone.png" />
           <h3 className="d-none d-md-block jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
         </div>
         <div className="jumbotron__title col-md-4 pr-0">
@@ -21,7 +21,7 @@ export default () => {
         </div>
 
         <div className="jumbotron__circle">
-          <img src="../static/images/circle-jumbo.png" />
+          <img alt="decorado" src="../static/images/circle-jumbo.png" />
         </div>
 
       </div>

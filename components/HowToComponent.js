@@ -10,7 +10,7 @@ export default () => {
         <h3>¿Cómo ahorrar?</h3>
         <div className="howto__areas-container">
           <div className="howto__area1">
-            <img src="../static/images/howto_step1.png"></img>
+            <img alt="Intereses" src="../static/images/howto_step1.png"></img>
             <h3 className="mb-0 mt-4"><b>Tus intereses</b></h3>
             <h3 className="mb-4">primero</h3>
             <p className="text-primary">Tus ahorros generan intereses a</p>
@@ -18,7 +18,7 @@ export default () => {
             <a href="#tus-intereses-primero"><SpecialButton>Ahorrar ahora</SpecialButton></a>
           </div>
           <div className="howto__area2">
-            <img src="../static/images/howto_step2.png"></img>
+            <img alt="Vueltos" src="../static/images/howto_step2.png"></img>
             <h3 className="mb-0 mt-4"><b>Vuelven los</b></h3>
             <h3 className="mb-4">vueltos</h3>
             <p className="text-primary">Ahora podes pedir tu vuelto</p>
@@ -27,7 +27,7 @@ export default () => {
             <a href="#vuelven-los-vueltos"><SpecialButton>Quiero mi vuelto</SpecialButton></a>
           </div>
           <div className="howto__area3">
-            <img src="../static/images/howto_step3.png"></img>
+            <img alt="tips de ahorro" src="../static/images/howto_step3.png"></img>
             <h3 className="mb-0 mt-4"><b>Academia</b></h3>
             <h3 className="mb-4">del ahorro</h3>
             <p className="text-primary"><b>Tips</b> para que tu plata</p>
