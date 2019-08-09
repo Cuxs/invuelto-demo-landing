@@ -1,5 +1,6 @@
 import React, { Fragment, useState } from 'react'
 import { Waypoint } from 'react-waypoint';
+import Swipe from 'react-easy-swipe';
 import Head from '../components/head'
 import Nav from '../components/nav'
 import '../sass/main.scss';
@@ -17,55 +18,59 @@ const Home = () => {
   const [group2, toggleVisibilityGroup2] = useState(false)
   const [group3, toggleVisibilityGroup3] = useState(false)
   const [group4, toggleVisibilityGroup4] = useState(false);
+  const [sideDrawerOpen, toggleSideDrawer] = useState(false);
 
   return (
     <Fragment>
-      <Head title="Invuelto, tu alcancía digital" description="Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
-tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
-      <Nav></Nav>
-      {group1 ?
-        <Fragment>
-          <Jumbotron />
-          <IntroComponent />
-        </Fragment>
-        : <div />
-      }
-      <Waypoint
-        onEnter={() => toggleVisibilityGroup2(true)}
-      />
+          <Swipe onSwipeLeft={() => {toggleSideDrawer(false); return true;}} onSwipeRight={()=>{toggleSideDrawer(true); return true;}}>
+        <Head title="Invuelto, tu alcancía digital" description="Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
+  tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
+        <Nav open={sideDrawerOpen} toggle={toggleSideDrawer}></Nav>
+        {group1 ?
+          <Fragment>
+            <Jumbotron />
+            <IntroComponent />
+          </Fragment>
+          : <div />
+        }
+        <Waypoint
+          onEnter={() => toggleVisibilityGroup2(true)}
+        />
 
-      {group2 ?
-        <Fragment>
-          <HowToComponent />
-          <Waypoint
-            onEnter={() => toggleVisibilityGroup3(true)}
-          />
-          <Area1Component />
-        </Fragment>
-        : <div />
-      }
+        {group2 ?
+          <Fragment>
+            <HowToComponent />
+            <Waypoint
+              onEnter={() => toggleVisibilityGroup3(true)}
+            />
+            <Area1Component />
+          </Fragment>
+          : <div />
+        }
 
-      {group3 ?
-        <Fragment>
-          <Area2Component />
-          <Waypoint
-            onEnter={() => toggleVisibilityGroup4(true)}
-          />
-          <Area3Component />
-        </Fragment>
-        : <div />
-      }
+        {group3 ?
+          <Fragment>
+            <Area2Component />
+            <Waypoint
+              onEnter={() => toggleVisibilityGroup4(true)}
+            />
+            <Area3Component />
+          </Fragment>
+          : <div />
+        }
 
-      {group4 ?
-        <Fragment>
-          <SecurityComponent />
-          <PricingComponent />
-          <FooterComponent />
-        </Fragment> :
-        <div />
-      }
+        {group4 ?
+          <Fragment>
+            <SecurityComponent />
+            <PricingComponent />
+            <FooterComponent />
+          </Fragment> :
+          <div />
+        }
+        </Swipe>
+      </Fragment>
+        
 
-    </Fragment>
   )
 }
 
