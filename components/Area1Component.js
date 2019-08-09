@@ -38,5 +38,5 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <p>y sin costo.</p>
     </div>
   </div>
-  <PrimaryButton className="mt-5 mb-5" bold='Quiero' noBold="ahorrar" />
+  <PrimaryButton className="mt-5 mb-5" bold='Quiero' noBold="ahorrar" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
 </div>

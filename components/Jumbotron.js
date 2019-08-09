@@ -17,7 +17,7 @@ export default () => {
           <h2 className="mb-3"><b>¡Tus intereses primero!</b></h2>
           <p><b>Cuidamos tu plata</b> de la inflación</p>
           <p>y te ayudamos a <b>ahorrar</b>.</p>
-          <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" />
+          <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
         </div>
 
         <div className="jumbotron__circle">

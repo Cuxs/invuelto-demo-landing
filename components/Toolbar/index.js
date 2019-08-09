@@ -11,15 +11,15 @@ export default props => (
       <div className="spacer" />
       <div className="toolbar__items">
         <ul>
-          <li>Cómo funciona</li>
-          <li>Precios</li>
-          <li>FAQ</li>
-          <li>Tips de ahorro</li>
+          <a onClick={()=>{console.log('cllick'); props.drawerClickHandler()}} href="#tus-intereses-primero"><li>Cómo funciona</li></a>
+          <a onClick={()=>{console.log('cllick'); props.drawerClickHandler()}} href="#precios"><li>Precios</li></a>
+          <a onClick={()=>{console.log('cllick'); props.drawerClickHandler()}} href="#"><li>FAQ</li></a>
+          <a onClick={()=>{console.log('cllick'); props.drawerClickHandler()}} href="#academia-del-ahorro"><li>Tips de ahorro</li></a>
         </ul>
-        <SecondaryButton className="d-none d-md-block">Ingresá</SecondaryButton>
-        <SecondaryButton className="d-none d-md-block ml-2">Demo</SecondaryButton>
+        <SecondaryButton className="d-none d-md-block" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
+        <SecondaryButton className="d-none d-md-block ml-2" onClick={()=>window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>
       </div>
-      <SecondaryButton className="mr-2 d-md-none d-block">Ingresá</SecondaryButton>
+      <SecondaryButton className="mr-2 d-md-none d-block" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
 
     </div>
   </header>

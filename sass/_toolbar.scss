@@ -134,14 +134,13 @@
 }
 
 .side-drawer a {
-  color: red;
+  color: $primaryColor;
   text-decoration: none;
-  font-size: 1.2rem;
 }
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: red;
+  color: $color3;
 }
 
 

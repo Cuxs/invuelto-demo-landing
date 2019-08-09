@@ -14,6 +14,6 @@ export default () => <div className="footer__container">
       </div>
     </div>
   </div>
-  <h3 className="text-color3 text-center mb-5">Términos y condiciones</h3>
+  <a href="/terminos-y-condiciones"><h3 className="text-color3 text-center mb-5">Términos y condiciones</h3></a>
 
 </div>
