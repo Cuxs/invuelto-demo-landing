@@ -6,7 +6,7 @@ module.exports = withFonts(withSass({
       '/': { page: '/' },
     }
   },
-  assetPrefix: '/invuelto-demo-landing', //para el deploy
+  // assetPrefix: '/invuelto-demo-landing', //para el deploy
   // target: 'serverless',
   webpack: config => {
     // Fixes npm packages that depend on `fs` module
