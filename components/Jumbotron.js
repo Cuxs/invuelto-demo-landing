@@ -13,7 +13,7 @@ export default () => {
           <img alt="celular" className="jumbotron__phone" src="../static/images/phone.png" />
           <h3 className="d-none d-md-block jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
         </div>
-        <div className="jumbotron__title col-md-4 pr-0">
+        <div className="jumbotron__title col-lg-4 col-md-12 pr-0">
           <h2 className="mb-3"><b>¡Tus intereses primero!</b></h2>
           <p><b>Cuidamos tu plata</b> de la inflación</p>
           <p>y te ayudamos a <b>ahorrar</b>.</p>

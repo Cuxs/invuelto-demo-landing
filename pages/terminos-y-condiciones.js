@@ -1,17 +1,23 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import ReactMarkdown from "react-markdown";
+import Swipe from 'react-easy-swipe';
 import terms from "../components/terms";
 import Head from '../components/head'
 import Nav from '../components/nav'
 import '../sass/_variables.scss';
 import '../sass/_terms.scss';
 
-export default () =>
+export default () =>{
+  const [sideDrawerOpen, toggleSideDrawer] = useState(false);
+
+return  (
   <Fragment>
-    <Head title="Preguntas frecuentes" description="Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
-tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
-    <Nav></Nav>
-    <div className="terms__container container">
-    <ReactMarkdown source={terms()} />
-    </div>
-  </Fragment>
+    <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
+      <Head title="Preguntas frecuentes" description="Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
+  tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
+      <Nav open={sideDrawerOpen} toggle={toggleSideDrawer}></Nav>
+      <div className="terms__container container">
+      <ReactMarkdown source={terms()} />
+      </div>
+    </Swipe>
+  </Fragment>)}
