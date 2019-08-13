@@ -3,7 +3,7 @@ export default () => <div className="footer__container">
 
   <div className="footer__elements-container container">
     <div className="footer__sign">
-      <h2><b>Invuelto</b>.com</h2>
+      <h2><b>invuelto</b>.com</h2>
     </div>
     <div className="footer__social-container">
       <h3 className="mb-4 text-color3">Seguinos en nuestras redes</h3>

@@ -9,7 +9,7 @@ export default () => <div className="area2__container container" id="vuelven-los
   <img className="area2__circle" src="../static/images/circle-opaqueblue.png"></img>
   <p className="container"><b>Ahora podés pedir tu vuelto y dar vuelto a tus clientes.</b></p>
     <p>¡Cada peso cuenta!. Sumalo a tu alcancía</p>
-    <p>para generar intereses a tu favor.</p>
+    <p>para generar ganancias.</p>
   <PrimaryButton className="mt-5 mb-5" bold='Saber' noBold="más" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
 
 </div>
