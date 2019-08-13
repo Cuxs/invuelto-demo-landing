@@ -5,13 +5,15 @@ import SecondaryButton from '../SecondaryButton';
 export default props => {
   const [color, setColor] = useState('');
   const [logoColor, setLogoColor] = useState(false);
-  const renderLogo=()=>{
+  const renderLogo = () => {
     return logoColor ?
-    <div className="mt-3 toolbar__logo">
-      <img src="../static/images/logo-color.png" style={{ width: '170px' }} />
-    </div>
-    :
-    <div className="toolbar__logo">Invuelto</div>
+      <div className="mt-3 toolbar__logo">
+        <img src="../static/images/logo-color.png" style={{ width: '170px' }} />
+      </div>
+      :
+      <div className="mt-3 toolbar__logo">
+        <img src="../static/images/logo-blanco.png" style={{ width: '170px' }} />
+      </div>
   }
   useEffect(() => {
     document.addEventListener("scroll", () => {
@@ -20,14 +22,14 @@ export default props => {
         setColor('')
         setLogoColor(false);
       } else {
-        setColor('#FAFAFA')
+        setColor('white')
         setLogoColor(true)
       }
     });
     return () => document.removeEventListener("scroll", this);
   })
   return (
-    <header className="toolbar" style={{ backgroundColor: color }}>
+    <header className={`toolbar ${color}`}>
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>

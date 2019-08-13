@@ -6,10 +6,14 @@
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500;
+    &.white{
+      background-color: #fafafa;
+  }
   ul {
     list-style-type: none;
   }
 }
+
 .toolbar__container-items {
   display: flex;
   align-items: center;
