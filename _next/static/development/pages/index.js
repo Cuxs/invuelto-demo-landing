@@ -305,7 +305,9 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _PrimaryButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrimaryButton */ "./components/PrimaryButton.js");
 var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/Area2Component.js";
+
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -313,19 +315,19 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     id: "vuelven-los-vueltos",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 1
+      lineNumber: 2
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 3
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 2
+      lineNumber: 3
     },
     __self: this
   }, "Vuelven los vueltos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -334,26 +336,26 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/pig-enamorado.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 3
+      lineNumber: 4
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mt-5 mb-4",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     },
     __self: this
   }, "No m\xE1s"), " vueltos en ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 5
     },
     __self: this
   }, "caramelos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -362,21 +364,21 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/multiple-spots.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "text-secondary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, "La soluci\xF3n a los problemas"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "text-secondary mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, "de cambio y redondeo"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -384,35 +386,47 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/circle-opaqueblue.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, "Ahora pod\xE9s pedir tu vuelto y dar vuelto a tus clientes.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "\xA1Cada peso cuenta!. Sumalo a tu alcanc\xEDa"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
-  }, "para generar intereses a tu favor."));
+  }, "para generar ganancias."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimaryButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "mt-5 mb-5",
+    bold: "Saber",
+    noBold: "m\xE1s",
+    onClick: function onClick() {
+      return window.location.assign('https://app.invuelto.com/register');
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }));
 });
 
 /***/ }),
@@ -700,31 +714,25 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 6
     },
     __self: this
-  }, "Invuelto"), ".com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, "Tu partner de ahorro")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "invuelto"), ".com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer__social-container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "mb-4 text-color3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, "Seguinos en nuestras redes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer__social",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -733,7 +741,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     href: "https://facebook.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -741,7 +749,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/fb.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -750,7 +758,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     href: "https://linkedin.com/in/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -758,7 +766,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/in.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -767,7 +775,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     href: "https://instagram.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -775,7 +783,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/insta.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -784,7 +792,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     href: "https://twitter.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -792,21 +800,21 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/twitter.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 14
     },
     __self: this
   }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/terminos-y-condiciones",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-color3 text-center mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 18
     },
     __self: this
   }, "T\xE9rminos y condiciones")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -815,7 +823,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/circle-security2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 19
     },
     __self: this
   }));
@@ -926,20 +934,20 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 16
     },
     __self: this
-  }, "Tus ahorros generan intereses a"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Tus ahorros crecen todos los d\xEDas, "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-primary mb-4",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "tu favor. ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "\xA1Alcanz\xE1 tus metas!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "y se nota."), " \uD83D\uDE09"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#tus-intereses-primero",
     __source: {
       fileName: _jsxFileName,
@@ -1138,13 +1146,13 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 4
     },
     __self: this
-  }, "\xA1Hola! Somos ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "\xA1Hola! bienvenidos ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "Invuelto, tu partner de ahorro"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, "a invuelto.com"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "d-none d-md-block",
     __source: {
       fileName: _jsxFileName,
@@ -1165,7 +1173,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, "se te va la plata?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    className: "d-mdnone d-block",
+    className: "d-md-none d-block",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
@@ -1184,7 +1192,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 12
     },
     __self: this
-  }, "Queremos darte una mano para que consigas ahorrar."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Conoc\xE9 la herramienta que te facilita ahorrar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "mb-5",
     __source: {
       fileName: _jsxFileName,
@@ -1243,7 +1251,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "jumbotron__elements-container col-md-8 col-lg-7",
+    className: "jumbotron__elements-container col-md-8 col-lg-6",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7
@@ -1337,25 +1345,25 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "Te ayudamos a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
     },
     __self: this
-  }, "Cuidamos tu plata"), " de la inflaci\xF3n"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "ahorrar"), " y ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "cuidamos")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19
     },
     __self: this
-  }, "y te ayudamos a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "ahorrar"), "."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimaryButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, "tu plata de la inflaci\xF3n."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimaryButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
     className: "mt-3",
     bold: "activ\xE1",
     noBold: "tu alcanc\xEDa",
@@ -1603,7 +1611,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 24
     },
     __self: this
-  }, "Ingrsar"), " o ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "Ingresar"), " o ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
@@ -1802,7 +1810,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 55
     },
     __self: this
-  }, "Ingrsar"), " o ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "Ingresar"), " o ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -1828,14 +1836,14 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 60
     },
     __self: this
-  }, "Si ahorr\xE1s m\xE1s $3.500, s\xF3lo pag\xE1s $35 por mes;"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "$50 por mes, si superaste los $3.500 de ahorro,"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 61
     },
     __self: this
-  }, "Y si ahorr\xE1s m\xE1s de $25.000 s\xF3lo pag\xE1s 0,16% por mes."));
+  }, "Y el 0,16% mensual si super\xE1s los $25.000 de ahorro."));
 });
 
 /***/ }),
@@ -2327,157 +2335,219 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _DrawerToggleButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./DrawerToggleButton */ "./components/Toolbar/DrawerToggleButton.js");
-/* harmony import */ var _SecondaryButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../SecondaryButton */ "./components/SecondaryButton.js");
-var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/Toolbar/index.js";
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _DrawerToggleButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DrawerToggleButton */ "./components/Toolbar/DrawerToggleButton.js");
+/* harmony import */ var _SecondaryButton__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../SecondaryButton */ "./components/SecondaryButton.js");
+
+
+var _this = undefined,
+    _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/Toolbar/index.js";
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = (function (props) {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(''),
+      _useState2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState, 2),
+      color = _useState2[0],
+      setColor = _useState2[1];
+
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(false),
+      _useState4 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_0__["default"])(_useState3, 2),
+      logoColor = _useState4[0],
+      setLogoColor = _useState4[1];
+
+  var renderLogo = function renderLogo() {
+    return logoColor ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "mt-3 toolbar__logo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10
+      },
+      __self: this
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+      src: "../static/images/logo-color.png",
+      style: {
+        width: '170px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11
+      },
+      __self: this
+    })) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "toolbar__logo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }, "Invuelto");
+  };
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    document.addEventListener("scroll", function () {
+      var isTop = window.scrollY < 100;
+
+      if (isTop) {
+        setColor('');
+        setLogoColor(false);
+      } else {
+        setColor('#FAFAFA');
+        setLogoColor(true);
+      }
+    });
+    return function () {
+      return document.removeEventListener("scroll", _this);
+    };
+  });
+  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", {
     className: "toolbar",
+    style: {
+      backgroundColor: color
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 30
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__toggle-button",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 31
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_DrawerToggleButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_DrawerToggleButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
     click: props.drawerClickHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 32
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__container-items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "toolbar__logo",
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 35
     },
     __self: this
-  }, "Invuelto")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, renderLogo())), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "spacer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 36
     },
     __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 37
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 38
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 39
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#tus-intereses-primero",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 39
     },
     __self: this
-  }, "C\xF3mo funciona")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "C\xF3mo funciona")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#precios",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 40
     },
     __self: this
-  }, "Precios")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "Precios")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 41
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 41
     },
     __self: this
-  }, "FAQ")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, "FAQ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 42
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#academia-del-ahorro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 42
     },
     __self: this
-  }, "Tips de ahorro"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "d-none d-md-block",
+  }, "Tips de ahorro"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: "toolbar__button-group1",
     onClick: function onClick() {
       return window.location.assign('https://app.invuelto.com/login');
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 44
     },
     __self: this
-  }, "Ingres\xE1"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "d-none d-md-block ml-2",
+  }, "Ingres\xE1"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: "toolbar__button-group1 ml-2",
     onClick: function onClick() {
       return window.location.assign('https://app.invuelto.com/demo');
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 45
     },
     __self: this
-  }, "Demo")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    className: "mr-2 d-md-none d-block",
+  }, "Demo")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    className: "mr-2 toolbar__button-group2",
     onClick: function onClick() {
       return window.location.assign('https://app.invuelto.com/login');
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 47
     },
     __self: this
   }, "Ingres\xE1")));
@@ -35779,7 +35849,7 @@ var Home = function Home() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_head__WEBPACK_IMPORTED_MODULE_4__["default"], {
     title: "Invuelto, tu alcanc\xEDa digital",
-    description: "Queremos darte una mano para que consigas ahorrar, cuidamos tu plata de la inflaci\xF3n ya que tus ahorros generan intereses a tu favor. Vos eleg\xEDs el monto y la forma de ingresar dinero.",
+    description: "Desarrollamos una herramienta con la que ahora s\xED vas a poder ahorrar, cuidamos tu plata de la inflaci\xF3n ya que tus ahorros generan intereses a tu favor. Vos eleg\xEDs el monto y la forma de ingresar dinero.",
     url: "www.invuelto.com",
     __source: {
       fileName: _jsxFileName,
@@ -35930,7 +36000,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 0:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fmariano%2FTrabajo%2FInvuelto%2Finvuelto-landing%2Fpages%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -35953,5 +36023,5 @@ module.exports = dll_829b10deddf10e1653a8;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
