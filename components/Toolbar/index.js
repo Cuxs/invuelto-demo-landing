@@ -16,11 +16,15 @@ export default props => (
           <li><a href="#">FAQ</a></li>
           <li><a href="#academia-del-ahorro">Tips de ahorro</a></li>
         </ul>
-        <SecondaryButton className="d-none d-md-block" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
-        <SecondaryButton className="d-none d-md-block ml-2" onClick={()=>window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>
+        <SecondaryButton className="toolbar__button-group1" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
+        <SecondaryButton className="toolbar__button-group1 ml-2" onClick={()=>window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>
       </div>
-      <SecondaryButton className="mr-2 d-md-none d-block" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
+      <SecondaryButton className="mr-2 toolbar__button-group2" onClick={()=>window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
 
     </div>
   </header>
+  //d-md-none d-lg-block
+// d-md-none d-lg-block
+
+// d-lg-none d-md-block
 );
