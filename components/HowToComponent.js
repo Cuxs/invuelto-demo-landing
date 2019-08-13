@@ -13,8 +13,8 @@ export default () => {
             <img alt="Intereses" src="../static/images/howto_step1.png"></img>
             <h3 className="mb-0 mt-4"><b>Tus intereses</b></h3>
             <h3 className="mb-4">primero</h3>
-            <p className="text-primary">Tus ahorros generan intereses a</p>
-            <p className="text-primary mb-4">tu favor. <b>¡Alcanzá tus metas!</b></p>
+            <p className="text-primary">Tus ahorros crecen todos los días, </p>
+            <p className="text-primary mb-4"> <b>y se nota.</b> 😉</p>
             <a href="#tus-intereses-primero"><SpecialButton>Ahorrar ahora</SpecialButton></a>
           </div>
           <div className="howto__area2">

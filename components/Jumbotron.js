@@ -4,7 +4,7 @@ export default () => {
     <section>
       <div className="jumbotron__container row mr-0">
 
-        <div className="jumbotron__elements-container col-md-8 col-lg-7">
+        <div className="jumbotron__elements-container col-md-8 col-lg-6">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
 
           <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-happy.png" />
@@ -15,8 +15,8 @@ export default () => {
         </div>
         <div className="jumbotron__title col-lg-4 col-md-12 pr-0">
           <h2 className="mb-3"><b>¡Tus intereses primero!</b></h2>
-          <p><b>Cuidamos tu plata</b> de la inflación</p>
-          <p>y te ayudamos a <b>ahorrar</b>.</p>
+          <p>Te ayudamos a <b>ahorrar</b> y <b>cuidamos</b></p>
+          <p>tu plata de la inflación.</p>
           <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
         </div>
 
