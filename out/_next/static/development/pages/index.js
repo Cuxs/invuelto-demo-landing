@@ -1146,13 +1146,13 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 4
     },
     __self: this
-  }, "\xA1Hola! bienvenidos ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+  }, "\xA1Hola! bienvenidos a", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
-  }, "a invuelto.com"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, " invuelto.com"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "d-none d-md-block",
     __source: {
       fileName: _jsxFileName,
@@ -2379,13 +2379,23 @@ var _this = undefined,
       },
       __self: this
     })) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "toolbar__logo",
+      className: "mt-3 toolbar__logo",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
       },
       __self: this
-    }, "Invuelto");
+    }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
+      src: "../static/images/logo-blanco.png",
+      style: {
+        width: '170px'
+      },
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15
+      },
+      __self: this
+    }));
   };
 
   Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
@@ -2396,7 +2406,7 @@ var _this = undefined,
         setColor('');
         setLogoColor(false);
       } else {
-        setColor('#FAFAFA');
+        setColor('white');
         setLogoColor(true);
       }
     });
@@ -2405,119 +2415,116 @@ var _this = undefined,
     };
   });
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("header", {
-    className: "toolbar",
-    style: {
-      backgroundColor: color
-    },
+    className: "toolbar ".concat(color),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__toggle-button",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_DrawerToggleButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
     click: props.drawerClickHandler,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__container-items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 37
     },
     __self: this
   }, renderLogo())), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "spacer",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 38
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "toolbar__items",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 39
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#tus-intereses-primero",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 41
     },
     __self: this
   }, "C\xF3mo funciona")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#precios",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 42
     },
     __self: this
   }, "Precios")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 43
     },
     __self: this
   }, "FAQ")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
     href: "#academia-del-ahorro",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 42
+      lineNumber: 44
     },
     __self: this
   }, "Tips de ahorro"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2527,7 +2534,7 @@ var _this = undefined,
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 46
     },
     __self: this
   }, "Ingres\xE1"), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2537,7 +2544,7 @@ var _this = undefined,
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 47
     },
     __self: this
   }, "Demo")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SecondaryButton__WEBPACK_IMPORTED_MODULE_3__["default"], {
@@ -2547,7 +2554,7 @@ var _this = undefined,
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 49
     },
     __self: this
   }, "Ingres\xE1")));
