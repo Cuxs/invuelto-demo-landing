@@ -57,8 +57,8 @@ export default () => <div className="pricing__container" id="precios">
       </div>
     </Carousel>
   </div>
-  <p className="mt-5">Si ahorrás más $3.500, sólo pagás $35 por mes;</p>
-  <p>Y si ahorrás más de $25.000 sólo pagás 0,16% por mes.</p>
+  <p className="mt-5 container">Si ahorrás más $3.500, sólo pagás $35 por mes;</p>
+  <p className="container">Y si ahorrás más de $25.000 sólo pagás 0,16% por mes.</p>
 
 
 </div>
