@@ -1,8 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap);
-
-.terms__container {
-  margin-top: 100px; }
-
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -7505,6 +7501,8 @@ b {
   text-align: center;
   overflow: hidden;
   position: relative; }
+  .area1__container h2 {
+    font-size: 40px; }
 
 .area1__image, .area2__image {
   width: 280px; }
@@ -7548,10 +7546,14 @@ b {
   margin-top: 100px;
   text-align: center;
   position: relative; }
+  .area2__container h2 {
+    font-size: 40px; }
 
 .area3__container {
   margin-top: 100px;
   text-align: center; }
+  .area3__container h2 {
+    font-size: 40px; }
 
 .area3__images {
   width: 240px; }
@@ -7791,11 +7793,12 @@ b {
     display: flex;
     justify-content: space-around; }
 
-.toolbar__logo a {
+.toolbar__logo {
   color: white;
   text-decoration: none;
   margin-left: 120px;
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  width: 100%; }
 
 .spacer {
   flex: 1; }
@@ -7917,12 +7920,8 @@ b {
     background-color: transparent; }
   .toolbar__items {
     display: none; }
-  .toolbar__logo a {
-    margin-left: 20px; } }
-
-@media (min-width: 930px) {
   .toolbar__logo {
-    margin-left: 0; } }
+    margin-left: 20px; } }
 
 @media (min-width: 930px) {
   .side-drawer {
@@ -7954,6 +7953,11 @@ b {
   margin: 20px 0px 20px 0px;
   font-size: 14px;
   width: 90%; }
+
+.terms__container {
+  margin-top: 100px; }
+  .terms__container p {
+    margin-bottom: 30px; }
 
 
 /*# sourceMappingURL=styles.chunk.css.map*/
