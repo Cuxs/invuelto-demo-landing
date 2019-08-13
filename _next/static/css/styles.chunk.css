@@ -7771,6 +7771,8 @@ b {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500; }
+  .toolbar.white {
+    background-color: #fafafa; }
   .toolbar ul {
     list-style-type: none; }
 
