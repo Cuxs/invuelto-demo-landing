@@ -1,3 +1,4 @@
+import PrimaryButton from "./PrimaryButton";
 export default () => <div className="area2__container container" id="vuelven-los-vueltos">
   <h2><b>Vuelven los vueltos</b></h2>
   <img alt="vuelven los vueltos" className="area2__image" src='../static/images/pig-enamorado.png'></img>
@@ -9,4 +10,6 @@ export default () => <div className="area2__container container" id="vuelven-los
   <p className="container"><b>Ahora podés pedir tu vuelto y dar vuelto a tus clientes.</b></p>
     <p>¡Cada peso cuenta!. Sumalo a tu alcancía</p>
     <p>para generar intereses a tu favor.</p>
+  <PrimaryButton className="mt-5 mb-5" bold='Saber' noBold="más" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
+
 </div>

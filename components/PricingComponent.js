@@ -21,7 +21,7 @@ export default () => <div className="pricing__container" id="precios">
     </div>
     <div className="item-normal">
       <p className="item-normal__price">$<b>0</b></p>
-      <p className="item-normal__description"><b>Ingrsar</b> o <b>RETIRAR</b></p>
+      <p className="item-normal__description"><b>Ingresar</b> o <b>RETIRAR</b></p>
       <p className="item-normal__description"><b>dinero 24/7</b></p>
     </div>
   </div>
@@ -52,13 +52,13 @@ export default () => <div className="pricing__container" id="precios">
       </div>
       <div className="item-normal">
         <p className="item-normal__price">$<b>0</b></p>
-        <p className="item-normal__description"><b>Ingrsar</b> o <b>RETIRAR</b></p>
+        <p className="item-normal__description"><b>Ingresar</b> o <b>RETIRAR</b></p>
         <p className="item-normal__description"><b>dinero 24/7</b></p>
       </div>
     </Carousel>
   </div>
-  <p className="mt-5 container">Si ahorrás más $3.500, sólo pagás $35 por mes;</p>
-  <p className="container">Y si ahorrás más de $25.000 sólo pagás 0,16% por mes.</p>
+  <p className="mt-5 container">$35 por mes, si superaste los $3500 de ahorro,</p>
+  <p className="container">Y el 0,16% mensual si superás los $25.000 de ahorro.</p>
 
 
 </div>

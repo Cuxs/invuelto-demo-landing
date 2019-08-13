@@ -31,11 +31,12 @@
   }
 }
 
-.toolbar__logo a {
+.toolbar__logo {
   color: white;
   text-decoration: none;
   margin-left: 120px;
   font-size: 1.5rem;
+  width: 100%;
 }
 
 .spacer {
@@ -181,18 +182,12 @@
   .toolbar__items {
     display: none;
   }
-  .toolbar__logo a {
+  .toolbar__logo{
     margin-left: 20px;
   }
 }
 
-@media (min-width: 930px) {
 
-
-  .toolbar__logo {
-    margin-left: 0;
-  }
-}
 @media (min-width: 930px) {
   .side-drawer {
     display: none;
