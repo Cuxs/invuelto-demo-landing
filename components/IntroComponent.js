@@ -1,7 +1,6 @@
 import PrimaryButton from "./PrimaryButton";
 
 export default () => <div className="text-center container">
-  <h2 className="mb-5">¡Hola! bienvenidos a<b> invuelto.com</b> </h2>
   <span className="d-none d-md-block">
     <h2>¿No sabés en qué ni cuándo </h2>
     <h2 className="mb-5">se te va la plata?</h2>
