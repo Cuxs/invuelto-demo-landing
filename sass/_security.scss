@@ -6,11 +6,11 @@
 }
 .security__circle1 {
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   margin: 400px 0px 0px -210px;
 }
 .security__subcontainer {
-  margin-top: 120px;
+  margin-top: 90px;
   margin-bottom: 120px;
 }
 .pig__container {
@@ -28,10 +28,10 @@
 }
 
 .security__elements-container {
-  height: 960px;
+  height: 870px;
   background-image: url("/static/images/banner-blue.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 90%;
   text-align: center;
   padding: 140px 0px 0px 0px;
   z-index: -1;
@@ -40,7 +40,7 @@
 .security__circle2 {
   right: -200px;
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   top: 30px;
 }
 @media screen and (max-width: 769px) {
@@ -49,17 +49,18 @@
   }
   .security__circle1 {
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     margin:290px 0px 0px -210px;
   }
   .security__circle2 {
     right: -200px;
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     top: -5px;
   }
   .security__elements-container {
-    height: 1500px;
+    height: 1300px;
+    background-size: cover
   }
   .security__images-container {
     img {
