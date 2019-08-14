@@ -4,6 +4,7 @@ module.exports = withFonts(withSass({
   exportPathMap: function () {
     return {
       '/': { page: '/' },
+      '/terminos-y-condiciones': { page: '/terminos-y-condiciones' },
     }
   },
   // assetPrefix: '/invuelto-demo-landing', //para el deploy
