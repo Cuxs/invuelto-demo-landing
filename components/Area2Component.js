@@ -1,5 +1,5 @@
 import PrimaryButton from "./PrimaryButton";
-export default () => <div className="area2__container container" id="vuelven-los-vueltos">
+export default () => <div className="area2__container" id="vuelven-los-vueltos">
   <h2><b>Vuelven los vueltos</b></h2>
   <img alt="vuelven los vueltos" className="area2__image" src='../static/images/pig-enamorado.png'></img>
   <h3 className="mt-5 mb-4"><b>No más</b> vueltos en <b>caramelos</b></h3>
