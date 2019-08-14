@@ -880,7 +880,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "text-primary",
+    className: "text-primary mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
