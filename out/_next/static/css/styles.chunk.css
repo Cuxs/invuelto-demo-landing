@@ -7076,7 +7076,7 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: 0.5px;
   border-radius: 24px;
   padding: 17px 25px 15px 25px;
-  box-shadow: 7px 10px 20px -1px #c8c6c6; }
+  box-shadow: 7px 5px 0px -1px #e3e2e2; }
   .button-secondary:hover {
     color: #3550ab;
     background-color: #6df8ee; }
@@ -7487,7 +7487,7 @@ b {
     display: block; }
   .howto__elements-container {
     height: 1450px;
-    background-size: 260% 100%;
+    background-size: 260% 95%;
     text-align: center;
     padding: 200px 0px 0px 0px;
     z-index: -1; }
@@ -7505,6 +7505,7 @@ b {
     margin-top: 50px; } }
 
 .area1__container {
+  margin-top: 150px;
   text-align: center;
   overflow: hidden;
   position: relative; }
@@ -7579,7 +7580,9 @@ b {
     left: 60%;
     position: absolute; }
   .area2__spots, .area2__circle {
-    display: none; } }
+    display: none; }
+  .area2__container {
+    margin-top: 0px; } }
 
 .security__container {
   width: 100%;
