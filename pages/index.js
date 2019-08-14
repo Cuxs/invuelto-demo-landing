@@ -30,38 +30,38 @@ const Home = () => {
           <Fragment>
             <Jumbotron />
             <IntroComponent />
-          </Fragment>
-          : <div />
-        }
-        <Waypoint
-          onEnter={() => toggleVisibilityGroup2(true)}
-        />
-
-        {group2 ?
-          <Fragment>
-            <HowToComponent />
             <Waypoint
-              onEnter={() => toggleVisibilityGroup3(true)}
+              onEnter={() => toggleVisibilityGroup2(true)}
             />
             <Area1Component />
           </Fragment>
           : <div />
         }
 
+        {group2 ?
+          <Fragment>
+            <Waypoint
+              onEnter={() => toggleVisibilityGroup3(true)}
+            />
+            <HowToComponent />
+            <Area2Component />
+          </Fragment>
+          : <div />
+        }
+
         {group3 ?
           <Fragment>
-            <Area2Component />
             <Waypoint
               onEnter={() => toggleVisibilityGroup4(true)}
             />
             <Area3Component />
+            <SecurityComponent />
           </Fragment>
           : <div />
         }
 
         {group4 ?
           <Fragment>
-            <SecurityComponent />
             <PricingComponent />
             <FooterComponent />
           </Fragment> :
