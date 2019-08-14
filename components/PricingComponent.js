@@ -4,7 +4,7 @@ export default () => <div className="pricing__container" id="precios">
   <h2><b>Costos</b></h2>
   <h3 className="text-secondary mt-4">Tu alcancía gratis hasta $3500.</h3>
   <h3 className="text-secondary">Podés ahorrar y generar intereses.</h3>
-  <div className="d-none d-md-flex pricing__items-container">
+  <div className="d-none d-md-none d-lg-flex pricing__items-container">
     <div className="item-normal">
       <p className="item-normal__price">$<b>0</b></p>
       <p className="item-normal__description">Revisar <b>Saldos</b> y</p>
@@ -25,7 +25,7 @@ export default () => <div className="pricing__container" id="precios">
       <p className="item-normal__description"><b>dinero 24/7</b></p>
     </div>
   </div>
-  <div className="d-block d-md-none">
+  <div className="d-md-block d-lg-none">
     <Carousel 
       centerMode
       swipeable
