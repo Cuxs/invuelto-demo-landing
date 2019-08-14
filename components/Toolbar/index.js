@@ -8,11 +8,11 @@ export default props => {
   const renderLogo = () => {
     return logoColor ?
       <div className="mt-3 toolbar__logo">
-        <img src="../static/images/logo-color.png" style={{ width: '170px' }} />
+        <img src="../static/images/logo-color.png" />
       </div>
       :
       <div className="mt-3 toolbar__logo">
-        <img src="../static/images/logo-blanco.png" style={{ width: '170px' }} />
+        <img src="../static/images/logo-blanco.png"/>
       </div>
   }
   useEffect(() => {
