@@ -1,4 +1,5 @@
 .area1__container {
+  margin-top: 150px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -88,6 +89,9 @@
   }
   .area2__spots, .area2__circle{  
     display: none
+  }
+  .area2__container{
+    margin-top: 0px;
   }
 
 }
