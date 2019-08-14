@@ -37,6 +37,9 @@ const Home = () => {
           </Fragment>
           : <div />
         }
+        <Waypoint
+          onEnter={() => toggleVisibilityGroup2(true)}
+        />
 
         {group2 ?
           <Fragment>
@@ -48,6 +51,9 @@ const Home = () => {
           </Fragment>
           : <div />
         }
+        <Waypoint
+            onEnter={() => toggleVisibilityGroup3(true)}
+        />
 
         {group3 ?
           <Fragment>
@@ -59,6 +65,9 @@ const Home = () => {
           </Fragment>
           : <div />
         }
+        <Waypoint
+            onEnter={() => toggleVisibilityGroup4(true)}
+        />
 
         {group4 ?
           <Fragment>
