@@ -6,7 +6,7 @@ export default () => <div className="footer__container">
       <h2><b>invuelto</b>.com</h2>
     </div>
     <div className="footer__social-container">
-      <h3 className="mb-4 text-color3">Seguinos en nuestras redes</h3>
+      <h3 className="footer__follow-us">Seguinos</h3>
       <div className='footer__social'>
         <a target="__blank" rel="noopener noreferrer" href="https://facebook.com/invuelto"><img alt="redes" src='../static/images/fb.png'></img></a>
         <a target="__blank" rel="noopener noreferrer" href="https://linkedin.com/in/invuelto"><img alt="redes" src='../static/images/in.png'></img></a>
