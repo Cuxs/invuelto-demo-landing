@@ -311,7 +311,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "area2__container container",
+    className: "area2__container",
     id: "vuelven-los-vueltos",
     __source: {
       fileName: _jsxFileName,
@@ -722,13 +722,13 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "mb-4 text-color3",
+    className: "footer__follow-us",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Seguinos en nuestras redes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Seguinos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer__social",
     __source: {
       fileName: _jsxFileName,
@@ -879,7 +879,8 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 9
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
