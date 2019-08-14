@@ -7,7 +7,7 @@ export default () => {
     <div className="howto__container">
       <img className="howto__circle1" src="../static/images/circle-aqua.png" />
       <div className="howto__elements-container">
-        <h2 className="text-primary">¿Cómo ahorrar?</h2>
+        <h2 className="text-primary mb-5">¿Cómo ahorrar?</h2>
         <div className="howto__areas-container">
           <div className="howto__area1">
             <img alt="Intereses" src="../static/images/howto_step1.png"></img>

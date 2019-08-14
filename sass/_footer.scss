@@ -5,6 +5,7 @@
   background-image: url("/static/images/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 5%;
 }
 .footer__circle1{
   position: absolute;
@@ -60,7 +61,7 @@
     height: 240px;
   }
   .footer__follow-us{
-    text-align: right !important;
+    text-align: center !important;
   }
   .footer__social {
     width: 100%;

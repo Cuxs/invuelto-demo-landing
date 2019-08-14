@@ -7,13 +7,13 @@
   position: absolute;
   z-index: -1;
   left: -120px;
-  // margin: 49px 0px 0px -160px;;
+  top:-15px;
 }
 
 .howto__elements-container {
   background-image: url("/static/images/banner-aqua.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 90%;
   height: 900px;
   text-align: center;
   padding: 170px 0px 0px 0px;
