@@ -7353,6 +7353,12 @@ a.text-dark:hover, a.text-dark:focus {
     padding: 10px 25px 15px 25px;
     border-radius: 15px; } }
 
+@media screen and (max-width: 321px) {
+  .button-secondary, .button-primary {
+    min-width: 90px;
+    max-height: 50px;
+    padding: 15px 25px 15px 25px; } }
+
 @font-face {
   font-family: 'Mazzard H';
   src: url(/_next/static/fonts/MazzardH-Italic-06d2ca3e5d654f7c2a0e577eb7a35734.woff2) format("woff2"), url(/_next/static/fonts/MazzardH-Italic-52b0bb8ba1a249f8b58a7ad3e2e7495d.woff) format("woff");
@@ -7840,11 +7846,11 @@ b {
 
 .security__circle1 {
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   margin: 400px 0px 0px -210px; }
 
 .security__subcontainer {
-  margin-top: 120px;
+  margin-top: 90px;
   margin-bottom: 120px; }
 
 .pig__container {
@@ -7859,10 +7865,10 @@ b {
   height: 100%; }
 
 .security__elements-container {
-  height: 960px;
+  height: 870px;
   background-image: url("/static/images/banner-blue.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 90%;
   text-align: center;
   padding: 140px 0px 0px 0px;
   z-index: -1; }
@@ -7870,7 +7876,7 @@ b {
 .security__circle2 {
   right: -200px;
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   top: 30px; }
 
 @media screen and (max-width: 769px) {
@@ -7878,15 +7884,16 @@ b {
     text-align: center; }
   .security__circle1 {
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     margin: 290px 0px 0px -210px; }
   .security__circle2 {
     right: -200px;
     position: absolute;
-    z-index: 10;
+    z-index: 0;
     top: -5px; }
   .security__elements-container {
-    height: 1500px; }
+    height: 1300px;
+    background-size: cover; }
   .security__images-container img {
     width: 250px;
     height: 100%;
@@ -8031,6 +8038,8 @@ b {
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 500; }
+  .toolbar.white {
+    background-color: #fafafa; }
   .toolbar ul {
     list-style-type: none; }
 
@@ -8059,6 +8068,8 @@ b {
   margin-left: 120px;
   font-size: 1.5rem;
   width: 100%; }
+  .toolbar__logo img {
+    width: 170px; }
 
 .spacer {
   flex: 1; }
@@ -8182,6 +8193,13 @@ b {
     display: none; }
   .toolbar__logo {
     margin-left: 20px; } }
+
+@media (max-width: 770px) {
+  .toolbar__logo {
+    margin-bottom: auto !important;
+    margin-top: auto !important; }
+    .toolbar__logo img {
+      width: 100px; } }
 
 @media (min-width: 930px) {
   .side-drawer {

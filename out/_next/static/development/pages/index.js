@@ -947,7 +947,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 17
     },
     __self: this
-  }, "y se nota."), " \uD83D\uDE09"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  }, "y se nota"), " ;)"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "#tus-intereses-primero",
     __source: {
       fileName: _jsxFileName,
@@ -1139,70 +1139,57 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
       lineNumber: 3
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    className: "mb-5",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, "\xA1Hola! bienvenidos a", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, " invuelto.com"), " "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "d-none d-md-block",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 5
     },
     __self: this
   }, "\xBFNo sab\xE9s en qu\xE9 ni cu\xE1ndo "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 6
     },
     __self: this
   }, "se te va la plata?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: "d-md-none d-block",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 8
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 9
     },
     __self: this
   }, "\xBFNo sab\xE9s en qu\xE9 ni cu\xE1ndo se te va la plata?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 11
     },
     __self: this
   }, "Conoc\xE9 la herramienta que te facilita ahorrar"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 12
     },
     __self: this
   }, "\xA1Dale una sorpresa a tu yo del futuro!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimaryButton__WEBPACK_IMPORTED_MODULE_1__["default"], {
@@ -1213,7 +1200,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 13
     },
     __self: this
   }));
@@ -1972,7 +1959,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, "Seguridad")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "text-color3 container mb-5",
+    className: "text-color3 container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
@@ -2370,9 +2357,6 @@ var _this = undefined,
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
       src: "../static/images/logo-color.png",
-      style: {
-        width: '170px'
-      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 11
@@ -2387,9 +2371,6 @@ var _this = undefined,
       __self: this
     }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
       src: "../static/images/logo-blanco.png",
-      style: {
-        width: '170px'
-      },
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
