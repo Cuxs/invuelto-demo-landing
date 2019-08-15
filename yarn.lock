@@ -3117,6 +3117,11 @@ lodash.tail@^4.1.1:
   resolved "https://registry.yarnpkg.com/lodash.tail/-/lodash.tail-4.1.1.tgz#d2333a36d9e7717c8ad2f7cacafec7c32b444664"
   integrity sha1-0jM6NtnncXyK0vfKyv7HwytERmQ=
 
+lodash.throttle@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/lodash.throttle/-/lodash.throttle-4.1.1.tgz#c23e91b710242ac70c37f1e1cda9274cc39bf2f4"
+  integrity sha1-wj6RtxAkKscMN/HhzaknTMOb8vQ=
+
 lodash@^4.0.0, lodash@^4.17.11, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.4, lodash@^4.17.5, lodash@~4.17.10:
   version "4.17.15"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
@@ -4188,6 +4193,11 @@ react-error-overlay@5.1.6:
   version "5.1.6"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.6.tgz#0cd73407c5d141f9638ae1e0c63e7b2bf7e9929d"
 
+react-hotjar@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/react-hotjar/-/react-hotjar-2.0.2.tgz#3c98594e5708f59c6459e4df88338fa3bbca5e89"
+  integrity sha512-ei8Ep15GYk5fOFQm5q2hyfDRe/i0kh+ZD1n30g8UD7C4/Njq2H50fzGIYw9BJBPKgRTL0TkuxUVMMCUXVip9xQ==
+
 react-is@16.8.6, react-is@^16.6.3, react-is@^16.8.1:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
@@ -4220,6 +4230,14 @@ react-responsive-navbar@^1.0.11:
   integrity sha512-Wnq9ywFWb1napCY2XQEQxHcInXi4Ckz+jibqCIAdCfY4k5ftUief7UUBjfF5TnYGBjwm57eRnoSYJ+yklf+ELQ==
   dependencies:
     styled-components "^2.2.4"
+
+react-scroll@^1.7.13:
+  version "1.7.13"
+  resolved "https://registry.yarnpkg.com/react-scroll/-/react-scroll-1.7.13.tgz#e68c8bfd79e19cb71893e1fc341691ad3411d44e"
+  integrity sha512-DsXuCGZehsbbRVDlBhBT1GtkMR2VzYTqqzd0+swqdbC/rRVYDjleujGDaaUJh9FQMNDEMLB9NEmHLdD2yuyFBA==
+  dependencies:
+    lodash.throttle "^4.1.1"
+    prop-types "^15.5.8"
 
 react-waypoint@^9.0.2:
   version "9.0.2"

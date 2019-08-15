@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import DrawerToggleButton from './DrawerToggleButton';
 import SecondaryButton from '../SecondaryButton';
+import { Link } from 'react-scroll'
 
 export default props => {
   const [color, setColor] = useState('');
@@ -12,7 +13,7 @@ export default props => {
       </div>
       :
       <div className="mt-3 toolbar__logo">
-        <img src="../static/images/logo-blanco.png"/>
+        <img src="../static/images/logo-blanco.png" />
       </div>
   }
   useEffect(() => {
@@ -38,10 +39,34 @@ export default props => {
         <div className="spacer" />
         <div className="toolbar__items">
           <ul>
-            <li><a href="#tus-intereses-primero">Cómo funciona</a></li>
-            <li><a href="#precios">Precios</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#academia-del-ahorro">Tips de ahorro</a></li>
+            <li>{props.external ?
+              <a href="/index#tus-intereses-primero">Cómo funciona</a>
+              :
+              <Link activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
+                Cómo funciona
+              </Link>
+            }</li>
+            <li>{props.external ?
+              <a href="/index#precios">Precios</a>
+              :
+              <Link activeClass="side-drawer--active" to="precios" offset={-120} duration={1000}>
+                Precios
+              </Link>
+            }</li>
+            {/* <li>{props.external ?
+              <a href="#">FAQ</a>
+              :
+              <Link activeClass="side-drawer--active" to="test1" offset={50} duration={1000}>
+                Test 1
+              </Link>
+            }</li> */}
+            <li>{props.external ?
+              <a href="#academia-del-ahorro">Tips de ahorro</a>
+              :
+              <Link activeClass="side-drawer--active" to="academia-del-ahorro" offset={-120} duration={1000}>
+                Tips de ahorro
+              </Link>
+            }</li>
           </ul>
           <SecondaryButton className="toolbar__button-group1" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
           <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>

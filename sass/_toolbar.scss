@@ -32,6 +32,12 @@
     width: 60%;
     display: flex;
     justify-content: space-around;
+    li{
+      cursor: pointer;
+      &:hover{
+        color: $secondaryColor;
+      }
+    }
   }
 }
 
@@ -147,6 +153,9 @@
 
 .side-drawer a:hover,
 .side-drawer a:active {
+  color: $color3;
+}
+.side-drawer--active {
   color: $color3;
 }
 .toolbar__button-group2 {

@@ -14,8 +14,8 @@ const Nav = (props) => {
   return (
     <nav>
       <div>
-        <Toolbar drawerClickHandler={() => props.toggle(!props.open)} />
-        <SideDrawer show={props.open} click={()=>props.toggle(!props.open)} />
+        <Toolbar drawerClickHandler={() => props.toggle(!props.open)} external={props.external} />
+        <SideDrawer show={props.open} click={()=>props.toggle(!props.open)} external={props.external} />
         {backdrop}
       </div>
     </nav>

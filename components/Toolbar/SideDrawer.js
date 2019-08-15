@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import SecondaryButton from "../SecondaryButton";
+import { Link } from 'react-scroll'
 
 export default props => {
   let drawerClasses = 'side-drawer';
@@ -12,10 +13,26 @@ export default props => {
       <button className="side-drawer__close-button" onClick={props.click}>&#8592;</button>
       <div className="text-center">
         <ul>
-          <li><a onClick={() => props.click()} href="#tus-intereses-primero">Cómo funciona</a></li>
-          <li><a onClick={() => props.click()} href="#precios">Precios</a></li>
-          <li><a onClick={() => props.click()} href="#">FAQ</a></li>
-          <li><a onClick={() => props.click()} href="#academia-del-ahorro">Tips de ahorro</a></li>
+          <li>{props.external ? <a href="index#tus-intereses-primero">Cómo funciona</a>:
+        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
+                Cómo funciona
+              </Link>
+            }</li>
+          <li>{props.external ? <a href="index#precios">Precios</a>:
+        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="precios" offset={-120} duration={1000}>
+          Precios
+              </Link>
+            }</li>
+          {/* <li>{props.external ? <a href="#">FAQ</a>:
+        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
+                FAQ
+              </Link>
+            }</li> */}
+          <li>{props.external ? <a href="index#academia-del-ahorro">Tips de ahorro</a>:
+        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="academia-del-ahorro" offset={-120} duration={1000}>
+          Tips de ahorro
+              </Link>
+            }</li>
         </ul>
         <SecondaryButton className="side-drawer__login" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
       </div>
