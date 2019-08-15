@@ -7692,7 +7692,7 @@ b {
   font-size: 14px;
   line-height: 5px; }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 990px) {
   .pricing__items-container {
     overflow-x: scroll;
     height: 300px; }
@@ -7814,6 +7814,10 @@ b {
     width: 60%;
     display: flex;
     justify-content: space-around; }
+    .toolbar__items ul li {
+      cursor: pointer; }
+      .toolbar__items ul li:hover {
+        color: #00c3b8; }
 
 .toolbar__logo {
   color: white;
@@ -7917,6 +7921,9 @@ b {
 
 .side-drawer a:hover,
 .side-drawer a:active {
+  color: #6df8ee; }
+
+.side-drawer--active {
   color: #6df8ee; }
 
 .toolbar__button-group2 {
