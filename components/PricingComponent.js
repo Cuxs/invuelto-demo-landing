@@ -2,8 +2,8 @@ import { Carousel } from "react-responsive-carousel";
 
 export default () => <div className="pricing__container" id="precios">
   <h2><b>Costos</b></h2>
-  <h3 className="text-secondary mt-4">Tu alcancía gratis hasta $3500.</h3>
-  <h3 className="text-secondary">Podés ahorrar y generar intereses.</h3>
+  <h3 className="text-primary mt-4">Tu alcancía gratis hasta $3.500.</h3>
+  <h3 className="text-primary">Podés ahorrar y generar intereses.</h3>
   <div className="d-none d-md-none d-lg-flex pricing__items-container">
     <div className="item-normal">
       <p className="item-normal__price">$<b>0</b></p>

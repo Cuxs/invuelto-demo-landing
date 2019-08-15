@@ -22,60 +22,51 @@ const Home = () => {
 
   return (
     <Fragment>
-          <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
+        <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
         <Head title="Invuelto, tu alcancía digital" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
         <Nav open={sideDrawerOpen} toggle={toggleSideDrawer}></Nav>
-        {group1 ?
-          <Fragment>
-            <Jumbotron />
-            <IntroComponent />
-            <Waypoint
-              onEnter={() => toggleVisibilityGroup2(true)}
-            />
-            <Area1Component />
-          </Fragment>
-          : <div />
-        }
-        <Waypoint
-          onEnter={() => toggleVisibilityGroup2(true)}
-        />
-
-        {group2 ?
-          <Fragment>
-            <Waypoint
-              onEnter={() => toggleVisibilityGroup3(true)}
-            />
-            <HowToComponent />
-            <Area2Component />
-          </Fragment>
-          : <div />
-        }
-        <Waypoint
-            onEnter={() => toggleVisibilityGroup3(true)}
-        />
-
-        {group3 ?
-          <Fragment>
-            <Waypoint
-              onEnter={() => toggleVisibilityGroup4(true)}
-            />
-            <Area3Component />
-            <SecurityComponent />
-          </Fragment>
-          : <div />
-        }
-        <Waypoint
-            onEnter={() => toggleVisibilityGroup4(true)}
-        />
-
-        {group4 ?
-          <Fragment>
-            <PricingComponent />
-            <FooterComponent />
-          </Fragment> :
-          <div />
-        }
+          <Jumbotron />
+          <IntroComponent />
+          <Waypoint
+            onEnter={() => toggleVisibilityGroup2(true)}
+          />
+          <Area1Component />
+          <Waypoint
+            onEnter={() => toggleVisibilityGroup2(true)}
+          />
+          <Waypoint
+            onEnter={() =>{
+              toggleVisibilityGroup2(true)
+              toggleVisibilityGroup3(true)
+            }}
+          />
+          <HowToComponent showImages={group2} />
+          <Area2Component showImages={group2} />
+          <Waypoint
+              onEnter={() =>{
+                toggleVisibilityGroup2(true)
+                toggleVisibilityGroup3(true)
+              }}
+          />
+          <Waypoint
+            onEnter={() =>{
+              toggleVisibilityGroup2(true)
+              toggleVisibilityGroup3(true)
+              toggleVisibilityGroup4(true)
+            }}
+          />
+          <Area3Component showImages={group3}/>
+          <SecurityComponent showImages={group3}/>
+          <Waypoint
+            onEnter={() =>{
+              toggleVisibilityGroup2(true);
+              toggleVisibilityGroup3(true);
+              toggleVisibilityGroup4(true);
+            }}
+          />
+          <PricingComponent showImages={group4} />
+          <FooterComponent showImages={group4} />
         </Swipe>
       </Fragment>
         

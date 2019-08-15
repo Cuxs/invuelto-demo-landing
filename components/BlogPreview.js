@@ -20,7 +20,7 @@ export default (props) => {
   },[])
 
   return (<div className="container mb-5">
-    <a target="__blank" rel="noopener noreferrer" href={props.url}><div className="preview__image mx-auto" style={{backgroundImage:`url(${API_URL}/images/${post.image})`}} ></div></a>
+    <a target="__blank" rel="noopener noreferrer" href={props.url}><div className="preview__image mx-auto" style={{backgroundImage:`${props.showImages ? `url(${API_URL}/images/${post.image}) `: ''}`}} ></div></a>
     <h3 className="preview__title mx-auto">{post.title}</h3>
     <a className="mb-5" target="__blank" rel="noopener noreferrer" href={props.url}>Leer nota</a>
 
