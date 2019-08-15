@@ -1,6 +1,7 @@
-import React, { Fragment, useState } from 'react'
+import React, { Fragment, useState, useEffect } from 'react'
 import { Waypoint } from 'react-waypoint';
 import Swipe from 'react-easy-swipe';
+import { hotjar } from 'react-hotjar';
 import Head from '../components/head'
 import Nav from '../components/nav'
 import '../sass/main.scss';
@@ -19,6 +20,9 @@ const Home = () => {
   const [group3, toggleVisibilityGroup3] = useState(false)
   const [group4, toggleVisibilityGroup4] = useState(false);
   const [sideDrawerOpen, toggleSideDrawer] = useState(false);
+  useEffect(()=>{
+    hotjar.initialize(1063100, 6);
+  })
 
   return (
     <Fragment>
@@ -29,13 +33,16 @@ const Home = () => {
           <Jumbotron />
           <IntroComponent />
           <Waypoint
+          fireOnRapidScroll={false}
             onEnter={() => toggleVisibilityGroup2(true)}
           />
           <Area1Component />
           <Waypoint
+          fireOnRapidScroll={false}
             onEnter={() => toggleVisibilityGroup2(true)}
           />
           <Waypoint
+          fireOnRapidScroll={false}
             onEnter={() =>{
               toggleVisibilityGroup2(true)
               toggleVisibilityGroup3(true)
@@ -44,12 +51,14 @@ const Home = () => {
           <HowToComponent showImages={group2} />
           <Area2Component showImages={group2} />
           <Waypoint
+          fireOnRapidScroll={false}
               onEnter={() =>{
                 toggleVisibilityGroup2(true)
                 toggleVisibilityGroup3(true)
               }}
           />
           <Waypoint
+          fireOnRapidScroll={false}
             onEnter={() =>{
               toggleVisibilityGroup2(true)
               toggleVisibilityGroup3(true)
@@ -59,6 +68,7 @@ const Home = () => {
           <Area3Component showImages={group3}/>
           <SecurityComponent showImages={group3}/>
           <Waypoint
+          fireOnRapidScroll={false}
             onEnter={() =>{
               toggleVisibilityGroup2(true);
               toggleVisibilityGroup3(true);
