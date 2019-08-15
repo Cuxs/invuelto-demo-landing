@@ -61,7 +61,7 @@ export default props => {
               </Link>
             }</li> */}
             <li>{props.external ?
-              <a href="#academia-del-ahorro">Tips de ahorro</a>
+              <a href="/index#academia-del-ahorro">Tips de ahorro</a>
               :
               <Link activeClass="side-drawer--active" to="academia-del-ahorro" offset={-120} duration={1000}>
                 Tips de ahorro
