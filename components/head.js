@@ -4,7 +4,7 @@ import { string } from 'prop-types'
 
 const defaultDescription = ''
 const defaultOGURL = ''
-const defaultOGImage = ''
+const defaultOGImage = '/static/preview.jpg'
 
 const Head = props => (
   <NextHead>
@@ -46,8 +46,8 @@ const Head = props => (
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:image" content={props.ogImage || defaultOGImage} />
     <meta property="og:image" content={props.ogImage || defaultOGImage} />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <meta property="og:image:width" content="800" />
+    <meta property="og:image:height" content="800" />
     <script src="//code.tidio.co/fhbhfntazlreebvo84eosz7njkwljcsv.js"></script>
 
   </NextHead>
