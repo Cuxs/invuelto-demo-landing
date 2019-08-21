@@ -8,8 +8,8 @@ export default () => {
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
 
           <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-happy.png" />
-          <img alt="moneda" className="jumbotron__coin-1" src="../static/images/coin.png" />
-          <img alt="moneda" className="jumbotron__coin-2" src="../static/images/coin.png" />
+          {/* <img alt="moneda" className="jumbotron__coin-1" src="../static/images/coin.png" /> */}
+          {/* <img alt="moneda" className="jumbotron__coin-2" src="../static/images/coin.png" /> */}
           <img alt="celular" className="jumbotron__phone" src="../static/images/phone.png" />
           <h3 className="d-none d-md-block jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
         </div>

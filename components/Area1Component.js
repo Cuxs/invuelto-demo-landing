@@ -1,16 +1,16 @@
 import PrimaryButton from "./PrimaryButton";
 
 export default () => <div className="area1__container" id="tus-intereses-primero">
-  <h2 className="container"><b>Tus ahorros crecen y se nota ;)</b></h2>
+  <h2 className="container"><b>Queremos mejorar tu salud financiera</b></h2>
   <img className="area1__image" alt="chancho musculoso" src='../static/images/pig-musculoso.png'></img>
-  <h3 className="mb-5">¿Cómo <b>potenciar</b> tus ahorros?</h3>
+  <h3 className="mb-5">¿Cómo <b>funciona</b>?</h3>
   <div className="area1__step-container">
     <div className="area1__step1">
       <img alt="alcancia" src="../static/images/alcancia.png"></img>
       <h3>1. <b>Activá</b> tu</h3>
       <h3 className="mb-4"> alcancía</h3>
-      <p>Registrate con tu email,</p>
-      <p>teléfono, contraseña y DNI.</p>
+      <p>Registrate gratis con tu email,</p>
+      <p>teléfono y DNI.</p>
     </div>
     <div className="area1__step2">
       <img alt="ahorro" src="../static/images/ahorro.png"></img>
