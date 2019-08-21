@@ -22,25 +22,6 @@
   top: 140px;
   width: 220px;
 }
-.jumbotron__coin-1 {
-  position: absolute;
-  left: 20px;
-  top: 350px;
-  width: 90px;
-  animation-name: bobble1;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-.jumbotron__coin-2 {
-  transform: rotate(40deg);
-  position: absolute;
-  width: 70px;
-  top: 120px;
-  left: 400px;
-  animation-name: bobble2;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-}
 .jumbotron__phone {
   position: absolute;
   width: 200px;
@@ -150,98 +131,5 @@
   }
   .jumbotron__container{
     margin-top: 90px;
-  }
-}
-
-@keyframes bobble1 {
-  0% {
-    transform: translate3d(0px, 0px, 0px) rotate(0deg);
-    animation-timing-function: linear;
-  }
-  10% {
-    transform: translate3d(0px, 10px, 0px) rotate(2deg);
-    animation-timing-function: linear;
-  }
-  20% {
-    transform: translate3d(0px, 20px, 0px) rotate(4deg);
-    animation-timing-function: linear;
-  }
-  30% {
-    transform: translate3d(0px, 30px, 0px) rotate(6deg);
-    animation-timing-function: linear;
-  }
-  40% {
-    transform: translate3d(0px, 40px, 0px) rotate(8deg);
-    animation-timing-function: linear;
-  }
-  50% {
-    transform: translate3d(0px, 50px, 0px) rotate(10deg);
-    animation-timing-function: linear;
-  }
-  60% {
-    transform: translate3d(0px, 40px, 0px) rotate(8deg);
-    animation-timing-function: linear;
-  }
-  70% {
-    transform: translate3d(0px, 30px, 0px) rotate(6deg);
-    animation-timing-function: linear;
-  }
-  80% {
-    transform: translate3d(0px, 20px, 0px) rotate(4deg);
-    animation-timing-function: linear;
-  }
-  90% {
-    transform: translate3d(0px, 10px, 0px) rotate(2deg);
-    animation-timing-function: linear;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px) rotate(0deg);
-    animation-timing-function: linear;
-  }
-}
-@keyframes bobble2 {
-  0% {
-    transform: translate3d(0px, 0px, 0px) rotate(40deg);
-    animation-timing-function: linear;
-  }
-  10% {
-    transform: translate3d(10px, 15px, 0px) rotate(42deg);
-    animation-timing-function: linear;
-  }
-  20% {
-    transform: translate3d(15px, 25px, 0px) rotate(45deg);
-    animation-timing-function: linear;
-  }
-  30% {
-    transform: translate3d(20px, 35px, 0px) rotate(46deg);
-    animation-timing-function: linear;
-  }
-  40% {
-    transform: translate3d(25px, 45px, 0px) rotate(50deg);
-    animation-timing-function: linear;
-  }
-  50% {
-    transform: translate3d(30px, 60px, 0px) rotate(55deg);
-    animation-timing-function: linear;
-  }
-  60% {
-    transform: translate3d(25px, 40px, 0px) rotate(44deg);
-    animation-timing-function: linear;
-  }
-  70% {
-    transform: translate3d(20px, 30px, 0px) rotate(43deg);
-    animation-timing-function: linear;
-  }
-  80% {
-    transform: translate3d(15px, 20px, 0px) rotate(42deg);
-    animation-timing-function: linear;
-  }
-  90% {
-    transform: translate3d(10px, 10px, 0px) rotate(41deg);
-    animation-timing-function: linear;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px) rotate(40deg);
-    animation-timing-function: linear;
   }
 }
