@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import SecondaryButton from "../components/SecondaryButton";
+import { getTotalCashBacks } from "../modules/fetches";
 import '../sass/main.scss';
 import '../sass/_odometer.scss';
 import VideoContainer from '../components/VideoContainer';
@@ -11,6 +12,19 @@ const Odometer = dynamic(import('react-odometerjs'), {
 
 const Vueltos = () => {
   const [count, setCount] = useState(0)
+
+  useEffect(()=>{
+    let ignore = false;
+
+    const getCashBackCount = async ()=> {
+      const response = await getTotalCashBacks()
+      if (!ignore) setCount(response.data.data);
+    }
+
+    getCashBackCount()
+    return () => { ignore = true; }
+
+  },[])
 
   return (<div>
     <div className="container text-center">
@@ -26,7 +40,7 @@ const Vueltos = () => {
         </div>
       </div>
       <div>
-        <h2 className="text-primary text-center">¡<Odometer theme="plaza" auto value={count} format="(ddd)" animation="count" /> VUELTOS DADOS!</h2>
+        <h2 className="text-primary text-center">¡<Odometer duration={4000} theme="plaza" auto value={count} format="(ddd)" animation="count" /> VUELTOS DADOS!</h2>
       </div>
       <VideoContainer videoId="2g811Eo7K8U"
         title="Quiero mi vuelto"
@@ -43,8 +57,7 @@ const Vueltos = () => {
         text3="Ver y revisar vueltos con dos clicks" />
       <SecondaryButton>Activá tu alcancía</SecondaryButton>
     </div>
-
-
   </div>)
 }
+
 export default Vueltos;
