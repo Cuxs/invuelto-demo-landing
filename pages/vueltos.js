@@ -30,8 +30,8 @@ const Vueltos = () => {
     <div className="container text-center">
       <div className="vueltos__jumbotron d-flex justify-content-between flex-lg-row flex-md-column flex-column">
         <div className="vueltos__jumbotron--images">
-          <img src="/static/images/formas-01.svg" className="vueltos__image1" alt="decorado" />
-          <img src="/static/images/formas-02.svg" className="vueltos__image2" alt="decorado" />
+          <img src="/static/images/vueltos/formas-01.svg" className="vueltos__image1" alt="decorado" />
+          <img src="/static/images/vueltos/formas-02.svg" className="vueltos__image2" alt="decorado" />
           <img src="/static/images/pig-enamorado.png" className="vueltos__image3" alt="decorado" />
         </div>
         <div className="vueltos__jumbotron--text">
@@ -43,6 +43,9 @@ const Vueltos = () => {
         <h2 className="text-primary text-center">¡<Odometer duration={4000} theme="plaza" auto value={count} format="(ddd)" animation="count" /> VUELTOS DADOS!</h2>
       </div>
       <VideoContainer videoId="2g811Eo7K8U"
+        icon1="/static/images/vueltos/sms.svg"
+        icon2="/static/images/vueltos/activala.svg"
+        icon3="/static/images/vueltos/crecen.svg"
         title="Quiero mi vuelto"
         subtitle="para usuarios"
         text1="Tu vuelto a tu celu por sms"
@@ -50,6 +53,9 @@ const Vueltos = () => {
         text3="Revisá como crecen día a día tus vueltos" />
       <SecondaryButton>Empezá a ahorrar</SecondaryButton>
       <VideoContainer videoId="dQw4w9WgXcQ"
+        icon1="/static/images/vueltos/digito.svg"
+        icon2="/static/images/vueltos/sms.svg"
+        icon3="/static/images/vueltos/revisar.svg"
         title="Quiero dar vueltos"
         subtitle="para negocios"
         text1="Vueltos de cualquier dígito ($1,00; 12,33 ó 9,76)"
