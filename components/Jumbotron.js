@@ -16,7 +16,7 @@ export default () => {
         <div className="jumbotron__title col-lg-4 col-md-12 pr-0">
           <h2 className="mb-3"><b>¿No sabés en qué ni cuándo se te va la plata?</b></h2>
           <p>Te ayudamos a <b>ahorrar</b> y <b>cuidamos</b></p>
-          <p>tu plata de la inflación.</p>
+          <p className="mb-4">tu plata de la inflación.</p>
           <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
         </div>
 

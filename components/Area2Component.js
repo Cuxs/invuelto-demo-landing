@@ -9,6 +9,6 @@ export default ({showImages}) => <div className="area2__container" id="vuelven-l
   <h3 className="text-secondary mb-5">y dar vuelto a tus clientes.</h3>
   </div>
   {showImages? <img className="area2__circle" src="../static/images/circle-opaqueblue.png"></img>:<div/>}
-  <PrimaryButton className="mt-5 mb-5" bold='Saber' noBold="más" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
+  <PrimaryButton className="mt-5 mb-5" bold='Saber' noBold="más" onClick={()=>window.location.assign('/vueltos')} />
 
 </div>
