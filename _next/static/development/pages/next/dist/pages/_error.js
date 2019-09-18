@@ -3714,16 +3714,16 @@ var styles = {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_829b10deddf10e1653a8 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_7aff549c98b978433226 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_829b10deddf10e1653a8 */ "dll-reference dll_829b10deddf10e1653a8"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_7aff549c98b978433226 */ "dll-reference dll_7aff549c98b978433226"))("./node_modules/react/index.js");
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!********************************************************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fnext%2Fdist%2Fpages%2F_error&absolutePagePath=%2FUsers%2Fmariano%2FTrabajo%2FInvuelto%2Finvuelto-landing%2Fnode_modules%2Fnext%2Fdist%2Fpages%2F_error.js ***!
   \********************************************************************************************************************************************************************************************************/
@@ -3735,16 +3735,16 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fnext%2
 
 /***/ }),
 
-/***/ "dll-reference dll_829b10deddf10e1653a8":
+/***/ "dll-reference dll_7aff549c98b978433226":
 /*!*******************************************!*\
-  !*** external "dll_829b10deddf10e1653a8" ***!
+  !*** external "dll_7aff549c98b978433226" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_829b10deddf10e1653a8;
+module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[3,"static/runtime/webpack.js"]]]);
+},[[4,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
