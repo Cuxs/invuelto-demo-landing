@@ -1,8 +1,10 @@
 import PrimaryButton from './PrimaryButton';
+import GoogleTagManager from './tagManager';
 export default () => {
   return (
     <section>
       <div className="jumbotron__container row mr-0">
+      <GoogleTagManager gtmId="GTM-5SSJRB7" />
 
         <div className="jumbotron__elements-container col-md-8 col-lg-6">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>

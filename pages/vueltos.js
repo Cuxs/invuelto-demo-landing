@@ -5,8 +5,8 @@ import { getTotalCashBacks } from "../modules/fetches";
 import '../sass/main.scss';
 import '../sass/_odometer.scss';
 import VideoContainer from '../components/VideoContainer';
-import GoogleTagManager from '../components/tagManager';
 import Head from '../components/head';
+import GoogleTagManager from '../components/tagManager';
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
   loading: () => 0
@@ -30,10 +30,10 @@ const Vueltos = () => {
 
   return (
     <div>
-      <GoogleTagManager gtmId="GTM-5SSJRB7" />
       <Head title="#Vuelvenlosvueltos" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
       <div className="container text-center">
+      <GoogleTagManager gtmId="GTM-5SSJRB7" />
         <div className="vueltos__jumbotron d-flex justify-content-between flex-lg-row flex-md-column flex-column">
           <div className="vueltos__jumbotron--images">
             <img src="/static/images/vueltos/formas-01.svg" className="vueltos__image1" alt="decorado" style={{ zIndex: '-1' }} />
@@ -42,7 +42,7 @@ const Vueltos = () => {
           </div>
           <div className="vueltos__jumbotron--text">
             <h2 className="mb-3" style={{ lineHeight: '140%' }}><b>La solución a los problemas de cambio y redondeo </b></h2>
-            <SecondaryButton><b>Comenzar</b></SecondaryButton>
+            <SecondaryButton onClick={()=>window.location.assign('https://app.invuelto.com/register')}><b>Comenzar</b></SecondaryButton>
           </div>
         </div>
         <div>
@@ -59,7 +59,7 @@ const Vueltos = () => {
           text1="Vueltos de cualquier dígito ($1,00; 12,33 ó 9,76)"
           text2="Acreditación automática a tus clientes con o sin cuenta"
           text3="Ver y revisar vueltos con un click" />
-        <SecondaryButton><b>Activá tu alcancía</b></SecondaryButton>
+        <SecondaryButton onClick={()=>window.location.assign('https://app.invuelto.com/register')}><b>Activá tu alcancía</b></SecondaryButton>
         <img className="deco2" src="/static/images/vueltos/moneda.svg" alt="decorado" />
         <img className="deco5" src="/static/images/vueltos/circle.svg" alt="decorado" />
         <img className="deco7" src="/static/images/vueltos/circle.svg" alt="decorado" />
@@ -74,7 +74,7 @@ const Vueltos = () => {
           text1="Tu vuelto a tu celu por sms"
           text2="¿No tenés cuenta? Activala gratis."
           text3="Revisá como crecen día a día tus vueltos" />
-        <SecondaryButton><b>Empezá a ahorrar</b></SecondaryButton>
+        <SecondaryButton onClick={()=>window.location.assign('https://app.invuelto.com/register')}><b>Empezá a ahorrar</b></SecondaryButton>
       </div>
       <img className="deco3" src="/static/images/vueltos/moneda.svg" alt="decorado" />
       <div className="footer__container" style={{ height: '550px' }}>

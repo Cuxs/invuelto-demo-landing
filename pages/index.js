@@ -14,7 +14,6 @@ import Area3Component from '../components/Area3Component';
 import SecurityComponent from '../components/SecurityComponent';
 import PricingComponent from '../components/PricingComponent';
 import FooterComponent from '../components/FooterComponent';
-import GoogleTagManager from '../components/tagManager';
 const Home = () => {
   const [group1, toggleVisibilityGroup1] = useState(true)
   const [group2, toggleVisibilityGroup2] = useState(false)
@@ -27,7 +26,6 @@ const Home = () => {
 
   return (
     <Fragment>
-        <GoogleTagManager gtmId="GTM-5SSJRB7" />
         <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
         <Head title="Invuelto, tu alcancía digital" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
