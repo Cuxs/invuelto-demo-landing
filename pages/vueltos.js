@@ -6,6 +6,7 @@ import '../sass/main.scss';
 import '../sass/_odometer.scss';
 import VideoContainer from '../components/VideoContainer';
 import GoogleTagManager from '../components/tagManager';
+import Head from '../components/head';
 const Odometer = dynamic(import('react-odometerjs'), {
   ssr: false,
   loading: () => 0
@@ -30,6 +31,8 @@ const Vueltos = () => {
   return (
     <div>
       <GoogleTagManager gtmId="GTM-5SSJRB7" />
+      <Head title="#Vuelvenlosvueltos" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
+  tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
       <div className="container text-center">
         <div className="vueltos__jumbotron d-flex justify-content-between flex-lg-row flex-md-column flex-column">
           <div className="vueltos__jumbotron--images">
