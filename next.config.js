@@ -5,6 +5,7 @@ module.exports = withFonts(withSass({
     return {
       '/': { page: '/' },
       '/terminos-y-condiciones': { page: '/terminos-y-condiciones' },
+      '/vueltos': { page: '/vueltos' },
     }
   },
   // assetPrefix: '/invuelto-demo-landing', //para el deploy
