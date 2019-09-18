@@ -7367,8 +7367,7 @@ b {
 .howto__circle1 {
   position: absolute;
   z-index: -1;
-  left: -120px;
-  top: -15px; }
+  left: -120px; }
 
 .howto__elements-container {
   background-image: url("/static/images/banner-aqua.png");
@@ -7644,8 +7643,7 @@ b {
   position: relative;
   background-image: url("/static/images/footer.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 5%; }
+  background-size: cover; }
 
 .footer__circle1 {
   position: absolute;
