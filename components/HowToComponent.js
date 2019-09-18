@@ -14,21 +14,21 @@ export default ({ showImages }) => {
             <h3 className="mb-0 mt-4 mb-4"><b>Automático</b></h3>
             <p className="text-primary">Vos solo definís el <b>monto</b></p>
             <p className="text-primary mb-4"> nosotros nos ocupamos del resto</p>
-            <SpecialButton>Simple</SpecialButton>
+            <p className="text-primary"><b>+ Simple</b></p>
           </div>
           <div className="howto__area2">
             {showImages ? <img alt="Vueltos" src="../static/images/howto_step2.png"></img> : <div />}
             <h3 className="mb-0 mt-4 mb-4"><b>A tu medida</b></h3>
             <p className="text-primary">El monto que quieras</p>
             <p className="text-primary mb-4"><b>cuando quieras</b>.</p>
-            <SpecialButton>Flexible</SpecialButton>
+            <p className="text-primary"><b>+ Flexible</b></p>
           </div>
           <div className="howto__area3">
             {showImages ? <img alt="tips de ahorro" src="../static/images/howto_step3.png"></img> : <div />}
             <h3 className="mb-0 mt-4 mb-4"><b>Sin esfuerzo</b></h3>
             <p className="text-primary">Con <b>microahorros</b></p>
             <p className="text-primary mb-4">lográ tus objetivos.</p>
-            <SpecialButton>100% digital</SpecialButton>
+            <p className="text-primary"><b>100% digital</b></p>
           </div>
         </div>
       </div>

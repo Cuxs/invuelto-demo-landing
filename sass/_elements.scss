@@ -9,20 +9,20 @@
   border-radius: 24px;
   letter-spacing: 0.5px;
   padding: 17px 25px 15px 25px;
-  box-shadow: 8px 4px 0px 3px $color3, 20px 14px 5px $grey4;
+  box-shadow: 3px 3px 0px 3px $color3, 10px 8px 5px $grey4;
   &:disabled {
     color: white;
-    box-shadow: 8px 4px 0px 3px $color5, 20px 14px 5px $grey4;
+    box-shadow: 3px 3px 0px 3px$color5, 10px 8px 5px $grey4;
   }
   &:focus {
     background-color: $color3;
     color: $primaryColor;
-    box-shadow: 8px 4px 0px 3px $primaryColor, 20px 14px 5px $grey4;
+    box-shadow: 3px 3px 0px 3px$primaryColor, 10px 8px 5px  $grey4;
   }
   &:hover {
     background-color: $color3;
     color: $primaryColor;
-    box-shadow: 8px 4px 0px 3px $primaryColor, 20px 14px 5px $grey4;
+    box-shadow: 3px 3px 0px 3px$primaryColor, 10px 8px 5px  $grey4;
     transition: background-color 0.3s ease-in;
     transition: 0.3s ease-in;
   }
@@ -57,11 +57,23 @@
   letter-spacing: 0.5px;
   border-radius: 24px;
   padding: 15px 25px 15px 25px;
-  box-shadow: 7px 5px 0px -1px $grey4;
+  box-shadow: 5px 5px 3px -1px $grey4;
   &:hover {
     color: $primaryColor;
     background-color: $color3;
 
+  }
+}
+.new-item{
+  a{
+    &:hover{
+      color: $secondaryColor !important;
+    }
+    small{
+      position: absolute;
+      top:20px;
+      font-size: 7px;
+    }
   }
 }
 @media screen and (max-width: 769px) {

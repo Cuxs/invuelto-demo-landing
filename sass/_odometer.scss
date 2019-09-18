@@ -42,9 +42,11 @@
 .odometer.odometer-auto-theme .odometer-digit .odometer-value, .odometer.odometer-theme-plaza .odometer-digit .odometer-value {
   display: block;
   -webkit-transform: translateZ(0);
+  font-weight: 900;
 }
 .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value, .odometer.odometer-theme-plaza .odometer-digit .odometer-value.odometer-last-value {
   position: absolute;
+  font-weight: 900;
 }
 .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-plaza.odometer-animating-up .odometer-ribbon-inner {
   -webkit-transition: -webkit-transform 2s;
@@ -97,7 +99,7 @@
   -webkit-border-radius: 0.1em;
   border-radius: 0.1em;
   padding: 0 0.03em;
-  color: #648baf;
+  color: #3550ab;
 }
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-inner {
   left: 0.03em;
