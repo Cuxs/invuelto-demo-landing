@@ -13312,8 +13312,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sass_odometer_scss__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../sass/_odometer.scss */ "./sass/_odometer.scss");
 /* harmony import */ var _sass_odometer_scss__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_sass_odometer_scss__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _components_VideoContainer__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/VideoContainer */ "./components/VideoContainer.js");
-/* harmony import */ var _components_tagManager__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/tagManager */ "./components/tagManager.js");
-/* harmony import */ var _components_head__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/head */ "./components/head.js");
+/* harmony import */ var _components_head__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../components/head */ "./components/head.js");
+/* harmony import */ var _components_tagManager__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../components/tagManager */ "./components/tagManager.js");
 
 
 
@@ -13393,30 +13393,30 @@ var Vueltos = function Vueltos() {
       lineNumber: 32
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_tagManager__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    gtmId: "GTM-5SSJRB7",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_head__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_head__WEBPACK_IMPORTED_MODULE_10__["default"], {
     title: "#Vuelvenlosvueltos",
     description: "Desarrollamos una herramienta con la que ahora s\xED vas a poder ahorrar, cuidamos tu plata de la inflaci\xF3n ya que tus ahorros generan intereses a tu favor. Vos eleg\xEDs el monto y la forma de ingresar dinero.",
     url: "www.invuelto.com",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "container text-center",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_tagManager__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    gtmId: "GTM-5SSJRB7",
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     className: "vueltos__jumbotron d-flex justify-content-between flex-lg-row flex-md-column flex-column",
     __source: {
       fileName: _jsxFileName,
@@ -13484,6 +13484,9 @@ var Vueltos = function Vueltos() {
     },
     __self: this
   }, "La soluci\xF3n a los problemas de cambio y redondeo ")), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_SecondaryButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    onClick: function onClick() {
+      return window.location.assign('https://app.invuelto.com/register');
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 45
@@ -13552,6 +13555,9 @@ var Vueltos = function Vueltos() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_SecondaryButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    onClick: function onClick() {
+      return window.location.assign('https://app.invuelto.com/register');
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
@@ -13615,6 +13621,9 @@ var Vueltos = function Vueltos() {
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_components_SecondaryButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    onClick: function onClick() {
+      return window.location.assign('https://app.invuelto.com/register');
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 77
