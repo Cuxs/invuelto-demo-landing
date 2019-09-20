@@ -1,25 +1,46 @@
+import Particles from 'react-particles-js';
 import PrimaryButton from './PrimaryButton';
 import GoogleTagManager from './tagManager';
 export default () => {
   return (
     <section>
       <div className="jumbotron__container row mr-0">
-      <GoogleTagManager gtmId="GTM-5SSJRB7" />
-
+        <GoogleTagManager gtmId="GTM-5SSJRB7" />
+        <div className="d-none d-md-none d-lg-block" style={{position: 'absolute', top:'70px', zIndex:'1'}}>
+          <Particles
+            width='500px'
+            height='500px'
+            params={{
+              "particles": {
+                "number": {
+                  "value": 40
+                },
+                "size": {
+                  "value": 2
+                }
+              },
+              "interactivity": {
+                "events": {
+                  "onhover": {
+                    "enable": true,
+                    "mode": "repulse"
+                  }
+                }
+              }
+            }} />
+        </div>
         <div className="jumbotron__elements-container col-md-8 col-lg-6">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
-
-          <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-happy.png" />
+          <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-neo.png" style={{zIndex:'100'}} />
           {/* <img alt="moneda" className="jumbotron__coin-1" src="../static/images/coin.png" /> */}
           {/* <img alt="moneda" className="jumbotron__coin-2" src="../static/images/coin.png" /> */}
           <img alt="celular" className="jumbotron__phone" src="../static/images/phone.png" />
           <h3 className="d-none d-md-block jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
         </div>
         <div className="jumbotron__title col-lg-4 col-md-12 pr-0">
-          <h2 className="mb-3"><b>¿No sabés en qué ni cuándo se te va la plata?</b></h2>
-          <p>Te ayudamos a <b>ahorrar</b> y <b>cuidamos</b></p>
-          <p className="mb-4">tu plata de la inflación.</p>
-          <PrimaryButton className="mt-3" bold="activá" noBold="tu alcancía" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
+          <h2 className="mb-2"><b>Bienvenidos Neoahorristas</b></h2>
+          <p>Creamos una dimensión dónde <b>ahorrar</b> funciona</p>
+          <PrimaryButton className="mt-5" bold="activá" noBold="tu alcancía" onClick={() => window.location.assign('https://app.invuelto.com/register')} />
         </div>
 
         <div className="jumbotron__circle">
