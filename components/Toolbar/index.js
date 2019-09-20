@@ -39,7 +39,7 @@ export default props => {
         <div className="spacer" />
         <div className="toolbar__items">
           <ul>
-            <li><div className="new-item"><a href="/vueltos">Vueltos<small>NUEVO</small></a></div></li>
+            <li><div className="new-item"><a href="/vueltos" style={{color:'rgb(0,195,184)'}}>Vueltos<small>NUEVO</small></a></div></li>
             <li>{props.external ?
               <a href="/index#tus-intereses-primero">Cómo funciona</a>
               :
