@@ -1201,26 +1201,39 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+<<<<<<< HEAD
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-particles-js */ "./node_modules/react-particles-js/lib/particles.js");
 /* harmony import */ var react_particles_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_particles_js__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _PrimaryButton__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PrimaryButton */ "./components/PrimaryButton.js");
 /* harmony import */ var _tagManager__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./tagManager */ "./components/tagManager.js");
+=======
+/* harmony import */ var _PrimaryButton__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./PrimaryButton */ "./components/PrimaryButton.js");
+/* harmony import */ var _tagManager__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./tagManager */ "./components/tagManager.js");
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
 var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/Jumbotron.js";
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("section", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 6
+=======
+      lineNumber: 5
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "jumbotron__container row mr-0",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 7
     },
     __self: this
@@ -1271,22 +1284,44 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "jumbotron__elements-container col-md-8 col-lg-6",
+=======
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_tagManager__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    gtmId: "GTM-5SSJRB7",
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     __source: {
       fileName: _jsxFileName,
       lineNumber: 32
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "jumbotron__elements-container col-md-8 col-lg-6",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "d-block d-md-none jumbotron__spot-title",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 33
+=======
+      lineNumber: 10
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "\xA1Tu ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 33
+=======
+      lineNumber: 10
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "alcanc\xEDa"), " digital!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1298,7 +1333,11 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 34
+=======
+      lineNumber: 12
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1307,52 +1346,96 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/phone.png",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 37
+=======
+      lineNumber: 15
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "d-none d-md-block jumbotron__spot-title",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 38
+=======
+      lineNumber: 16
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "\xA1Tu ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 38
+=======
+      lineNumber: 16
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "alcanc\xEDa"), " digital!")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "jumbotron__title col-lg-4 col-md-12 pr-0",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 40
+=======
+      lineNumber: 18
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "mb-2",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 41
+=======
+      lineNumber: 19
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 41
+=======
+      lineNumber: 19
+    },
+    __self: this
+  }, "\xBFNo sab\xE9s en qu\xE9 ni cu\xE1ndo se te va la plata?")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Te ayudamos a ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "Bienvenidos Neoahorristas")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 42
+=======
+      lineNumber: 20
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "Creamos una dimensi\xF3n d\xF3nde ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 42
+=======
+      lineNumber: 21
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, "ahorrar"), " funciona"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PrimaryButton__WEBPACK_IMPORTED_MODULE_2__["default"], {
@@ -1364,14 +1447,22 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 43
+=======
+      lineNumber: 22
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "jumbotron__circle",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 46
+=======
+      lineNumber: 25
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1379,7 +1470,11 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/circle-jumbo.png",
     __source: {
       fileName: _jsxFileName,
+<<<<<<< HEAD
       lineNumber: 47
+=======
+      lineNumber: 26
+>>>>>>> 73c47267f2a35c0306838a7e9e8dc3fb97640399
     },
     __self: this
   }))));
