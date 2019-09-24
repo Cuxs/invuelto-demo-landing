@@ -1,22 +1,23 @@
-import Document, { Head, Main, NextScript } from 'next/document'
-global.fetch = require('node-fetch');
+import Document, { Html, Head, Main, NextScript } from 'next/document'
+import GoogleTagManager from '../components/tagManager';
+class MyDocument extends Document {
+  static async getInitialProps(ctx) {
+    const initialProps = await Document.getInitialProps(ctx)
+    return { ...initialProps }
+  }
 
-
-export default class MyDocument extends Document {
   render() {
     return (
-      <html lang="es">
-        <Head>
-          <link
-            rel="stylesheet"
-            href={`${this.props.__NEXT_DATA__.assetPrefix}/_next/static/style.css`}
-          />
-        </Head>
-          <body>
-            <Main />
-            <NextScript />
-          </body>
-      </html>
+      <Html>
+        <Head />
+        <body>
+        <GoogleTagManager gtmId="GTM-5SSJRB7" />
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
     )
   }
 }
+
+export default MyDocument

@@ -1,12 +1,10 @@
 import Particles from 'react-particles-js';
 import PrimaryButton from './PrimaryButton';
-import GoogleTagManager from './tagManager';
 export default () => {
   return (
     <section>
       <div className="jumbotron__container row mr-0">
-        <GoogleTagManager gtmId="GTM-5SSJRB7" />
-        <div className="d-none d-md-none d-lg-block" style={{position: 'absolute', top:'70px', zIndex:'1'}}>
+      <div className="d-none d-md-none d-lg-block" style={{position: 'absolute', top:'70px', zIndex:'1'}}>
           <Particles
             width='500px'
             height='500px'

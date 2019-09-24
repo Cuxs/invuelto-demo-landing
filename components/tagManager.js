@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{Fragment} from 'react';
 import gtmParts from 'react-google-tag-manager';
  
 class GoogleTagManager extends React.Component {
@@ -22,12 +22,12 @@ class GoogleTagManager extends React.Component {
         });
  
         return (
-            <div>
-                <div>{gtm.noScriptAsReact()}</div>
-                <div id={this.props.scriptId || 'react-google-tag-manager-gtm'}>
+            <Fragment>
+                {gtm.noScriptAsReact()}
+                <Fragment id={this.props.scriptId || 'react-google-tag-manager-gtm'}>
                     {gtm.scriptAsReact()}
-                </div>
-            </div>
+                </Fragment>
+            </Fragment>
         );
     }
 }
