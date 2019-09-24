@@ -1,34 +1,9 @@
 import Particles from 'react-particles-js';
 import PrimaryButton from './PrimaryButton';
-import GoogleTagManager from './tagManager';
 export default () => {
   return (
     <section>
       <div className="jumbotron__container row mr-0">
-        <GoogleTagManager gtmId="GTM-5SSJRB7" />
-        <div className="d-none d-md-none d-lg-block" style={{position: 'absolute', top:'70px', zIndex:'1'}}>
-          <Particles
-            width='500px'
-            height='500px'
-            params={{
-              "particles": {
-                "number": {
-                  "value": 40
-                },
-                "size": {
-                  "value": 2
-                }
-              },
-              "interactivity": {
-                "events": {
-                  "onhover": {
-                    "enable": true,
-                    "mode": "repulse"
-                  }
-                }
-              }
-            }} />
-        </div>
         <div className="jumbotron__elements-container col-md-8 col-lg-6">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
           <img alt="chachito" className="jumbotron__pig" src="../static/images/pig-neo.png" style={{zIndex:'100'}} />
