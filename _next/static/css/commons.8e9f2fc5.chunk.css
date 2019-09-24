@@ -7903,8 +7903,7 @@ b {
   position: relative;
   background-image: url("/static/images/footer.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 5%; }
+  background-size: cover; }
 
 .footer__circle1 {
   position: absolute;
