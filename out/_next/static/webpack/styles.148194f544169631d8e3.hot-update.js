@@ -1,9 +1,9 @@
 webpackHotUpdate("styles",{
 
-/***/ "./sass/main.scss":
-/*!************************!*\
-  !*** ./sass/main.scss ***!
-  \************************/
+/***/ "./sass/_odometer.scss":
+/*!*****************************!*\
+  !*** ./sass/_odometer.scss ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -29,7 +29,7 @@ webpackHotUpdate("styles",{
           .querySelectorAll("link[href][rel=stylesheet]")
           .forEach(function(link) {
             if (!link.href.match(prefix) || link.stale) return;
-            injectCss(link, link.href.split("?")[0] + "?unix=1569359447313");
+            injectCss(link, link.href.split("?")[0] + "?unix=1569507177939");
           });
       }
     }
@@ -38,4 +38,4 @@ webpackHotUpdate("styles",{
 /***/ })
 
 })
-//# sourceMappingURL=styles.1ef486c7e59aee6e494c.hot-update.js.map
+//# sourceMappingURL=styles.148194f544169631d8e3.hot-update.js.map
