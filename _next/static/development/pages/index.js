@@ -680,6 +680,9 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
   var showImages = _ref.showImages;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "footer__container",
+    style: {
+      height: '550px'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 1
@@ -701,59 +704,90 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer__elements-container container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 4
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer__sign",
+    className: "container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 5
     },
     __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "vueltos__footer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
+    className: "text-color3",
+    style: {
+      fontSize: '25px'
     },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "invuelto"), ".com")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer__social-container",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 8
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "footer__follow-us",
+  }, "Enterate de nuestras novedades "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "d-lg-flex flex-md-column mt-5 justify-content-around",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
     },
     __self: this
-  }, "Seguinos"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "footer__social",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    className: "text-color3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "invuelto"), ".com"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "mt-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "ml-3",
     target: "__blank",
     rel: "noopener noreferrer",
     href: "https://facebook.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }, showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -761,22 +795,23 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/fb.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 14
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "ml-3",
     target: "__blank",
     rel: "noopener noreferrer",
     href: "https://linkedin.com/in/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }, showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -784,22 +819,23 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/in.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 15
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "ml-3",
     target: "__blank",
     rel: "noopener noreferrer",
     href: "https://instagram.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
   }, showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -807,22 +843,23 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/insta.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 16
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    className: "ml-3",
     target: "__blank",
     rel: "noopener noreferrer",
     href: "https://twitter.com/invuelto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
   }, showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -830,27 +867,52 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/twitter.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 17
     },
     __self: this
-  }))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  })))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "footer__social-container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "decorado",
+    className: "footer__circle2",
+    src: "../static/images/circle-security2.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    className: "deco6",
+    src: "/static/images/vueltos/circle-2.svg",
+    alt: "decorado",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/terminos-y-condiciones",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-color3 text-center mb-5",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 28
     },
     __self: this
   }, "T\xE9rminos y condiciones")), showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -859,13 +921,13 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/circle-security2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 29
     },
     __self: this
   }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 29
     },
     __self: this
   }));
@@ -3096,7 +3158,7 @@ var Nav = function Nav(props) {
 
 
 module.exports = {
-  API_URL: 'https://api.invuelto.com'
+  API_URL: 'https://api-test.invuelto.com'
 };
 
 /***/ }),
