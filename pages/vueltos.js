@@ -64,7 +64,7 @@ const Vueltos = () => {
         <img className="deco5" src="/static/images/vueltos/circle.svg" alt="decorado" />
         <img className="deco7" src="/static/images/vueltos/circle.svg" alt="decorado" />
         <img className="deco4" src="/static/images/vueltos/candy.svg" alt="decorado" />
-        <VideoContainer
+        <VideoContainer videoId="sCJM75kQDpA"
           iconVueltos="/static/images/vueltos/dar-vueltos.svg"
           icon1="/static/images/vueltos/sms.svg"
           icon2="/static/images/vueltos/activala.svg"
