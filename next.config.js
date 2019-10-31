@@ -5,6 +5,7 @@ module.exports = withFonts(withSass({
     return {
       '/': { page: '/' },
       '/terminos-y-condiciones': { page: '/terminos-y-condiciones' },
+      '/terminos-sorteo': { page: '/terminos-sorteo' },
       '/vueltos': { page: '/vueltos' },
     }
   },
