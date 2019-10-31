@@ -1,4 +1,58 @@
-export default () => `
+export const termsSorteo = ()=>`
+
+
+## TERMINOS Y CONDICIONES
+
+
+## SORTEO DIA DEL AHORRO
+
+
+### 1- ORGANIZADOR: 
+Las presentes bases y condiciones rigen la promoción “Sorteo día del ahorro” y es organizada por Invuelto S.A.S. (en adelante “el organizador”), con domicilio en la calle Medrano 2882, Luján de Cuyo, Mendoza. 
+### 2- ACEPTACIÓN DE LAS BASES: 
+Quienes participan de la promoción, por su sola participación, declaran conocer y aceptar todos y cada uno de los términos descritos en estas bases.
+Dichos términos podrán ser modificados por el organizador, sin que ello implique alterar la esencia de la promoción ni afectar derechos adquiridos por los participantes. Dichas modificaciones serán publicadas en el mismo medio que las presentes bases, no siendo alterada la aceptación previamente brindada por el participante.
+### 3- ALCANCE Y VIGENCIA:
+ La promoción es válida geográficamente en toda la República Argentina. Su vigencia inicia el 31 de Octubre de 2019 a las 13.00hs y culmina el 14 de noviembre de 2019 a las 20.00hs.
+### 4- PARTICIPACIÓN: 
+Podrán participar de la promoción, todas las personas humanas mayores de DIECIOCHO (18) años, residentes en la república Argentina, sin que la misma implique obligación de compra. En efecto, se trata de un regalo sin vinculación directa o indirecta con la compra de mercaderías o la contratación de servicios. 
+### 5- MECÁNICA DE PARTICIPACIÓN: 
+a.- La invitación a participar se realiza mediante plataformas como Facebook e instagram y mediante correos electrónicos enviados a usuarios activos de el organizador.
+b.- Para participar, cada persona deberá cumplir los siguientes requisitos:
+#### 
+
+ - Registrarse en la plataforma “invuelto.com” o ya estar registrado antes de la finalización del sorteo. 
+- Darle me gusta a la publicación y seguir nuestra cuenta de instagram.
+- Etiquetar a 2 amigos/as usando el signo @ y el usuario del amigo.
+- Tendrán doble chance de ganar si comparten la publicación en modo público o la suben a sus historias.
+
+Las personas que completen los requisitos después de la fecha de finalización del sorteo no participarán de la promoción. La participación es gratuita y los participantes pueden inscribirse una única vez.
+ 
+### 6- PREMIOS: 
+
+Los premios consisten en 3 alcancías digitales, con AR$5.000 cada una, a acreditarse en el usuario registrado, dentro de los 7 días hábiles desde que se hayan comunicado los ganadores.### ORGANIZADOR: 
+
+### 7- SELECCIÓN DE LOS GANADORES:: 
+El día viernes 15/10/2019 a las 13:00hs mediante un sistema informático de selección aleatoria, serán seleccionados los potenciales ganadores. Se revisará si cumplen con los requisitos y se comunicarán los ganadores a través de las redes sociales oficiales de invuelto.
+Sólo se entregará un premio por persona, sin excepción.
+Todo premio no asignado quedará en poder del organizador. Para recibir el PREMIO será necesario enviar una foto del frente y dorso del DNI. El monto acreditado en concepto de premio, no podrá retirarse andes de los 15 días corridos desde su acreditación. 
+### 8- RESPONSABILIDAD: 
+El organizador no será responsable si los datos de los participantes hubieran sido erróneamente consignados. De igual manera, el organizador no será responsable de ningún reclamo de ningún tipo efectuado por terceros que se atribuyan cualquier derecho de propiedad intelectual o de cualquier naturaleza vinculados con esta campaña. El organizador no será responsable por las interrupciones, cortes y/o cualquier deficiencia que pudiere dificultar el acceso y/o navegación en aplicaciones para celular ni website de la marca por parte de los participantes.
+
+### 9- AUTORIZACIÓN: 
+
+Los participantes de esta campaña autorizan expresamente al organizador a difundir -por los mismos medios en que se publicitó el concurso- su nombre y apellido, así como también a comunicarse con el participante por los medios que se indican más arriba. 
+### 10- ORGANIZADOR. FACULTADES: 
+El organizador, sin que ello le genere carga, obligación y/o responsabilidad alguna podrá: a) Modificar las presentes BASES bastando la publicación del nuevo instrumento para considerar notificados a los PARTICIPANTES, los POTENCIALES GANADORES y los GANADORES, b) solicitar la reválida o rectificación de las inscripciones, c) Dejar sin efecto o suspender esta promoción antes de la notificación a los GANADORES, d) Prorrogar cada uno de los plazos de vigencia y fechas fijadas antes de la finalización del período de inscripción previsto en estas BASES, e) Modificar la fecha de entrega de los PREMIOS o ejecución de los mismos, la cual no podrá ser superior a DOCE (12) meses, f) Solicitar a los PARTICIPANTES y/o potenciales GANADORES, en cualquier momento antes de la finalización de la promoción, que verifiquen sus datos y/o los corroboren y/o rectifiquen los mismos.
+
+### 11- INDEMNIDAD: 
+Facebook / Instagram: Se deja expresamente aclarado que Facebook e Instagram no patrocinan, avalan o administran de modo alguno la presente Promoción, ni se encuentra asociada al Organizador. Los Participantes proporcionarán su información únicamente al Organizador, no a Facebook/Instragram, quedando completamente exonerada de toda responsabilidad respecto del Sorteo y su desarrollo.
+
+
+
+`
+
+export const terms = () => `
 # TÉRMINOS Y CONDICIONES
 ## 1. LA PLATAFORMA
 INVUELTO SAS (“Invuelto”) es la primera plataforma del país que tiene en miras ofrecer un sistema automatización de ahorros mensuales, como así también la prestación de servicios y productos relacionados con la práctica del ahorro. Las cláusulas que a continuación se describen a continuación representan un contrato y contiene los términos y condiciones (los "Términos y Condiciones Generales") aplicables al uso de los servicios ofrecidos por Invuelto ("los Servicios") dentro del sitio www.invuelto.com (en adelante el "Sitio" o la “Plataforma”). El usuario debe leer, comprender y aceptar los términos aquí vertidos, en cuanto comunican los derechos, obligaciones y responsabilidades que las partes, tanto usuarios como la plataforma tienen al usar el sitio. 
