@@ -13823,7 +13823,7 @@ var Vueltos = function Vueltos() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!*******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fvueltos&absolutePagePath=%2FUsers%2Fmariano%2FTrabajo%2FInvuelto%2Finvuelto-landing%2Fpages%2Fvueltos.js ***!
   \*******************************************************************************************************************************************************/
@@ -13846,5 +13846,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[6,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=vueltos.js.map
