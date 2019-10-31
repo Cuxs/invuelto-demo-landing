@@ -20,7 +20,8 @@ export default ({ showImages }) => <div className="footer__container" style={{ h
         </div>
       </div>
       <div className="footer__social-container">
-        <a href="/terminos-y-condiciones"><p className="text-color3 text-center mb-5">Términos y condiciones</p></a>
+        <a href="/terminos-y-condiciones"><p className="text-color3 text-center mb-1 mt-3">Términos y condiciones</p></a>
+        <a href="/terminos-sorteo"><p className="text-color3 text-center mb-5">Términos y condiciones del sorteo dia ahorro</p></a>
         {showImages ? <img alt="decorado" className="footer__circle2" src="../static/images/circle-security2.png" /> : <div />}
       </div>
     </div>
