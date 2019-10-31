@@ -867,25 +867,39 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "text-color3 text-center mb-5",
+    className: "text-color3 text-center mb-1 mt-3",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "T\xE9rminos y condiciones")), showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    alt: "decorado",
-    className: "footer__circle2",
-    src: "../static/images/circle-security2.png",
+  }, "T\xE9rminos y condiciones")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "/terminos-sorteo",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "text-color3 text-center mb-5",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
+    },
+    __self: this
+  }, "T\xE9rminos y condiciones del sorteo dia ahorro")), showImages ? react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    alt: "decorado",
+    className: "footer__circle2",
+    src: "../static/images/circle-security2.png",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }) : react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -894,7 +908,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     src: "../static/images/circle-security2.png",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -903,7 +917,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     alt: "decorado",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
   })));
