@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react'
 import ReactMarkdown from "react-markdown";
 import Swipe from 'react-easy-swipe';
-import {terms} from "../components/terms";
+import {termsSorteo} from "../components/terms";
 import Head from '../components/head'
 import Nav from '../components/nav'
 import '../sass/main.scss';
@@ -16,7 +16,7 @@ return  (
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
       <Nav open={sideDrawerOpen} toggle={toggleSideDrawer} external></Nav>
       <div className="terms__container container">
-      <ReactMarkdown source={terms()} />
+      <ReactMarkdown source={termsSorteo()} />
       </div>
     </Swipe>
   </Fragment>)}

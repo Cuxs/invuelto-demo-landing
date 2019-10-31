@@ -28,6 +28,12 @@
 }
 .footer__social-container{
   margin-top: 40px;
+  a{
+    &:hover{
+      text-decoration: underline;
+      text-decoration-color: $secondaryColor;
+    }
+  }
 }
 .footer__follow-us{
   color: $color3;
