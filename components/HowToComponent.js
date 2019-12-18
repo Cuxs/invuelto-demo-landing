@@ -11,24 +11,24 @@ export default ({ showImages }) => {
         <div className="howto__areas-container">
           <div className="howto__area1">
             {showImages ? <img alt="Intereses" src="../static/images/howto_step1.png"></img> : <div />}
-            <h3 className="mb-0 mt-4 mb-4"><b>Automático</b></h3>
-            <p className="text-primary">Vos solo definís el <b>monto</b></p>
-            <p className="text-primary mb-4"> nosotros nos ocupamos del resto</p>
-            <p className="text-primary"><b>+ Simple</b></p>
+            <h3 className="mb-0 mt-4 mb-4">El primer empujon</h3>
+            <p className="text-primary">Venimos a motivarte para</p>
+            <p className="text-primary mb-4"> que alcances tus objetivos</p>
+            <p className="text-primary">por tus propios medios </p>
           </div>
           <div className="howto__area2">
             {showImages ? <img alt="Vueltos" src="../static/images/howto_step2.png"></img> : <div />}
-            <h3 className="mb-0 mt-4 mb-4"><b>A tu medida</b></h3>
-            <p className="text-primary">El monto que quieras</p>
-            <p className="text-primary mb-4"><b>cuando quieras</b>.</p>
-            <p className="text-primary"><b>+ Flexible</b></p>
+            <h3 className="mb-0 mt-4 mb-4">A tu medida</h3>
+            <p className="text-primary">Queremos que todos</p>
+            <p className="text-primary">puedan juntar plata por eso </p>
+            <p className="text-primary">ofrecemos múltiples formas </p>
           </div>
           <div className="howto__area3">
             {showImages ? <img alt="tips de ahorro" src="../static/images/howto_step3.png"></img> : <div />}
-            <h3 className="mb-0 mt-4 mb-4"><b>Sin esfuerzo</b></h3>
-            <p className="text-primary">Con <b>microahorros</b></p>
-            <p className="text-primary mb-4">lográ tus objetivos.</p>
-            <p className="text-primary"><b>100% digital</b></p>
+            <h3 className="mb-0 mt-4 mb-4">Sin esfuerzo</h3>
+            <p className="text-primary">Tu alcancía se llena sin</p>
+            <p className="text-primary">que hagas nada gracias </p>
+            <p className="text-primary">a nuestros servicios</p>
           </div>
         </div>
       </div>
