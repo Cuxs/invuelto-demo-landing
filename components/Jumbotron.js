@@ -3,7 +3,6 @@ export default () => {
   return (
     <section>
       <div className="jumbotron__container row mr-0">
-
         <div className="jumbotron__elements-container col-md-8 col-lg-6">
           <h3 className="d-block d-md-none jumbotron__spot-title">¡Tu <b>alcancía</b> digital!</h3>
 
@@ -15,8 +14,8 @@ export default () => {
         </div>
         <div className="jumbotron__title col-lg-4 col-md-12 pr-0">
           <h2 className="mb-3"><b>Una alcancía virtual donde juntar plata es muuuy fácil.</b></h2>
-          <p>¡Empezá ahora!</p>
-          <PrimaryButton className="mt-3" bold="registrarme" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
+          <p className="mb-5">¡Empezá ahora!</p>
+          <PrimaryButton className="mt-0" bold="registrarme" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
         </div>
 
         <div className="jumbotron__circle">

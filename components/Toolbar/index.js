@@ -40,7 +40,6 @@ export default props => {
         <div className="spacer" />
         <div className="toolbar__items">
           <ul>
-            <li><div><a href="/vueltos">Vueltos</a></div></li>
             <li>{props.external ?
               <a href="/index#tus-intereses-primero">Cómo funciona</a>
               :
@@ -48,6 +47,7 @@ export default props => {
                 Cómo funciona
               </Link>
             }</li>
+            <li><div><a href="/vueltos">Vueltos</a></div></li>
             <li>{props.external ?
               <a href="/index#precios">Precios</a>
               :

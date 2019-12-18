@@ -1,5 +1,5 @@
 .area1__container {
-  padding-top: 150px;
+  padding-top: 120px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -24,25 +24,7 @@
   display: flex;
   justify-content: space-around;
 }
-.area1__step1 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step2 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step3 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step4 {
+.area1__step, .area2__step{
   img {
     width: 90px;
     margin-bottom: 30px;

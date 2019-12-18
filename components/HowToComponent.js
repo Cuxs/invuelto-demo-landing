@@ -13,7 +13,7 @@ export default ({ showImages }) => {
             {showImages ? <img alt="Intereses" src="../static/images/howto_step1.png"></img> : <div />}
             <h3 className="mb-0 mt-4 mb-4">El primer empujon</h3>
             <p className="text-primary">Venimos a motivarte para</p>
-            <p className="text-primary mb-4"> que alcances tus objetivos</p>
+            <p className="text-primary"> que alcances tus objetivos</p>
             <p className="text-primary">por tus propios medios </p>
           </div>
           <div className="howto__area2">
