@@ -1,5 +1,5 @@
 .area1__container {
-  margin-top: 150px;
+  padding-top: 150px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -7,7 +7,13 @@
     font-size: 40px;
   }
 }
-.area1__image, .area2__image{
+.area1__image{
+  width: 215px;
+  position: absolute;
+  right: 135px;
+  bottom: 450px;
+}
+.area1__image .area2__image{
   width: 280px;
 }
 .area1__step-container {
