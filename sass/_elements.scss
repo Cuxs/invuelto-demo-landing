@@ -28,20 +28,24 @@
   }
 }
 .button-special {
+  text-transform: uppercase;
+  height: 50px;
   font-family: "Mazzard H";
   font-weight: 100;
   font-size: 15px;
-  color: white;
+  color: $primaryColor;
   cursor: pointer;
-  background-color: $primaryColor;
-  font-weight: 500;
+  background-color: white;
+  border: 3px solid $primaryColor;
+  font-weight: 900;
   letter-spacing: 0.5px;
   border-radius: 24px;
   padding: 3px 25px 0px 25px;
-  height: 40px;
-  box-shadow: 3px 1px 8px 0px $grey1;
+  min-width: 170px;
   &:hover {
-    color: $color3;
+    color: $secondaryColor;
+    border: 3px solid $secondaryColor;
+
   }
 }
 .button-secondary {
@@ -50,17 +54,17 @@
   text-transform: uppercase;
   font-weight: 100;
   font-size: 15px;
-  color: $color3;
+  color: $secondaryColor;
   min-width: 170px;
   background-color: $primaryColor;
-  font-weight: 500;
+  font-weight: 900;
   letter-spacing: 0.5px;
   border-radius: 24px;
   padding: 15px 25px 15px 25px;
   box-shadow: 5px 5px 3px -1px $grey4;
   &:hover {
     color: $primaryColor;
-    background-color: $color3;
+    background-color: $secondaryColor;
 
   }
 }

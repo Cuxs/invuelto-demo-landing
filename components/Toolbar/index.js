@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import DrawerToggleButton from './DrawerToggleButton';
 import SecondaryButton from '../SecondaryButton';
 import { Link } from 'react-scroll'
+import SpecialButton from "../SpecialButton";
 
 export default props => {
   const [color, setColor] = useState('');
@@ -39,7 +40,7 @@ export default props => {
         <div className="spacer" />
         <div className="toolbar__items">
           <ul>
-            <li><div className="new-item"><a href="/vueltos">Vueltos<small>NUEVO</small></a></div></li>
+            <li><div><a href="/vueltos">Vueltos</a></div></li>
             <li>{props.external ?
               <a href="/index#tus-intereses-primero">Cómo funciona</a>
               :
@@ -69,8 +70,8 @@ export default props => {
               </Link>
             }</li>
           </ul>
-          <SecondaryButton className="toolbar__button-group1" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
-          <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/demo')}>Demo</SecondaryButton>
+          <SpecialButton className="toolbar__button-group1" onClick={() => window.location.assign('https://app.invuelto.com/login')}>INGRESAR</SpecialButton>
+          <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/register')}>Registrarme</SecondaryButton>
         </div>
         <SecondaryButton className="mr-2 toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
 
