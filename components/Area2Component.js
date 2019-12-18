@@ -1,14 +1,36 @@
 import PrimaryButton from "./PrimaryButton";
-export default ({showImages}) => <div className="area2__container" id="vuelven-los-vueltos">
-  <h2><b>Vuelven los vueltos</b></h2>
-  {showImages? <img alt="vuelven los vueltos" className="area2__image" src='../static/images/pig-enamorado.png'></img>:<div/>}
-  <div className="container">
-  <h3 className="mt-5 mb-4"><b>No más</b> vueltos en <b>caramelos</b></h3>
-  {showImages? <img className="area2__spots" alt="decoracion" src="../static/images/multiple-spots.png"></img>:<div/>}
-  <h3 className="text-secondary">Ahora podés pedir tu vuelto</h3>
-  <h3 className="text-secondary mb-5">y dar vuelto a tus clientes.</h3>
-  </div>
-  {showImages? <img className="area2__circle" src="../static/images/circle-opaqueblue.png"></img>:<div/>}
-  <PrimaryButton className="mt-5 mb-5" bold='Saber' noBold="más" onClick={()=>window.location.assign('/vueltos')} />
 
+export default ({showImages}) => <div className="area2__container" id="tus-intereses-primero">
+  <h2 className="container"><b> Creá tu alcancía sin costo</b></h2>
+  <h3 className="mb-5">Registrate y empezá a juntar plata en tu <br/> alcancía virtual</h3>
+  <img className="area2__image" alt="chancho compu" src='../static/images/pig-compu.png'></img>
+  <div className="area2__step-container">
+    <div className="area2__step1">
+      <img alt="alcancia" src="../static/images/celular.svg"></img>
+      <h3 className="mt-4 mb-5">1. Registrate gratis</h3>
+      <p>Sólo con tu teléfono y </p>
+      <p>DNI, y una contraseña</p>
+    </div>
+    <div className="area2__step2">
+      <img alt="ahorro" src="../static/images/clock.svg"></img>
+      <h3 className="mt-4 mb-5"> 2. Hacé tu primer ahorro </h3>
+      <p>Vos elegís cómo; vueltos, </p>
+      <p>reintegros, guardar o programar</p>
+    </div>
+    <div className="area2__step3">
+      <img alt="potenciamos tu ahorro" src="../static/images/reintegro.svg"></img>
+      <h3 className="mt-4">3. Tu plata crece</h3>
+      <h3 className="mb-2"> y se acumula!</h3>
+      <p>Tus ahorros generan </p>
+      <p>ganancias todos los días</p>
+    </div>
+    <div className="area2__step4">
+      <img alt="Directo a tu bolsillo" src="../static/images/rendimiento.svg"></img>
+       <h3 className="mt-4">4. De la alcancía</h3>
+       <h3 className="mb-2">a tu bolsillo</h3>
+      <p> Sacá tu plata cuando quieras </p>
+      <p>y sin costo</p>
+    </div>
+  </div>
+  <PrimaryButton className="mt-5 mb-2" bold='Crear alcancía' onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
 </div>

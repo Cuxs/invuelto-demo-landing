@@ -48,8 +48,8 @@ const Home = () => {
               toggleVisibilityGroup3(true)
             }}
           />
-          <HowToComponent showImages={group2} />
           <Area2Component showImages={group2} />
+          <HowToComponent showImages={group2} />
           <Waypoint
           fireOnRapidScroll={false}
               onEnter={() =>{

@@ -73,7 +73,7 @@ export default props => {
           <SpecialButton className="toolbar__button-group1" onClick={() => window.location.assign('https://app.invuelto.com/login')}>INGRESAR</SpecialButton>
           <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/register')}>Registrarme</SecondaryButton>
         </div>
-        <SecondaryButton className="mr-2 toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
+        <SecondaryButton className="mr-2 toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Comenzar</SecondaryButton>
 
       </div>
     </header>

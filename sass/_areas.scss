@@ -7,16 +7,20 @@
     font-size: 40px;
   }
 }
-.area1__image{
+.area1__image {
   width: 215px;
   position: absolute;
   right: 135px;
   bottom: 450px;
 }
-.area1__image .area2__image{
-  width: 280px;
+.area2__image{
+  width: 270px;
+  position: absolute;
+  left: 200px;
+  bottom: 400px;
 }
-.area1__step-container {
+
+.area1__step-container, .area2__step-container {
   display: flex;
   justify-content: space-around;
 }
@@ -60,6 +64,7 @@
   position: absolute;
 }
 .area2__container {
+  padding-top: 200px;
   overflow: hidden;
   width: 100%;
   h2{
