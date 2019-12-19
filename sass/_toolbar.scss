@@ -193,6 +193,7 @@
 
 
 @media (max-width: 930px) {
+  
   nav {
     background-color: transparent;
   }
@@ -222,5 +223,8 @@
 @media screen and (max-width: 770px) {
   .side-drawer {
     width: 80%;
+  }
+  .toolbar {
+    height: 85px;
   }
 }

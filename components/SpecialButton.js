@@ -1,1 +1,1 @@
-export default ({disabled, onClick, children})=><button disabled={disabled} onClick={onClick} className="button-special">{children}</button> 
+export default ({disabled, onClick, children, className})=><button disabled={disabled} onClick={onClick} className={`button-special ${className}`}>{children}</button> 

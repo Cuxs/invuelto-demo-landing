@@ -70,3 +70,14 @@
     margin-top: 50px;
   }
 }
+
+@media screen and (max-width: 321px) {
+  .howto__elements-container {
+    height: 1200px;
+  }
+  .howto__area1, .howto__area2, .howto__area3{
+    h3{
+      margin-bottom: 5px !important;
+    }
+  }
+}
