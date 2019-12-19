@@ -2,7 +2,6 @@
   font-family: "Mazzard H";
   text-transform: uppercase;
   font-weight: 100;
-  max-height: 55px;
   font-size: 15px;
   color: $color3;
   background-color: $primaryColor;
@@ -98,8 +97,10 @@
 }
 @media screen and (max-width: 321px) {
   .button-secondary, .button-primary {
-    min-width: 90px;
-    max-height: 50px;
-    padding: 15px 25px 15px 25px;
+    min-width: 30px;
+    width: 20px;
+    max-height: 40px;
+    font-size: 10px;
+    // padding: 15px 25px 15px 25px;
   }
 }

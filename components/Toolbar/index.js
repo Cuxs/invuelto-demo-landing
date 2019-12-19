@@ -47,7 +47,7 @@ export default props => {
                 Cómo funciona
               </Link>
             }</li>
-            <li><div><a href="/vueltos">Vueltos</a></div></li>
+            <li><div><a href="/vueltos" style={{color:"#01D9CD"}}>Vueltos</a></div></li>
             <li>{props.external ?
               <a href="/index#precios">Precios</a>
               :

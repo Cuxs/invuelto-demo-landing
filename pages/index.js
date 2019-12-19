@@ -41,6 +41,7 @@ const Home = () => {
           fireOnRapidScroll={false}
             onEnter={() => toggleVisibilityGroup2(true)}
           />
+          <img className="area2__spots" alt="decoracion" src="../static/images/multiple-spots.png"></img>
           <Waypoint
           fireOnRapidScroll={false}
             onEnter={() =>{

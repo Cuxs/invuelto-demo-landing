@@ -1,5 +1,5 @@
 .area1__container {
-  padding-top: 120px;
+  padding-top: 260px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -11,12 +11,12 @@
   width: 215px;
   position: absolute;
   right: 135px;
-  bottom: 450px;
+  bottom: 360px;
 }
 .area2__image{
   width: 270px;
   position: absolute;
-  left: 200px;
+  left: 130px;
   bottom: 400px;
 }
 
@@ -36,8 +36,10 @@
 .area2__spots{  
   display: block;
   left: 80%;
-  top: 40%;
+  top: 150%;
   position: absolute;
+  z-index: -1;
+  opacity: 0.5;
 }
 .area2__circle{
   display: block;

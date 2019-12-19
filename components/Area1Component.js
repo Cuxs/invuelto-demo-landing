@@ -10,7 +10,6 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <h3><b>Recibí tus vueltos</b> en tu</h3>
       <h3> alcancía virtual, no más</h3>
       <h3> caramelos!</h3>
-      <a href='/vueltos'><h3 className="mt-5"><b>Ver más</b></h3></a>
     </div>
     <div className="area1__step">
       <img alt="ahorro" src="../static/images/clock.svg"></img>
@@ -29,5 +28,5 @@ export default () => <div className="area1__container" id="tus-intereses-primero
       <h3><b>generá intereses</b></h3>
     </div>
   </div>
-  <PrimaryButton className="mt-5 mb-2" bold='Quiero ahorrar' onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
+  {/* <PrimaryButton className="mt-5 mb-2" bold='Quiero ahorrar' onClick={()=>window.location.assign('https://app.invuelto.com/register')} /> */}
 </div>

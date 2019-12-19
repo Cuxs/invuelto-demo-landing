@@ -4,10 +4,10 @@ export default ({showImages}) => <div className="security__container">
     <h2 className="text-color3 mb-4"><b>Seguridad</b></h2>
     <h3 className="text-color3 container">Tus ahorros siempre estarán seguros y disponibles para usarlos cuando quieras.</h3>
     <div className="row security__subcontainer">
-      <div className="col-md-5 pig__container">
+      <div className="col-md-4 pig__container">
         {showImages ? <img alt="chancho asegurado" className="security__pig " src='../static/images/pig-asegurado.png'></img>:<div/>}
       </div>
-      <div className="col-md-7">
+      <div className="col-md-8">
         <p className="text-grey3 mt-4 mb-5">Contamos con el respaldo de: </p>
         <div className="security__images-container container">
           {showImages ? <img alt="embarca" className="col" src="../static/images/embarca.png"></img>:<div/>}
