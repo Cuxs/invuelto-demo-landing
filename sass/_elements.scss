@@ -10,6 +10,7 @@
   min-width: 170px;
   padding: 17px 25px 15px 25px;
   box-shadow: 3px 3px 0px 3px $color3, 10px 8px 5px $grey4;
+  border:none;
   &:disabled {
     color: white;
     box-shadow: 3px 3px 0px 3px$color5, 10px 8px 5px $grey4;

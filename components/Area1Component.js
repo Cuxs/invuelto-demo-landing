@@ -2,8 +2,8 @@ import PrimaryButton from "./PrimaryButton";
 import { Carousel } from "react-responsive-carousel";
 
 export default () => <div className="area1__container" id="tus-intereses-primero">
-  <h2 className="container d-none d-sm-block"><b> ¿Cómo puedo juntar plata?</b></h2>
-  <h2 className="d-md-block d-lg-none"><b> ¿Cómo puedo <br/> juntar plata?</b></h2>
+  <h2 className="container d-none d-md-block"><b> ¿Cómo puedo juntar plata?</b></h2>
+  <h2 className="d-sm-block d-md-none d-lg-none"><b> ¿Cómo puedo <br/> juntar plata?</b></h2>
   <h3 className="mb-5 d-none d-sm-block">¡Conocé las distintas formas que <br /> tenemos para vos!</h3>
   <img className="area1__image d-none d-md-block" alt="chancho contame mas" src='../static/images/pig-contamemas.png'></img>
   <div className="d-none d-md-none d-lg-flex area1__step-container">

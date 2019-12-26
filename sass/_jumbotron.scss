@@ -53,6 +53,11 @@
     text-align: center;
   }
 }
+@media screen and (max-width: 1025px) {
+  .jumbotron__elements-container {
+    background-position: -365px -250px;
+  }
+}
 @media screen and (max-width: 990px) {
   .jumbotron__title {
     margin: -15px 15px 0px 15px;

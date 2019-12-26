@@ -58,10 +58,7 @@
     z-index: 0;
     top: -5px;
   }
-  .security__elements-container {
-    height: 1100px;
-    background-size: cover
-  }
+
   .security__images-container {
     img {
       width: 250px;
@@ -74,8 +71,18 @@
     margin-bottom: 80px;
   }
 }
+@media screen and (max-width: 725px) {
+  .security__elements-container {
+    height: 1100px;
+    background-size: cover
+  }
+}
 @media screen and (max-width: 321px) {
   .security__pig {
     width: 170px;
+  }
+  .security__elements-container {
+    height: 1100px;
+    background-size: cover
   }
 }
