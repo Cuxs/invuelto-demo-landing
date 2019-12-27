@@ -1,4 +1,3 @@
-import Particles from 'react-particles-js';
 import PrimaryButton from './PrimaryButton';
 export default () => {
   return (
