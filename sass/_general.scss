@@ -107,6 +107,9 @@ b{
   line-height: normal;
   margin-bottom: 0px;
 }
+a{
+  font-family: 'Mazzard H', sans-serif !important;
+}
 
 .text-primary{
   color: $primaryColor !important;
@@ -122,11 +125,11 @@ b{
 }
 @media screen and (max-width: 320px){
   h1{
-    font-size: 20px;
+    font-size: 30px;
     color: $secondaryColor;
   }
   h2{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 36px;
     letter-spacing: 1px;
     color: $secondaryColor;

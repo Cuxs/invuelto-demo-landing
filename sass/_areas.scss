@@ -1,5 +1,5 @@
 .area1__container {
-  margin-top: 150px;
+  padding-top: 260px;
   text-align: center;
   overflow: hidden;
   position: relative;
@@ -7,33 +7,25 @@
     font-size: 40px;
   }
 }
-.area1__image, .area2__image{
-  width: 280px;
+.area1__image {
+  width: 215px;
+  position: absolute;
+  right: 135px;
+  bottom: 290px;
 }
-.area1__step-container {
+.area2__image{
+  width: 270px;
+  position: absolute;
+  left: 130px;
+  bottom: 400px;
+}
+
+.area1__step-container, .area2__step-container {
   display: flex;
   justify-content: space-around;
 }
-.area1__step1 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step2 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step3 {
-  img {
-    width: 90px;
-    margin-bottom: 30px;
-  }
-}
-.area1__step4 {
-  img {
+.area1__step, .area2__step{
+  img { 
     width: 90px;
     margin-bottom: 30px;
   }
@@ -42,10 +34,11 @@
   display: none;
 }
 .area2__spots{  
-  display: block;
   left: 80%;
-  top: 40%;
+  top: 150%;
   position: absolute;
+  z-index: -1;
+  opacity: 0.5;
 }
 .area2__circle{
   display: block;
@@ -54,6 +47,7 @@
   position: absolute;
 }
 .area2__container {
+  padding-top: 300px;
   overflow: hidden;
   width: 100%;
   h2{
@@ -66,20 +60,53 @@
   h2{
     font-size: 40px;
   }
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
 }
 .area3__images{
   width: 240px;
 }
+@media screen and (max-width: 1025px) {
+  .area1__image {
+    width: 215px;
+    position: absolute;
+    right: 40px;
+    bottom: 290px;
+  }
+  .area2__image{
+    width: 270px;
+    position: absolute;
+    left: 20px;
+    bottom: 400px;
+  }
+}
 @media screen and (max-width: 769px) {
+  .area1__image {
+    width: 115px;
+    position: absolute;
+    right: 60px;
+    bottom: 480px;
+  }
+  .area2__image{
+    width: 135px;
+    position: absolute;
+    left: 40px;
+    bottom: 490px;
+  }
   .area1__step-container {
     display: block;
   }
-  .area1__step1, .area1__step2, .area1__step3, .area1__step4 {
+  .area1__step{
     display: block;
     width: 100%;
     margin-bottom: 60px;
+    img {
+      width: 70px;
+      margin-bottom: 30px;
+    }
+    h3{
+      font-size: 18px;
+    }
   }
   .area1__spots{
     display: block;
@@ -89,8 +116,55 @@
   .area2__spots, .area2__circle{  
     display: none
   }
-  .area2__container{
-    margin-top: 0px;
+  .area1__container {
+    padding-top: 30px;
+    h2{
+      font-size: 30px;
+      line-height: 140%;
+    }
   }
+  .area2__container{
+    padding-top: 80px;
+    margin-top: 0px;
+    h2{
+      font-size: 30px;
+      line-height: 140%;
+    }
+  }
+  .area3__container {
+    padding-top: 0px;
+    h2{
+      font-size: 30px;
+      line-height: 140%;
+    }
+  }
+  .area2__step{
+    h3{
+      margin-bottom: 5px !important;
+      font-size: 18px;
+    }
+    p{
+      font-size: 15px;
 
+    }
+
+  }
+}
+
+@media screen and (max-width: 321px) {
+.area1__container {
+  h2{
+    font-size: 20px;
+  }
+}
+.area2__container{
+  h2{
+    font-size: 20px;
+  }
+}
+.area3__container {
+  h2{
+    font-size: 20px;
+  }
+}
 }

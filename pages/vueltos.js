@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import dynamic from 'next/dynamic'
 import SecondaryButton from "../components/SecondaryButton";
+import { hotjar } from 'react-hotjar';
 import { getTotalCashBacks } from "../modules/fetches";
 import '../sass/main.scss';
 import '../sass/_odometer.scss';
@@ -27,7 +28,10 @@ const Vueltos = () => {
     return () => { ignore = true; }
 
   }, [])
-
+  
+  useEffect(()=>{
+    hotjar.initialize(1063100, 6);
+  })
   return (
     <div>
       <Head title="#Vuelvenlosvueltos" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a

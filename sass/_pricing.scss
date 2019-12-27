@@ -48,13 +48,10 @@
 @media screen and (max-width: 990px) {
   .pricing__items-container {
     overflow-x: scroll;
-    height: 300px;
   }
   .item-normal,
   .item-important {
     padding: 10px 0px 0px 0px;
-    // margin-top: 0;
-    // margin-left: 20px;
   }  .pricing__carousel {
     display: flex;
   }
@@ -69,13 +66,7 @@
     align-items: center;
     justify-content: space-between;
   }
-  .pricing__items-container {
-    margin-bottom: 200px;
-  }
   .item-important__price {
     margin: 20px 0px 0px 0px;
-  }
-  .carousel .slider-wrapper{
-    height: 300px !important;
   }
 }
