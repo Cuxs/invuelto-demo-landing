@@ -1,42 +1,61 @@
 import PrimaryButton from "./PrimaryButton";
+import { Carousel } from "react-responsive-carousel";
 
 export default () => <div className="area1__container" id="tus-intereses-primero">
-  <h2 className="mb-5"><b>Tus intereses primero</b></h2>
-  imagennnnn
-  <h3 className="mb-5"><b>Potenciamos</b> tus ahorros</h3>
-  <div className="area1__step-container">
-    <div className="area1__step1">
-      <img src="../static/images/alcancia.png"></img>
-      <h3>1. <b>Activá</b> tu</h3>
-      <h3 className="mb-4"> alcancía</h3>
-      <p>Registrate con tu email,</p>
-      <p>teléfono, contraseña y DNI.</p>
+  <h2 className="container d-none d-md-block"><b> ¿Cómo puedo juntar plata?</b></h2>
+  <h2 className="d-sm-block d-md-none d-lg-none"><b> ¿Cómo puedo <br/> juntar plata?</b></h2>
+  <h3 className="mb-5 d-none d-sm-block">¡Conocé las distintas formas que <br /> tenemos para vos!</h3>
+  <img className="area1__image d-none d-md-block" alt="chancho contame mas" src='../static/images/pig-contamemas.png'></img>
+  <div className="d-none d-md-none d-lg-flex area1__step-container">
+    <div className="area1__step">
+      <img alt="alcancia" src="../static/images/celular.svg"></img>
+      <h3><b>Recibí tus vueltos</b> en tu</h3>
+      <h3> alcancía virtual, no más</h3>
+      <h3> caramelos!</h3>
     </div>
-    <div className="area1__step2">
-      <img src="../static/images/ahorro.png"></img>
-      <h3>2. Tu primer</h3>
-      <h3 className="mb-4"><b>ahorro</b></h3>
-      <p>Vos elegís el monto</p>
-      <p>y la forma de</p>
-      <p>ingresar dinero.</p>
+    <div className="area1__step">
+      <img alt="ahorro" src="../static/images/clock.svg"></img>
+      <h3><b>Programá tu débito</b></h3>
+      <h3>automático</h3>
     </div>
-      <img className="area1__spots" src="../static/images/multiple-spots.png"></img>
-    <div className="area1__step3">
-      <img src="../static/images/potenciamos.png"></img>
-      <h3>3.<b>Potenciamos</b></h3>
-      <h3 className="mb-4">tus ahorros</h3>
-      <p>Tus ahorros generan</p>
-      <p>ganancias todos los días,</p>
-      <p>revisá tu saldo 24/7.</p>
+    <img className="area1__spots" alt="decoracion" src="../static/images/multiple-spots.png"></img>
+    <div className="area1__step">
+      <img alt="potenciamos tu ahorro" src="../static/images/reintegro.svg"></img>
+      <h3><b>Obtené reintegros</b></h3>
+      <h3> en tus compras</h3>
     </div>
-    <div className="area1__step4">
-      <img src="../static/images/bolsillo.png"></img>
-      <h3>4. De la alcancía</h3>
-      <h3 className="mb-4">a <b>tu bolsillo</b></h3>
-      <p>Sacá tu plata</p>
-      <p>cuando quieras</p>
-      <p>y sin costo.</p>
+    <div className="area1__step">
+      <img alt="Directo a tu bolsillo" src="../static/images/rendimiento.svg"></img>
+      <h3>Guardá tu plata y </h3>
+      <h3><b>generá intereses</b></h3>
     </div>
   </div>
-  <PrimaryButton className="mt-5" bold='Quiero' noBold="ahorrar" />
+  <div className="d-md-block d-lg-none mt-5 container">
+    <div className="row">
+      <div className="area1__step col">
+        <img alt="alcancia" src="../static/images/celular.svg"></img>
+        <h3><b>Recibí tus vueltos</b> en tu</h3>
+        <h3> alcancía virtual, no más</h3>
+        <h3> caramelos!</h3>
+      </div>
+      <div className="area1__step col">
+        <img alt="ahorro" src="../static/images/clock.svg"></img>
+        <h3><b>Programá tu débito</b></h3>
+        <h3>automático</h3>
+      </div>
+    </div>
+    <div className="row">
+      <div className="area1__step col">
+        <img alt="potenciamos tu ahorro" src="../static/images/reintegro.svg"></img>
+        <h3><b>Obtené reintegros</b></h3>
+        <h3> en tus compras</h3>
+      </div>
+      <div className="area1__step col">
+        <img alt="Directo a tu bolsillo" src="../static/images/rendimiento.svg"></img>
+        <h3>Guardá tu plata y </h3>
+        <h3><b>generá intereses</b></h3>
+      </div>
+    </div>
+  </div>
+  {/* <PrimaryButton className="mt-5 mb-2" bold='Quiero ahorrar' onClick={()=>window.location.assign('https://app.invuelto.com/register')} /> */}
 </div>

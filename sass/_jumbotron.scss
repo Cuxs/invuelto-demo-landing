@@ -4,12 +4,11 @@
 .jumbotron__elements-container {
   background-image: url("/static/images/bg-blue.png");
   background-repeat: no-repeat;
-  height: 670px;
+  height: 700px;
   position: relative;
   margin-top: -120px;
-  background-position: -350px -250px;
+  background-position: -300px -250px;
   z-index: -1;
-  // background-size: 90% 90%;
 }
 .jumbotron__blue-bg {
   margin: -20px 0px 0px -11px;
@@ -21,41 +20,23 @@
   position: absolute;
   left: 130px;
   top: 140px;
-}
-.jumbotron__coin-1 {
-  position: absolute;
-  left: 20px;
-  top: 350px;
-  width: 90px;
-  animation-name: bobble1;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-}
-.jumbotron__coin-2 {
-  transform: rotate(40deg);
-  position: absolute;
-  width: 70px;
-  top: 120px;
-  left: 400px;
-  animation-name: bobble2;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
+  width: 250px;
 }
 .jumbotron__phone {
   position: absolute;
   width: 200px;
-  top: 200px;
+  top: 170px;
   left: 400px;
 }
 .jumbotron__spot-title {
   position: absolute;
   color: $color3;
   top: 480px;
-  left: 105px;
+  left: 50px;
   font-size: 30px;
 }
 .jumbotron__title {
-  margin: 150px 0px 0px 0px;
+  margin: 150px 0px 0px 15px;
 }
 .jumbotron__circle {
   overflow: hidden;
@@ -68,29 +49,39 @@
 
 @media screen and (max-width: 1200px) {
   .jumbotron__title {
-    margin: 150px 0;
+    margin: 150px 15px 0px 15px;
     text-align: center;
   }
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 1025px) {
+  .jumbotron__elements-container {
+    background-position: -365px -250px;
+  }
+}
+@media screen and (max-width: 990px) {
   .jumbotron__title {
-    margin: 60px 0;
+    margin: -15px 15px 0px 15px;
     text-align: center;
   }
   .jumbotron__container {
+    margin-top: 100px;
     margin-bottom: 50px;
   }
+}
+@media screen and (max-width: 770px) {
   .jumbotron__elements-container {
     background-origin: content-box;
-    background-size: 600px 900px;
-    background-position-x: -190px;
-    height: 600px;
+    background-size: 655px 710px;
+    background-position-x: -223px;
+    height: 560px;
+    background-position-y: -100px;
 
   }
   .jumbotron__spot-title {
     position: absolute;
     top: 120px;
     left: 20px;
+    margin-left: 15px;
   }
   .jumbotron__coin-1 {
     width: 60px;
@@ -106,7 +97,7 @@
   .jumbotron__phone {
     width: 120px;
     top: 290px;
-    left: 260px;
+    left: 240px;
   }
   .jumbotron__circle {
     overflow: hidden;
@@ -119,119 +110,43 @@
 @media screen and (max-width: 320px) {
   .jumbotron__elements-container {
     background-origin: content-box;
-    background-size: 450px 700px;
-    background-position-x: -145px;
-    background-position-y: -160px;
+    background-size: 520px 560px;
+    background-position-x: -170px;
+    background-position-y: -80px;
+    height: 450px;
   }
   .jumbotron__pig {
     left: 40px;
     top: 190px;
-    width: 120px;
+    width: 140px;
   }
   .jumbotron__phone {
-    width: 90px;
-    top: 270px;
-    left: 160px;
+    width: 100px;
+    top: 260px;
+    left: 170px;
   }
   .jumbotron__spot-title {
     top: 120px;
     left: 20px;
     font-size: 20px;
+    margin-left: 15px;
+    text-align: center;
   }
   .jumbotron__coin-1 {
     display: none;
   }
-}
+  .jumbotron__container{
+    margin-top: 90px;
+  }
+  .jumbotron__title {
+    margin:0px;
+    h2{
+      margin:0px;
+      line-height: 140%;
+    }
+    p{
+      margin-bottom: 10px !important;
+    }
 
-@keyframes bobble1 {
-  0% {
-    transform: translate3d(0px, 0px, 0px) rotate(0deg);
-    animation-timing-function: linear;
-  }
-  10% {
-    transform: translate3d(0px, 10px, 0px) rotate(2deg);
-    animation-timing-function: linear;
-  }
-  20% {
-    transform: translate3d(0px, 20px, 0px) rotate(4deg);
-    animation-timing-function: linear;
-  }
-  30% {
-    transform: translate3d(0px, 30px, 0px) rotate(6deg);
-    animation-timing-function: linear;
-  }
-  40% {
-    transform: translate3d(0px, 40px, 0px) rotate(8deg);
-    animation-timing-function: linear;
-  }
-  50% {
-    transform: translate3d(0px, 50px, 0px) rotate(10deg);
-    animation-timing-function: linear;
-  }
-  60% {
-    transform: translate3d(0px, 40px, 0px) rotate(8deg);
-    animation-timing-function: linear;
-  }
-  70% {
-    transform: translate3d(0px, 30px, 0px) rotate(6deg);
-    animation-timing-function: linear;
-  }
-  80% {
-    transform: translate3d(0px, 20px, 0px) rotate(4deg);
-    animation-timing-function: linear;
-  }
-  90% {
-    transform: translate3d(0px, 10px, 0px) rotate(2deg);
-    animation-timing-function: linear;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px) rotate(0deg);
-    animation-timing-function: linear;
-  }
-}
-@keyframes bobble2 {
-  0% {
-    transform: translate3d(0px, 0px, 0px) rotate(40deg);
-    animation-timing-function: linear;
-  }
-  10% {
-    transform: translate3d(10px, 15px, 0px) rotate(42deg);
-    animation-timing-function: linear;
-  }
-  20% {
-    transform: translate3d(15px, 25px, 0px) rotate(45deg);
-    animation-timing-function: linear;
-  }
-  30% {
-    transform: translate3d(20px, 35px, 0px) rotate(46deg);
-    animation-timing-function: linear;
-  }
-  40% {
-    transform: translate3d(25px, 45px, 0px) rotate(50deg);
-    animation-timing-function: linear;
-  }
-  50% {
-    transform: translate3d(30px, 60px, 0px) rotate(55deg);
-    animation-timing-function: linear;
-  }
-  60% {
-    transform: translate3d(25px, 40px, 0px) rotate(44deg);
-    animation-timing-function: linear;
-  }
-  70% {
-    transform: translate3d(20px, 30px, 0px) rotate(43deg);
-    animation-timing-function: linear;
-  }
-  80% {
-    transform: translate3d(15px, 20px, 0px) rotate(42deg);
-    animation-timing-function: linear;
-  }
-  90% {
-    transform: translate3d(10px, 10px, 0px) rotate(41deg);
-    animation-timing-function: linear;
-  }
-  100% {
-    transform: translate3d(0px, 0px, 0px) rotate(40deg);
-    animation-timing-function: linear;
   }
 }

@@ -1,14 +1,22 @@
-export default () => <div className="security__container">
-  <img className="security__circle1" src="../static/images/circle-security1.png" />
+export default ({showImages}) => <div className="security__container">
+  {showImages ? <img alt="decorado" className="security__circle1" src="../static/images/circle-security1.png" />:<div/>}
   <div className="security__elements-container">
     <h2 className="text-color3 mb-4"><b>Seguridad</b></h2>
-    <h2 className="text-color3">Lorem ipsum co te va.</h2>
-    <div className="d-flex justify-content-center mt-4">
-      <img src="../static/images/circle-opaqueblue.png" />
-      <p className="text-grey3">La seguridad es muy importante por eso, la tenemos en cuenta</p>
+    <h3 className="text-color3 container">Tus ahorros siempre estarán seguros y disponibles para usarlos cuando quieras. Contamos con el respaldo de: </h3>
+    <div className="row security__subcontainer">
+      <div className="col-md-4 pig__container">
+        {showImages ? <img alt="chancho asegurado" className="security__pig " src='../static/images/pig-asegurado.png'></img>:<div/>}
+      </div>
+      <div className="col-md-8  mb-5 d-flex justify-content-around align-items-center">
+        <div className="security__images-container container ">
+          {showImages ? <img alt="embarca" className="col" src="../static/images/embarca.png"></img>:<div/>}
+          {showImages ? <img alt="startup mendoza" className="col" src="../static/images/startup.png"></img>:<div/>}
+          {showImages ? <img alt="camara fintech" className="col" src="../static/images/camara.png"></img>:<div/>}
+          {showImages ? <img alt="ministerio de produccion" className="col" src="../static/images/produccion.png"></img>:<div/>}
+        </div>
+      </div>
     </div>
-    <p className="text-grey3"><b>Toda tu plata esta respaldada por entidades autorizadas por la BCRA (Banco Central)</b></p>
-    </div>
-  <img className="security__circle2" src="../static/images/circle-security2.png" />
+  </div>
+  {showImages ? <img alt="decorado" className="security__circle2" src="../static/images/circle-security2.png" />:<div/>}
 
 </div>
