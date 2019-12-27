@@ -32,7 +32,7 @@ export default () => <div className="pricing__container" id="precios">
       transitionTime={200}
       className="pricing__carousel"
       emulateTouch
-      showArrows={false}
+      showArrows
       showIndicators={false}
       showStatus={false}
       showThumbs={false}>

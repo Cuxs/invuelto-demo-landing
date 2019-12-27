@@ -204,27 +204,34 @@
     margin-left: 20px;
   }
 }
-@media (max-width: 770px) {
-  .toolbar__logo{
-    margin-bottom: auto !important;
-    margin-top: auto !important;
-    img{
-      width: 100px;
-    }
-  }
-}
-
-
 @media (min-width: 930px) {
   .side-drawer {
     display: none;
   }
 }
+@media (max-width: 770px) {
+  .toolbar__logo{
+    margin-bottom: auto !important;
+    margin-top: auto !important;
+    img{
+      width: 130px;
+    }
+  }
+}
+
 @media screen and (max-width: 770px) {
   .side-drawer {
     width: 80%;
   }
   .toolbar {
     height: 85px;
+  }
+}
+
+@media (max-width: 321px) {
+  .toolbar__logo{
+    img{
+      width: 100px;
+    }
   }
 }

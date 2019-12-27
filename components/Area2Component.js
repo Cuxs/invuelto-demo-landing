@@ -6,7 +6,7 @@ export default ({ showImages }) => <div className="area2__container" id="tus-int
   <h2 className="d-md-block d-lg-none"><b> Creá tu alcancía <br/> sin costo</b></h2>
   <h3 className="mb-5 container d-none d-sm-block">Registrate y empezá a juntar plata en tu <br /> alcancía virtual</h3>
   <img className="area2__image d-none d-md-block" alt="chancho compu" src='../static/images/pig-compu.png'></img>
-  <div className="d-none d-md-none d-lg-flex area2__step-container">
+  <div className="d-none d-md-none d-lg-flex area2__step-container mb-5">
     <div className="area2__step">
       <img alt="alcancia" src="../static/images/celular.svg"></img>
       <h3 className="mt-4 mb-5">1. Registrate gratis</h3>
