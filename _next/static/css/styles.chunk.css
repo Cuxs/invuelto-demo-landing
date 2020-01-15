@@ -7392,8 +7392,7 @@ a {
 .howto__circle1 {
   position: absolute;
   z-index: -1;
-  left: -120px;
-  top: -15px; }
+  left: -120px; }
 
 .howto__elements-container {
   background-image: url("/static/images/banner-aqua.png");
@@ -7473,7 +7472,7 @@ a {
   width: 270px;
   position: absolute;
   left: 130px;
-  bottom: 400px; }
+  bottom: 450px; }
 
 .area1__step-container, .area2__step-container {
   display: flex;
@@ -7814,7 +7813,7 @@ a {
 
 .toolbar__container-items {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   position: relative;
   width: 100%; }
 
@@ -7843,7 +7842,7 @@ a {
   font-size: 1.5rem;
   width: 100%; }
   .toolbar__logo img {
-    width: 170px; }
+    width: 160px; }
 
 .spacer {
   flex: 1; }
