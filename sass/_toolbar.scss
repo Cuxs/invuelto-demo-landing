@@ -16,7 +16,7 @@
 
 .toolbar__container-items {
   display: flex;
-  align-items: center;
+  align-items: baseline;
   position: relative;
   width: 100%;
 }
@@ -49,7 +49,7 @@
   font-size: 1.5rem;
   width: 100%;
   img{
-    width: 170px;
+    width: 160px;
   }
 }
 
