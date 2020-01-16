@@ -2971,7 +2971,7 @@ var _this = undefined,
     },
     __self: this
   }, "Tips de ahorro"))), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_SpecialButton__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    className: "toolbar__button-group1",
+    className: "toolbar__button-group1 ml-2",
     onClick: function onClick() {
       return window.location.assign('https://app.invuelto.com/login');
     },
