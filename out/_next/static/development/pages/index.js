@@ -892,7 +892,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BlogPreview__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    url: "https://blog.invuelto.com/post/Cuanto-tengo-que-ahorrar-por-mes",
+    url: "https://blog.invuelto.com/post/Cambiamos-tus-billetes-de-5-pesos-y-los-duplicamos",
     showImages: showImages,
     __source: {
       fileName: _jsxFileName,
@@ -918,15 +918,15 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
     className: "microlink__container d-none d-sm-block",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_BlogPreview__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    url: "https://blog.invuelto.com/post/4-reglas-basicas-para-manejar-tu-plata",
+    url: "https://blog.invuelto.com/post/Cuanto-tengo-que-ahorrar-por-mes",
     showImages: showImages,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 16
     },
     __self: this
   }))));
