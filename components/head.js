@@ -49,6 +49,7 @@ const Head = props => (
     <meta property="og:image:width" content="800" />
     <meta property="og:image:height" content="800" />
     <script src="//code.tidio.co/fhbhfntazlreebvo84eosz7njkwljcsv.js"></script>
+    {/* <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v6.0"></script> */}
 
   </NextHead>
 )

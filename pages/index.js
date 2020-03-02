@@ -22,7 +22,7 @@ const Home = () => {
   const [sideDrawerOpen, toggleSideDrawer] = useState(false);
   useEffect(()=>{
     hotjar.initialize(1063100, 6);
-  })
+  },[])
 
   return (
     <Fragment>
@@ -77,6 +77,10 @@ const Home = () => {
             }}
           />
           <PricingComponent showImages={group4} />
+          {/* <div className="text-center mt-5"> */}
+            {/* //TODO agregar lista de posts de facebook */}
+            {/* <div className="fb-page" data-href="https://www.facebook.com/invuelto" data-tabs="timeline" data-width="350" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/invuelto" className="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/invuelto">Invuelto</a></blockquote></div> */}
+          {/* </div> */}
           <FooterComponent showImages={group4} />
         </Swipe>
       </Fragment>

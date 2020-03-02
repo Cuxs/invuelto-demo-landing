@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head />
         <body>
         <GoogleTagManager gtmId="GTM-5SSJRB7" />
+        {/* <div id="fb-root"></div> */}
           <Main />
           <NextScript />
         </body>

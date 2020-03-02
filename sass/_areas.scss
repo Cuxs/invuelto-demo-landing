@@ -1,3 +1,5 @@
+@import './variables';
+
 .area1__container {
   padding-top: 260px;
   text-align: center;
@@ -80,6 +82,8 @@
     bottom: 400px;
   }
 }
+.decorator--bottom{display: none}
+
 @media screen and (max-width: 769px) {
   .area1__image {
     width: 115px;
@@ -97,17 +101,44 @@
     display: block;
   }
   .area1__step{
-    display: block;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
     width: 100%;
-    margin-bottom: 60px;
     img {
       width: 70px;
-      margin-bottom: 30px;
+      margin: 0px 10px 0px 15px;
     }
     h3{
       font-size: 18px;
+      max-width: 50%;
+    }
+    &.left{
+      text-align: left;
+    }
+    &.right{
+      text-align: right;
+    }
+  
+  }
+  .decorator--bottom{
+    display: block;
+    border-radius: 3px;
+    border-bottom: 3px solid $color3;
+    width: 20px;
+    height: 100px;
+    &.right{
+      margin: 5px 42px 40px 5px;
+      float: right;
+      border-right: 3px solid $color3;
+    }
+    &.left{
+      margin: 5px 5px 40px 48px;
+      float: left;
+      border-left: 3px solid $color3;
     }
   }
+
   .area1__spots{
     display: block;
     left: 60%;
