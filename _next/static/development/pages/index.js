@@ -1633,7 +1633,7 @@ var _jsxFileName = "/Users/mariano/Trabajo/Invuelto/invuelto-landing/components/
   }), " en el celu!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     alt: "chachito",
     className: "jumbotron__pig",
-    src: "../static/images/pig-welcome.png",
+    src: "../static/images/pig-welcome-covid.png",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 9
