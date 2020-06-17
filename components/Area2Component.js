@@ -1,7 +1,7 @@
 import PrimaryButton from "./PrimaryButton";
 import { Carousel } from "react-responsive-carousel";
 
-export default ({ showImages }) => <div className="area2__container" id="tus-intereses-primero">
+export default ({ showImages }) => <div className="area2__container" id="como-funciona">
   <h2 className="container d-none d-sm-block"><b> Creá tu alcancía sin costo</b></h2>
   <h2 className="d-md-block d-lg-none"><b> Creá tu alcancía <br/> sin costo</b></h2>
   <h3 className="mb-5 container d-none d-sm-block">Registrate y empezá a juntar plata en tu <br /> alcancía virtual</h3>

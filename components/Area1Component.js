@@ -1,7 +1,7 @@
 import PrimaryButton from "./PrimaryButton";
 import { Carousel } from "react-responsive-carousel";
 
-export default () => <div className="area1__container" id="tus-intereses-primero">
+export default () => <div className="area1__container" id="como-funciona">
   <h2 className="container d-none d-md-block"><b> ¿Cómo puedo juntar plata?</b></h2>
   <h2 className="d-sm-block d-md-none d-lg-none"><b> ¿Cómo puedo <br/> juntar plata?</b></h2>
   <h3 className="mb-5 d-none d-sm-block">¡Conocé las distintas formas que <br /> tenemos para vos!</h3>

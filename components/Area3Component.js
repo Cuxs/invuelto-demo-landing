@@ -1,7 +1,7 @@
 import BlogPreview from "./BlogPreview";
 
 export default ({showImages}) => 
-  (<div className="area3__container container" id="academia-del-ahorro">
+  (<div className="area3__container container" id="tips-de-ahorro">
   <h2><b>Conocé nuestra academia del ahorro</b></h2>
   <h3 className="mt-5 text-primary d-none d-sm-block">Te enseñamos cómo sacarle el</h3>
   <h3 className="text-primary mb-5 d-none d-sm-block">máximo provecho a tu plata.</h3>

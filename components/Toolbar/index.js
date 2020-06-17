@@ -40,40 +40,21 @@ export default props => {
         <div className="spacer" />
         <div className="toolbar__items">
           <ul>
-            <li>{props.external ?
-              <a href="/index#tus-intereses-primero">Cómo funciona</a>
-              :
-              <Link activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
-                Cómo funciona
-              </Link>
-            }</li>
-            <li><div><a href="/vueltos" style={{color:"#01D9CD"}}>Vueltos</a></div></li>
-            <li>{props.external ?
+            <li>
+              <a href="/index#como-funciona">Cómo funciona</a>
+            </li>
+            <li><div><a href="/vueltos" style={{ color: "#01D9CD" }}>Vueltos</a></div></li>
+            <li>
               <a href="/index#precios">Precios</a>
-              :
-              <Link activeClass="side-drawer--active" to="precios" offset={-120} duration={1000}>
-                Precios
-              </Link>
-            }</li>
-            {/* <li>{props.external ?
-              <a href="#">FAQ</a>
-              :
-              <Link activeClass="side-drawer--active" to="test1" offset={50} duration={1000}>
-                Test 1
-              </Link>
-            }</li> */}
-            <li>{props.external ?
-              <a href="/index#academia-del-ahorro">Tips de ahorro</a>
-              :
-              <Link activeClass="side-drawer--active" to="academia-del-ahorro" offset={-120} duration={1000}>
-                Tips de ahorro
-              </Link>
-            }</li>
+            </li>
+            <li>
+              <a href="/index#tips-de-ahorro">Tips de ahorro</a>
+            </li>
           </ul>
           <SpecialButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>INGRESAR</SpecialButton>
           <SecondaryButton className="toolbar__button-group1 ml-2" onClick={() => window.location.assign('https://app.invuelto.com/register')}>Registrarme</SecondaryButton>
         </div>
-        <div style={{marginRight:'15px'}}><SpecialButton className="toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Comenzar</SpecialButton></div>
+        <div style={{ marginRight: '15px' }}><SpecialButton className="toolbar__button-group2" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Comenzar</SpecialButton></div>
 
       </div>
     </header>

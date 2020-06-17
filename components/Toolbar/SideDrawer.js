@@ -14,26 +14,19 @@ export default props => {
       <div className="text-center">
         <ul>
           <li><div><a href="/vueltos">Vueltos</a></div></li>
-          <li>{props.external ? <a href="index#tus-intereses-primero">Cómo funciona</a>:
-        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
-                Cómo funciona
-              </Link>
-            }</li>
-          <li>{props.external ? <a href="index#precios">Precios</a>:
-        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="precios" offset={-120} duration={1000}>
-          Precios
-              </Link>
-            }</li>
+          <li>
+            <a href="index#como-funciona" onClick={() => props.click()} >Cómo funciona</a>
+            </li>
+          <li>
+            <a href="index#precios" onClick={() => props.click()} >Precios</a>
+          </li>
           {/* <li>{props.external ? <a href="#">FAQ</a>:
-        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="tus-intereses-primero" offset={-120} duration={1000}>
+        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="como-funciona" offset={-120} duration={1000}>
                 FAQ
               </Link>
             }</li> */}
-          <li>{props.external ? <a href="index#academia-del-ahorro">Tips de ahorro</a>:
-        <Link onClick={() => props.click()}  activeClass="side-drawer--active" to="academia-del-ahorro" offset={-120} duration={1000}>
-          Tips de ahorro
-              </Link>
-            }</li>
+          <li> <a href="index#tips-de-ahorro" onClick={() => props.click()} >Tips de ahorro</a>
+          </li>
         </ul>
         <SecondaryButton className="side-drawer__login" onClick={() => window.location.assign('https://app.invuelto.com/login')}>Ingresá</SecondaryButton>
       </div>
