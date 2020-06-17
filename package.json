@@ -4,7 +4,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "deploygh": "rm -rf node_modules/.cache && NODE_ENV=production next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy demo to gh-pages\" && git subtree push --prefix out demo gh-pages"
+    "deploygh": "rm -rf node_modules/.cache && NODE_ENV=production next build && next export && touch out/.nojekyll && git add out/ && git commit -m \"Deploy demo to gh-pages\" && git subtree split --prefix out -b gh-pages && git push -f demo gh-pages:gh-pages && git branch -D gh-pages"
 
   },
   "dependencies": {
