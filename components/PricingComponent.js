@@ -1,4 +1,5 @@
-import { Carousel } from "react-responsive-carousel";
+import dynamic from 'next/dynamic'
+const Carousel = dynamic(() => import('@brainhubeu/react-carousel'))
 
 export default () => <div className="pricing__container" id="precios">
   <h2><b>Costos</b></h2>
@@ -15,9 +16,9 @@ export default () => <div className="pricing__container" id="precios">
       <p className="item-normal__description"><b>Simulador</b> de</p>
       <p className="item-normal__description"><b>progresos</b></p>
     </div>
-    <div className="item-important">
-      <p className="item-important__price">$<b>0</b></p>
-      <p className="item-important__description">Usuario<b> INVUELTO FULL</b></p>
+    <div className="item-normal">
+      <p className="item-normal__price">$<b>0</b></p>
+      <p className="item-normal__description">Usuario<b> INVUELTO FULL</b></p>
     </div>
     <div className="item-normal">
       <p className="item-normal__price">$<b>0</b></p>
@@ -26,16 +27,13 @@ export default () => <div className="pricing__container" id="precios">
     </div>
   </div>
   <div className="d-md-block d-lg-none">
-    <Carousel 
-      centerMode
-      swipeable
-      transitionTime={200}
-      className="pricing__carousel"
-      emulateTouch
-      showArrows
-      showIndicators={false}
-      showStatus={false}
-      showThumbs={false}>
+    <Carousel
+      centered
+      infinite
+      dots
+      clickToChange
+      slidesPerPage={1}
+    >
       <div className="item-normal">
         <p className="item-normal__price">$<b>0</b></p>
         <p className="item-normal__description">Revisar <b>Saldos</b> y</p>
@@ -46,9 +44,9 @@ export default () => <div className="pricing__container" id="precios">
         <p className="item-normal__description"><b>Simulador</b> de</p>
         <p className="item-normal__description"><b>progresos</b></p>
       </div>
-      <div className="item-important">
-        <p className="item-important__price">$<b>0</b></p>
-        <p className="item-important__description">Usuario<b> INVUELTO FULL</b></p>
+      <div className="item-normal">
+        <p className="item-normal__price">$<b>0</b></p>
+        <p className="item-normal__description">Usuario<b> INVUELTO FULL</b></p>
       </div>
       <div className="item-normal">
         <p className="item-normal__price">$<b>0</b></p>

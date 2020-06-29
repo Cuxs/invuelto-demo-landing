@@ -12,10 +12,9 @@ export default () => {
           <img alt="celular" className="jumbotron__phone" src="../static/images/phone.png" />
           <h3 className="d-none d-sm-none d-md-block jumbotron__spot-title">¡Tu alcancía ahora en el celu!</h3>
         </div>
-        <div className="jumbotron__title col-lg-5 col-md-12 pr-0">
-          <h2><b>Una alcancía virtual donde </b></h2>
-          <h2 className="mb-3"><b>juntar plata es muuuy fácil.</b></h2>
-          <p className="mb-5">¡Empezá ahora!</p>
+        <div className="jumbotron__title col-lg-5 col-md-12 pr-0 mb-3">
+          <h2><b>Una alcancía inteligente donde juntar plata es muuucho más fácil. </b></h2>
+          <p className="mb-5">Descubrila</p>
           <PrimaryButton style={{width:'260px !important'}} className="mt-0" bold="registrarme" onClick={()=>window.location.assign('https://app.invuelto.com/register')} />
         </div>
 

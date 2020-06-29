@@ -2,9 +2,9 @@ import PrimaryButton from "./PrimaryButton";
 import { Carousel } from "react-responsive-carousel";
 
 export default ({ showImages }) => <div className="area2__container" id="como-funciona">
-  <h2 className="container d-none d-sm-block"><b> Creá tu alcancía sin costo</b></h2>
-  <h2 className="d-md-block d-lg-none"><b> Creá tu alcancía <br/> sin costo</b></h2>
-  <h3 className="mb-5 container d-none d-sm-block">Registrate y empezá a juntar plata en tu <br /> alcancía virtual</h3>
+  <h2 className="container d-none d-sm-block"><b> Hacé crecer tu plata, <br/>  sin saber de inversiones</b></h2>
+  <h2 className="d-md-block d-lg-none"><b> Hacé crecer tu plata, <br/> sin saber de inversiones</b></h2>
+  <h3 className="mb-5 container d-none d-sm-block">Cómo hacer crecer tu plata <br /> y retirarla en 4 pasos.</h3>
   <img className="area2__image d-none d-md-block" alt="chancho compu" src='../static/images/pig-compu.png'></img>
   <div className="d-none d-md-none d-lg-flex area2__step-container mb-5">
     <div className="area2__step">
@@ -16,15 +16,14 @@ export default ({ showImages }) => <div className="area2__container" id="como-fu
     <div className="area2__step">
       <img alt="ahorro" src="../static/images/invuelto-icon.svg"></img>
       <h3 className="mt-4 mb-5"> 2. Hacé tu primer ahorro </h3>
-      <p>Vos elegís cómo; vueltos, </p>
-      <p>reintegros, guardar o programar</p>
+      <p>Transferí a tu alcancía lo que puedas. </p>
     </div>
     <div className="area2__step">
       <img alt="potenciamos tu ahorro" src="../static/images/ahorro-icon.svg"></img>
       <h3 className="mt-4">3. Tu plata crece</h3>
       <h3 className="mb-2"> y se acumula!</h3>
-      <p>Tus ahorros generan </p>
-      <p>ganancias todos los días</p>
+      <p>Mientras decidís qué hacer con tu plata, </p>
+      <p>la hacemos crecer!</p>
     </div>
     <div className="area2__step">
       <img alt="Directo a tu bolsillo" src="../static/images/wallet-icon.svg"></img>
@@ -41,7 +40,7 @@ export default ({ showImages }) => <div className="area2__container" id="como-fu
       transitionTime={200}
       className="pricing__carousel"
       emulateTouch
-      showArrows={true}
+      showArrows={false}
       showIndicators={true}
       showStatus={false}
       showThumbs={false}>

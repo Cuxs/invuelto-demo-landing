@@ -19,7 +19,7 @@ export default props => {
   }
   useEffect(() => {
     document.addEventListener("scroll", () => {
-      const isTop = window.scrollY < 100;
+      const isTop = window.scrollY < 50;
       if (isTop) {
         setColor('')
         setLogoColor(false);

@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <Fragment>
         <Swipe onSwipeLeft={() =>toggleSideDrawer(false)}>
-        <Head title="Invuelto, tu alcancía virtual" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
+        <Head title="Invuelto, tu alcancía inteligente" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
         <Nav open={sideDrawerOpen} toggle={toggleSideDrawer}></Nav>
           <Jumbotron />

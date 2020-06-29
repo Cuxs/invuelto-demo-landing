@@ -1,3 +1,9 @@
+@import "~@brainhubeu/react-carousel/lib/style.css";
+.BrainhubCarousel__dot {
+  min-width: 40px;
+  background-color: transparent;
+  box-shadow: none;
+}
 .pricing__container {
   text-align: center;
 }
@@ -9,11 +15,27 @@
 .item-normal {
   background-color: $color6;
   border-radius: 30px;
-  min-width: 230px;
-  min-height: 230px;
-  max-width: 230px;
-  max-height: 230px;
+  width:230px;
+  height: 230px;
   box-shadow: 12px 12px 10px 0px $grey4;
+  cursor: pointer;
+  transition: width 0.3s, height 0.3s;
+  &:hover{
+    background-color: $primaryColor;
+    border-radius: 30px;
+    width: 260px;
+    height: 260px;
+    .item-normal__price {
+      color: $color3;
+      font-size: 140px;
+      margin-bottom: 0px;
+    }
+    .item-normal__description {
+      color: $color3;
+      font-size: 14px;
+      line-height: 5px;
+    }
+  }
 }
 .item-normal__price {
   color: $primaryColor;
@@ -25,34 +47,27 @@
   font-size: 14px;
   line-height: 5px;
 }
-.item-important {
-  background-color: $primaryColor;
-  border-radius: 30px;
-  min-width: 260px;
-  min-height: 260px;
-  max-width: 260px;
-  max-height: 260px;
-  box-shadow: 12px 12px 10px 0px $grey4;
-}
-.item-important__price {
-  color: $color3;
-  font-size: 140px;
-  margin-bottom: 0px;
 
-}
-.item-important__description {
-  color: $color3;
-  font-size: 14px;
-  line-height: 5px;
-}
 @media screen and (max-width: 990px) {
   .pricing__items-container {
     overflow-x: scroll;
   }
-  .item-normal,
-  .item-important {
+  .item-normal{
     padding: 10px 0px 0px 0px;
-  }  .pricing__carousel {
+    margin:20px;
+    width:300px;
+    &:hover{
+      background-color: $primaryColor;
+      margin:20px;
+      .item-normal__price {
+        color: $color3;
+      }
+      .item-normal__description {
+        color: $color3;
+      }
+    }
+  }  
+  .pricing__carousel {
     display: flex;
   }
   .slide {
@@ -65,8 +80,5 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-  .item-important__price {
-    margin: 20px 0px 0px 0px;
   }
 }
