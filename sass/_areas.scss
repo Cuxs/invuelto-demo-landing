@@ -31,6 +31,13 @@
     width: 90px;
     margin-bottom: 30px;
   }
+  width: 20%;
+}
+.area2__step{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:center;
 }
 .area1__spots{
   display: none;
@@ -99,6 +106,9 @@
   }
   .area1__step-container {
     display: block;
+  }
+  .area2__step{
+    width: 90%;
   }
   .area1__step{
     position: relative;
