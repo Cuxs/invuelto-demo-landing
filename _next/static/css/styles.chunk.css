@@ -7621,9 +7621,17 @@ a {
   display: flex;
   justify-content: space-around; }
 
-.area1__step img, .area2__step img {
-  width: 90px;
-  margin-bottom: 30px; }
+.area1__step, .area2__step {
+  width: 20%; }
+  .area1__step img, .area2__step img {
+    width: 90px;
+    margin-bottom: 30px; }
+
+.area2__step {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; }
 
 .area1__spots {
   display: none; }
@@ -7687,6 +7695,8 @@ a {
     bottom: 490px; }
   .area1__step-container {
     display: block; }
+  .area2__step {
+    width: 90%; }
   .area1__step {
     position: relative;
     display: flex;
