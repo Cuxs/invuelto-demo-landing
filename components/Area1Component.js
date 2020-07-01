@@ -25,7 +25,7 @@ export default () => <div className="area1__container" id="como-funciona">
     </div>
     <div className="area1__step">
       <img alt="alcancia" src="../static/images/celular.svg"></img>
-      <h3><b>Inversión automática de tus vueltos.</b></h3>
+      <h3><b>Vueltos virtuales a tu alcancía.</b></h3>
       <h3>Chau caramelos.</h3>
     </div>
   </div>
