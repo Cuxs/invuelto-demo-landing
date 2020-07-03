@@ -10,7 +10,7 @@ export default ({showImages}) =>
     <BlogPreview url="https://blog.invuelto.com/post/Que-tu-plata-no-este-en-cuarentena"showImages={showImages} />
     </div>
     <div className="microlink__container d-none d-sm-block">
-      <BlogPreview url="https://blog.invuelto.com/post/Cambiamos-tus-billetes-de-5-pesos-y-los-duplicamos"showImages={showImages} />
+      <BlogPreview url="https://blog.invuelto.com/post/7-tips-para-no-caer-en-la-trampa-de-las-tarjetas-de-credito"showImages={showImages} />
     </div>
     <div className="microlink__container d-none d-sm-block">
     <BlogPreview url="https://blog.invuelto.com/post/Cuanto-tengo-que-ahorrar-por-mes" showImages={showImages} />
