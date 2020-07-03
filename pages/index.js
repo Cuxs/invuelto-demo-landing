@@ -14,6 +14,7 @@ import Area3Component from '../components/Area3Component';
 import SecurityComponent from '../components/SecurityComponent';
 import PricingComponent from '../components/PricingComponent';
 import FooterComponent from '../components/FooterComponent';
+import ReviewComponent from '../components/ReviewComponent';
 const Home = () => {
   const [group1, toggleVisibilityGroup1] = useState(true)
   const [group2, toggleVisibilityGroup2] = useState(false)
@@ -50,6 +51,7 @@ const Home = () => {
             }}
           />
           <Area2Component showImages={group2} />
+          <ReviewComponent />
           <HowToComponent showImages={group2} />
           <Waypoint
           fireOnRapidScroll={false}

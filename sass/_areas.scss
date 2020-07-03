@@ -26,7 +26,7 @@
   display: flex;
   justify-content: space-around;
 }
-.area1__step, .area2__step{
+.area2__step{
   img { 
     width: 90px;
     margin-bottom: 30px;
@@ -77,19 +77,29 @@
 }
 @media screen and (max-width: 1025px) {
   .area1__image {
-    width: 215px;
+    width: 130px;
     position: absolute;
     right: 40px;
-    bottom: 290px;
+    bottom: 370px;
   }
   .area2__image{
-    width: 270px;
+    width: 200px;
     position: absolute;
     left: 20px;
-    bottom: 400px;
+    bottom: 500px;
+  }
+  .area2__spots{
+    display: none;
   }
 }
 .decorator--bottom{display: none}
+
+.howto__area1, .howto__area2, .howto__area3{
+  p{
+    width: 80%;
+    margin: 0px auto 0px auto
+  }
+}
 
 @media screen and (max-width: 769px) {
   .area1__image {
@@ -121,6 +131,7 @@
     }
     h3{
       max-width: 50%;
+      font-size: 20px;
     }
     &.left{
       text-align: left;
@@ -153,7 +164,7 @@
     left: 60%;
     position: absolute;
   }
-  .area2__spots, .area2__circle{  
+  .area2__circle{  
     display: none
   }
   .area1__container {

@@ -2,11 +2,10 @@ import PrimaryButton from "./PrimaryButton";
 import { Carousel } from "react-responsive-carousel";
 
 export default ({ showImages }) => <div className="area2__container" id="como-funciona">
-  <h2 className="container d-none d-sm-block"><b> Hacé crecer tu plata, <br/>  sin saber de inversiones</b></h2>
-  <h2 className="d-md-block d-lg-none"><b> Hacé crecer tu plata, <br/> sin saber de inversiones</b></h2>
-  <h3 className="mb-5 container d-none d-sm-block">Cómo hacer crecer tu plata <br /> y retirarla en 4 pasos.</h3>
+  <h2 className="container"><b> Hacé crecer tu plata, <br/>  sin saber de inversiones</b></h2>
+  <h3 className="mb-5 container">Cómo hacer crecer tu plata <br /> y retirarla en 4 pasos.</h3>
   <img className="area2__image d-none d-md-block" alt="chancho compu" src='../static/images/pig-compu.png'></img>
-  <div className="d-none d-md-none d-lg-flex area2__step-container mb-5">
+  <div className="d-none d-sm-none d-md-flex area2__step-container mb-5">
     <div className="area2__step">
       <img alt="alcancia" src="../static/images/celular.svg"></img>
       <h3>1. Registrate gratis</h3>
@@ -28,7 +27,7 @@ export default ({ showImages }) => <div className="area2__container" id="como-fu
       <p> Sacá tu plata cuando quieras y sin costo </p>
     </div>
   </div>
-  <div className="d-md-block d-lg-none">
+  <div className="d-sm-block d-md-none d-lg-none">
     <Carousel
       centerMode
       swipeable
