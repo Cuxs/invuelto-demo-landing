@@ -7621,9 +7621,9 @@ a {
   display: flex;
   justify-content: space-around; }
 
-.area1__step, .area2__step {
+.area2__step {
   width: 20%; }
-  .area1__step img, .area2__step img {
+  .area2__step img {
     width: 90px;
     margin-bottom: 30px; }
 
@@ -7669,18 +7669,24 @@ a {
 
 @media screen and (max-width: 1025px) {
   .area1__image {
-    width: 215px;
+    width: 130px;
     position: absolute;
     right: 40px;
-    bottom: 290px; }
+    bottom: 370px; }
   .area2__image {
-    width: 270px;
+    width: 200px;
     position: absolute;
     left: 20px;
-    bottom: 400px; } }
+    bottom: 500px; }
+  .area2__spots {
+    display: none; } }
 
 .decorator--bottom {
   display: none; }
+
+.howto__area1 p, .howto__area2 p, .howto__area3 p {
+  width: 80%;
+  margin: 0px auto 0px auto; }
 
 @media screen and (max-width: 769px) {
   .area1__image {
@@ -7706,7 +7712,8 @@ a {
       width: 70px;
       margin: 0px 10px 0px 15px; }
     .area1__step h3 {
-      max-width: 50%; }
+      max-width: 50%;
+      font-size: 20px; }
     .area1__step.left {
       text-align: left; }
     .area1__step.right {
@@ -7729,7 +7736,7 @@ a {
     display: block;
     left: 60%;
     position: absolute; }
-  .area2__spots, .area2__circle {
+  .area2__circle {
     display: none; }
   .area1__container {
     padding-top: 30px; }
@@ -7803,6 +7810,8 @@ a {
   top: 30px; }
 
 @media screen and (max-width: 769px) {
+  .security__pig {
+    width: 170px; }
   .pig__container {
     text-align: center; }
   .security__circle1 {
@@ -8367,6 +8376,56 @@ a {
     height: 280px !important; } }
 
 .reviews__contaniner {
+  position: relative;
   text-align: center;
   margin-top: 120px; }
+
+.reviews__row {
+  display: flex; }
+
+.review {
+  width: 33%; }
+  .review img {
+    border-radius: 100%;
+    width: 150px;
+    margin: 0px auto 20px auto; }
+  .review p {
+    width: 70%;
+    margin: 0px auto 20px auto; }
+
+.spot--bg,
+.quote--icon,
+.quote--bg {
+  position: absolute;
+  z-index: -1; }
+
+.spot--bg {
+  top: -60px;
+  left: 0px;
+  width: 400px; }
+
+.quote--bg {
+  right: 0px;
+  top: 0px;
+  width: 300px; }
+
+.quote--icon {
+  top: 140px;
+  right: 25%;
+  width: 100px; }
+
+@media screen and (max-width: 769px) {
+  .reviews__contaniner h2 {
+    margin-bottom: 40px; }
+  .review {
+    width: 80%; }
+  .spot--bg {
+    display: none; }
+  .quote--bg {
+    top: 0px;
+    right: 0px; } }
+
+@media screen and (max-width: 421px) {
+  .reviews__contaniner {
+    margin-top: 70px; } }
 
