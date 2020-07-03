@@ -20,7 +20,7 @@ const ReviewComponent = () => (
       <img src="../static/images/quote-icon.svg" className="quote--icon" />
       <div className="review">
         <img src="../static/images/Segusmundo.png" />
-        <p>Permite generar estrategias de ahorro automatzadas. Soluciones digitales para que ahorrar no sea un sacrificio sino algo simple.</p>
+        <p>Permite generar estrategias de ahorro automatizadas. Soluciones digitales para que ahorrar no sea un sacrificio sino algo simple.</p>
         <img className="stars" src="../static/images/five-stars.svg" />
       </div>
       <img src="../static/images/quote-background.svg" className="quote--bg" />
@@ -45,7 +45,7 @@ const ReviewComponent = () => (
       </div>
       <div className="review">
         <img src="../static/images/Segusmundo.png" />
-        <p>Permite generar estrategias de ahorro automatzadas. Soluciones digitales para que ahorrar no sea un sacrificio sino algo simple.</p>
+        <p>Permite generar estrategias de ahorro automatizadas. Soluciones digitales para que ahorrar no sea un sacrificio sino algo simple.</p>
         <img className="stars" src="../static/images/five-stars.svg" />
       </div>
       </Carousel>
