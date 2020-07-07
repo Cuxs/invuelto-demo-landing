@@ -8392,6 +8392,9 @@ a {
   .review p {
     width: 70%;
     margin: 0px auto 20px auto; }
+  .review small {
+    display: block;
+    font-style: italic; }
 
 .spot--bg,
 .quote--icon,
