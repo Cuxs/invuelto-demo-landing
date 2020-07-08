@@ -37,7 +37,7 @@ const Vueltos = () => {
       <Head title="#Vuelvenlosvueltos" description="Desarrollamos una herramienta con la que ahora sí vas a poder ahorrar, cuidamos tu plata de la inflación ya que tus ahorros generan intereses a
   tu favor. Vos elegís el monto y la forma de ingresar dinero." url="www.invuelto.com" />
       <div className="container text-center">
-      <GoogleTagManager gtmId="GTM-5SSJRB7" />
+      <GoogleTagManager gtmId="GTM-P8X9QLZ" />
         <div className="vueltos__jumbotron d-flex justify-content-between flex-lg-row flex-md-column flex-column">
           <div className="vueltos__jumbotron--images">
             <img src="/static/images/vueltos/formas-01.svg" className="vueltos__image1" alt="decorado" style={{ zIndex: '-1' }} />
