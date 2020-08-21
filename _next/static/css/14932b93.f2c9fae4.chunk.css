@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600&display=swap);
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8376,61 +8375,4 @@ a {
     width: 70px !important; }
   .carousel .slider-wrapper {
     height: 280px !important; } }
-
-.reviews__contaniner {
-  position: relative;
-  text-align: center;
-  margin-top: 120px; }
-
-.reviews__row {
-  display: flex; }
-
-.review {
-  width: 33%; }
-  .review img {
-    border-radius: 100%;
-    width: 150px;
-    margin: 0px auto 20px auto; }
-  .review p {
-    width: 70%;
-    margin: 0px auto 20px auto; }
-  .review small {
-    display: block;
-    font-style: italic; }
-
-.spot--bg,
-.quote--icon,
-.quote--bg {
-  position: absolute;
-  z-index: -1; }
-
-.spot--bg {
-  top: -60px;
-  left: 0px;
-  width: 400px; }
-
-.quote--bg {
-  right: 0px;
-  top: 0px;
-  width: 300px; }
-
-.quote--icon {
-  top: 140px;
-  right: 25%;
-  width: 100px; }
-
-@media screen and (max-width: 769px) {
-  .reviews__contaniner h2 {
-    margin-bottom: 40px; }
-  .review {
-    width: 80%; }
-  .spot--bg {
-    display: none; }
-  .quote--bg {
-    top: 0px;
-    right: 0px; } }
-
-@media screen and (max-width: 421px) {
-  .reviews__contaniner {
-    margin-top: 70px; } }
 
